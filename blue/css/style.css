@@ -13,7 +13,50 @@ body {
     background-image: url("../images/bg/right.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-color: #021D3B;
+    background-color: #021B3D;
+}
+
+.variant-video {
+    width: 100vw;
+    height: 200vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/bg/hill.png');
+}
+
+.topbar {
+    padding-top: 10px;
+}
+
+.topbar-link,
+.topbar-icon {
+    margin-right: 20px;
+}
+
+.topbar-select {
+    background: transparent;
+    border: none;
+}
+
+#tablet {
+    visibility: hidden;
+}
+
+.navbar {
+    padding: 10px 50px;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.logo {
+    margin-right: 50px;
+    width: 120px;
+}
+
+.get-started {
+    margin: 7px;
 }
 
 .breadcrumb {
@@ -57,6 +100,16 @@ body {
 
 .text-7B53C1 {
     color: #7B53C1;
+}
+
+.text-E35757 {
+    color: #E35757;
+}
+
+.product-img,
+.product-pricing {
+    width: 90%;
+    margin-bottom: 25px;
 }
 
 .payment-fail-table {
@@ -340,22 +393,16 @@ a:hover {
     font-weight: bold;
 }
 
+.flex-items {
+    width: 25%;
+}
+
 .total-page {
     font-weight: bold;
 }
 
-.text-E35757 {
-    color: #E35757;
-}
-
-.product-img,
-.product-pricing {
-    width: 90%;
-    margin-bottom: 25px;
-}
-
 footer {
-    background-color: #021D3B;
+    background-color: #021B3D;
     padding: 20px 150px;
     display: flex;
 }
@@ -468,6 +515,15 @@ footer .right-links p {
 }
 
 @media only screen and (max-width: 769px) {
+    #tablet {
+        visibility: visible;
+    }
+    #laptop {
+        visibility: hidden;
+    }
+    .navbar {
+        padding: 10px 19px;
+    }
     .container {
         padding: 10px 20px !important;
     }
@@ -489,9 +545,6 @@ footer .right-links p {
     }
     .payment-fail-table {
         width: 800px;
-    }
-    .nav-links {
-        visibility: hidden;
     }
     .open {
         position: absolute;
@@ -546,6 +599,15 @@ footer .right-links p {
 @media only screen and (max-width: 430px) {
     body {
         overflow-x: hidden;
+    }
+    #tablet {
+        visibility: hidden;
+    }
+    #laptop {
+        visibility: hidden;
+    }
+    .navbar {
+        margin-top: -50px;
     }
     .container {
         padding: 10px 10px !important;

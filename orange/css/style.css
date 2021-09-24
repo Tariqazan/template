@@ -16,12 +16,12 @@ body {
     background-color: #FFA970;
 }
 
-.variant-video {
-    width: 100vw;
-    height: 200vh;
+.banner-img {
+    width: 100%;
+    height: 180%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../images/bg/hill.png');
+    background-image: url('../images/bg/background-wave.svg'), url('../images/bg/hill.png');
 }
 
 .topbar {
@@ -46,6 +46,14 @@ body {
     padding: 10px 50px;
 }
 
+.navbar-nav {
+    margin-left: -25% !important;
+}
+
+.tablet-nav {
+    visibility: hidden;
+}
+
 .nav-link {
     color: #fff !important;
 }
@@ -53,6 +61,59 @@ body {
 .logo {
     margin-right: 50px;
     width: 120px;
+}
+
+.banner-content {
+    padding: 100px 150px;
+}
+
+.banner-title {
+    font-size: 50px;
+}
+
+.banner-cards {
+    margin: auto;
+    padding: 50px 80px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.banner-card-content1 {
+    position: absolute;
+    top: 165%;
+    left: 20.3%;
+    width: 15%;
+    background-color: #e357579c;
+}
+
+.banner-card-content2 {
+    position: absolute;
+    top: 165%;
+    left: 42.5%;
+    width: 15%;
+    background-color: #e357579c;
+}
+
+.banner-card-content3 {
+    position: absolute;
+    top: 165%;
+    left: 64.6%;
+    width: 15%;
+    background-color: #e357579c;
+}
+
+.middle-content-bg {
+    z-index: -100;
+    position: absolute;
+    top: 70%;
+}
+
+.content-bg {
+    background-image: url('../images/bg/left-content.png'), url('../images/bg/right-content.png');
+    background-position: left top, right top;
+    background-repeat: no-repeat;
 }
 
 .get-started {
@@ -104,6 +165,54 @@ body {
 
 .text-E35757 {
     color: #E35757;
+}
+
+.middle-content {
+    width: 60%;
+    padding: 50px 0 0 250px;
+}
+
+.middle-img {
+    width: 40%;
+}
+
+.middle-bg {
+    background-image: url('../images/bg/left-bg.png'), url('../images/bg/right-bg.png');
+    background-repeat: no-repeat;
+    background-position: center left, bottom right;
+}
+
+.middle1-bg {
+    position: absolute;
+    top: 410%;
+    z-index: -1000;
+}
+
+.linear-bg {
+    background: linear-gradient(to right, #7B53C1, #E35757);
+}
+
+.middle12-bg {
+    position: absolute;
+    top: 908%;
+    z-index: -1000;
+}
+
+.documents {
+    background-image: url('../images/bg/document-bg.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 120px;
+}
+
+.bg-FFA970 {
+    background-color: #FFA970;
+}
+
+.card-color {
+    background-color: #FFA970;
+    border-radius: 50px;
+    box-shadow: 0 0 50px #8a7160;
 }
 
 .product-img,
@@ -284,6 +393,17 @@ a:hover {
     margin-bottom: 10px;
     border: 4px solid transparent;
     border-image: linear-gradient(to bottom, #E35757, #758BFD) 1;
+}
+
+.carousel-card {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px 40px;
+    width: 195%;
+}
+
+.item {
+    width: 50% !important;
 }
 
 .category {
@@ -523,6 +643,21 @@ footer .right-links p {
     }
     .navbar {
         padding: 10px 19px;
+    }
+    .nav-link {
+        color: white;
+    }
+    .navbar-nav {
+        margin-left: 0 !important;
+    }
+    .banner-content {
+        padding: 60px 30px;
+    }
+    .tablet-nav {
+        visibility: visible;
+    }
+    .laptop-nav {
+        visibility: hidden;
     }
     .container {
         padding: 10px 20px !important;

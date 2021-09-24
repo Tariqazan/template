@@ -16,12 +16,12 @@ body {
     background-color: #021B3D;
 }
 
-.variant-video {
+.banner-img {
     width: 100vw;
     height: 200vh;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/bg/hill.png');
+    background-image: url('../images/bg/hill.png') url('../images/bg/background-wave.svg');
 }
 
 .topbar {

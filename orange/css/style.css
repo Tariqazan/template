@@ -497,6 +497,16 @@ a:hover {
     margin-right: 0px !important;
 }
 
+.faq-title {
+    overflow: auto;
+    height: 100vh;
+}
+
+.faq-line {
+    background-color: #7B53C1;
+    padding: 1px 0;
+}
+
 .partner-logo {
     text-align: center;
     padding: 20px;
@@ -506,6 +516,7 @@ a:hover {
 
 .error {
     background-color: #FFA970;
+    height: 80vh;
 }
 
 .color-border {

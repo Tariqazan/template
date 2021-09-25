@@ -16,6 +16,10 @@ body {
     background-color: #FFA970;
 }
 
+#laptop {
+    margin-left: 63px;
+}
+
 .banner-img {
     width: 100%;
     height: 180%;
@@ -26,6 +30,11 @@ body {
 
 .topbar {
     padding-top: 10px;
+}
+
+.navbar {
+    overflow-x: hidden;
+    margin-left: 60px;
 }
 
 .topbar-link,
@@ -40,10 +49,6 @@ body {
 
 #tablet {
     visibility: hidden;
-}
-
-.navbar {
-    padding: 10px 50px;
 }
 
 .navbar-nav {
@@ -63,6 +68,15 @@ body {
     width: 120px;
 }
 
+.banner-text {
+    width: 60%;
+}
+
+.play-icon {
+    margin: auto;
+    height: 80px;
+}
+
 .banner-content {
     padding: 100px 150px;
 }
@@ -76,32 +90,36 @@ body {
     padding: 50px 80px;
 }
 
+.wave-bg1 {
+    width: 100%;
+    z-index: -10;
+    position: absolute;
+    background-color: #FFA970;
+    top: 120%;
+}
+
+.text-A4D26A {
+    color: #A4D26A;
+}
+
+.wave-bg2 {
+    width: 100%;
+    z-index: -10;
+    position: absolute;
+    background-color: #FFA970;
+    top: 415%;
+}
+
+.wave-bg3 {
+    width: 100%;
+    z-index: -10;
+    position: absolute;
+    background-color: #FFA970;
+    top: 955%;
+}
+
 .card-img {
     width: 100%;
-}
-
-.banner-card-content1 {
-    position: absolute;
-    top: 165%;
-    left: 20.3%;
-    width: 15%;
-    background-color: #e357579c;
-}
-
-.banner-card-content2 {
-    position: absolute;
-    top: 165%;
-    left: 42.5%;
-    width: 15%;
-    background-color: #e357579c;
-}
-
-.banner-card-content3 {
-    position: absolute;
-    top: 165%;
-    left: 64.6%;
-    width: 15%;
-    background-color: #e357579c;
 }
 
 .middle-content-bg {
@@ -114,6 +132,7 @@ body {
     background-image: url('../images/bg/left-content.png'), url('../images/bg/right-content.png');
     background-position: left top, right top;
     background-repeat: no-repeat;
+    background-size: 200px;
 }
 
 .get-started {
@@ -176,26 +195,8 @@ body {
     width: 40%;
 }
 
-.middle-bg {
-    background-image: url('../images/bg/left-bg.png'), url('../images/bg/right-bg.png');
-    background-repeat: no-repeat;
-    background-position: center left, bottom right;
-}
-
-.middle1-bg {
-    position: absolute;
-    top: 410%;
-    z-index: -1000;
-}
-
 .linear-bg {
     background: linear-gradient(to right, #7B53C1, #E35757);
-}
-
-.middle12-bg {
-    position: absolute;
-    top: 908%;
-    z-index: -1000;
 }
 
 .documents {
@@ -207,6 +208,10 @@ body {
 
 .bg-FFA970 {
     background-color: #FFA970;
+}
+
+.bg-E35757 {
+    background-color: #e357579f;
 }
 
 .card-color {
@@ -411,7 +416,6 @@ a:hover {
 }
 
 .card {
-    padding: 20px 35px;
     border-radius: 30px;
 }
 
@@ -419,18 +423,6 @@ a:hover {
     padding: 20px 10px;
     box-shadow: 0 0 5px gray;
     border-radius: 20px;
-}
-
-.card::after {
-    position: absolute;
-    top: -4px;
-    bottom: -4px;
-    left: -4px;
-    right: -4px;
-    background: linear-gradient(#E35757, #758BFD);
-    content: '';
-    z-index: -1;
-    border-radius: 30px;
 }
 
 .category-content {
@@ -457,6 +449,7 @@ a:hover {
 .vertical-line {
     border-left: 6px solid #7B53C1;
     height: 500px;
+    width: 3px;
 }
 
 .button-purple {
@@ -465,7 +458,6 @@ a:hover {
     color: #fff;
     background-color: #7B53C1;
     border: none;
-    width: 60%;
 }
 
 .button-outline-purple {
@@ -474,7 +466,6 @@ a:hover {
     color: #000;
     background: #fff;
     border: 1px solid #7B53C1;
-    width: 60%;
 }
 
 .button-outline-purple:hover {

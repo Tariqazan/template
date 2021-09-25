@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Variant video</title>
+    <title>variant video</title>
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -60,6 +62,12 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img src="./images/logo/logo.png" alt="" class="logo"></a>
+                    <div class="tablet-nav d-flex">
+                        <a class="nav-link" href="#"><img src="./images/icon/search.svg" alt=""></a>
+                        <a class="nav-link" href="#"><img src="./images/icon/heart.svg" alt=""></a>
+                        <a class="nav-link" href="#"><img src="./images/icon/cart.svg" alt=""></a>
+                        <a class="button-purple mt-2" href="#">Get started</a>
+                    </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"><img src="./images/icon/menu.svg" alt=""></span>
                     </button>
@@ -86,16 +94,16 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Partners</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item laptop-nav">
                                 <a class="nav-link" href="#"><img src="./images/icon/search.svg" alt=""></a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item laptop-nav">
                                 <a class="nav-link" href="#"><img src="./images/icon/heart.svg" alt=""></a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item laptop-nav">
                                 <a class="nav-link" href="#"><img src="./images/icon/cart.svg" alt=""></a>
                             </li>
-                            <li class="nav-item get-started">
+                            <li class="nav-item get-started laptop-nav">
                                 <a class="button-purple mt-2" href="#">Get started</a>
                             </li>
                         </ul>
@@ -103,7 +111,535 @@
                 </div>
             </nav>
         </div>
+        <div class="banner-content d-flex">
+            <div class="banner-text">
+                <p class="text-E35757 text-uppercase banner-title">timeless <br> traditional</p>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sit consectetur ipsam exercitationem maxime tenetur praesentium ducimus, recusandae quasi eaque corrupti unde deserunt expedita non officia inventore quod amet? Fugit.</p>
+                <button class="text-uppercase mt-5 button-purple">See the collection</button>
+            </div>
+            <img src="./images/icon/play.png" alt="" class="play-icon">
+        </div>
+        <div class="text-center">
+            <img src="./images/icon/mouse.png" alt="">
+            <p class="text-uppercase text-white h4 mt-5">Welcome to <br> vena</p>
+
+            <div class="row banner-cards">
+                <div class="col-sm-4 col-12">
+                    <div class="card">
+                        <img src="./images/card/middle-card1.png" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="bg-E35757">
+                                <p class="card-text">lorem ipsum dolor amet?</p>
+                                <a href="#" class="card-text">See services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <div class="card">
+                        <img src="./images/card/middle-card2.png" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="bg-E35757">
+                                <p class="card-text">lorem ipsum dolor amet?</p>
+                                <a href="#" class="card-text">See services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <div class="card">
+                        <img src="./images/card/middle-card3.png" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="bg-E35757">
+                                <p class="card-text">lorem ipsum dolor amet?</p>
+                                <a href="#" class="card-text">See services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
+    <img src="./images/bg/wave-bg-1.svg" alt="" class="wave-bg1">
+    <div class="content-bg">
+        <div class="container">
+            <div class="text-center py-5">
+                <p class="text-E35757 text-uppercase h4">Our implemented projects</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./images/card/video-variant-1.png" alt="" class="w-75">
+                </div>
+                <div class="col-md-6 p-5">
+                    <p class="fw-bold text-uppercase">lorem ipsum dolor sit amet, consectetur</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ut aperiam accusantium natus sint quaerat porro iste, voluptate harum obcaecati vero odio facilis rerum necessitatibus officia vitae veniam pariatur ab?
+                    </p>
+                    <a href="#" class="text-E35757 text-uppercase">see projects</a>
+                </div>
+                <div class="col-md-6 p-5">
+                    <p class="fw-bold text-uppercase">lorem ipsum dolor sit amet, consectetur</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ut aperiam accusantium natus sint quaerat porro iste, voluptate harum obcaecati vero odio facilis rerum necessitatibus officia vitae veniam pariatur ab?
+                    </p>
+                    <a href="#" class="text-E35757 text-uppercase">see projects</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/card/video-variant-2.png" alt="" class="w-75">
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/card/video-variant-3.png" alt="" class="w-75">
+                </div>
+                <div class="col-md-6 p-5">
+                    <p class="fw-bold text-uppercase">lorem ipsum dolor sit amet, consectetur</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ut aperiam accusantium natus sint quaerat porro iste, voluptate harum obcaecati vero odio facilis rerum necessitatibus officia vitae veniam pariatur ab?
+                    </p>
+                    <a href="#" class="text-E35757 text-uppercase">see projects</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-021D3B">
+        <div class="container">
+            <div class="text-center my-4">
+                <p class="text-white h4 fw-bold">OUR PRODUCT</p>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-3 text-center">
+                    <img src="./images/card/our-product-1.png" alt="" class="w-75">
+                    <p class="text-white">lorem ipsum</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="./images/card/our-product-2.png" alt="" class="w-75">
+                    <p class="text-white">lorem ipsum</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="./images/card/our-product-3.png" alt="" class="w-75">
+                    <p class="text-white">lorem ipsum</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="./images/card/our-product-4.png" alt="" class="w-75">
+                    <p class="text-white">lorem ipsum</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="./images/card/our-product-5.png" alt="" class="w-75">
+                    <p class="text-white">lorem ipsum</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="./images/card/our-product-6.png" alt="" class="w-75">
+                    <p class="text-white">lorem ipsum</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="./images/card/our-product-7.png" alt="" class="w-75">
+                    <p class="text-white">lorem ipsum</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="./images/card/our-product-8.png" alt="" class="w-75">
+                    <p class="text-white">lorem ipsum</p>
+                </div>
+                <div class="text-center my-5">
+                    <button class="button-purple w-25">SEE MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="middle-bg">
+        <div class="d-flex py-5">
+            <div class="text-start middle-content">
+                <p class="fw-bold h4">TIMELESS <br> TRADITIONAL</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea dolores maxime at dicta ab? Dolorem accusantium ea, nesciunt quos blanditiis incidunt deleniti quam impedit earum molestias ullam inventore voluptate. Est?
+                </p>
+                <div class="d-flex justify-content-around">
+                    <p class="text-E35757 fw-bold">08.08.2021</p>
+                    <p class="text-E35757 fw-bold">13:00</p>
+                </div>
+                <div class="d-flex justify-content-around">
+                    <button class="button-outline-purple w-25">SEE ALL</button>
+                    <button class="button-purple w-25">SEE DETAILS</button>
+                </div>
+            </div>
+            <img src="./images/card/timeline.png" alt="" class="middle-img" style="margin-top: -10%;">
+        </div>
+        <div class="middle-content">
+            <div class="text-start">
+                <p class="text-E35757 fw-bold">FAQs</p>
+            </div>
+            <hr>
+            <div class="d-flex" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                <p class="fw-bold text-7B53C1">+</p>
+                <p>lorem ipsum dolor sit amet?</p>
+            </div>
+            <div class="collapse" id="collapseExample1">
+                <div class="card card-body">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus reprehenderit maiores distinctio quas! Quaerat debitis inventore a officia nemo cum mollitia voluptatum quae! Nisi atque quas aliquid error nostrum animi? </div>
+            </div>
+            <hr>
+            <div class="d-flex" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                <p class="fw-bold text-7B53C1">+</p>
+                <p>lorem ipsum dolor sit amet?</p>
+            </div>
+            <div class="collapse" id="collapseExample2">
+                <div class="card card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente, earum possimus libero quos enim laborum eveniet ipsam adipisci, nisi tempore laudantium error architecto commodi delectus numquam impedit dolorum. Sed! </div>
+            </div>
+            <hr>
+            <div class="d-flex" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                <p class="fw-bold text-7B53C1">+</p>
+                <p>lorem ipsum dolor sit amet?</p>
+            </div>
+            <div class="collapse" id="collapseExample3">
+                <div class="card card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, labore. Sit maxime eveniet culpa quos explicabo nisi possimus, incidunt fugiat at veritatis quo! Provident blanditiis rerum alias ut quas autem. </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <img src="./images/bg/wave-bg-2.svg" alt="" class="wave-bg2">
+    <div class="container">
+        <div class="text-center">
+            <p class="text-E35757 h3 fw-bold">PRODUCT CATEGORIES</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <img src="./images/card/our-product-1.png" alt="" class="w-50">
+                <p>lorem ipsum dolor sit amet?</p>
+                <a href="#" class="text-E35757">see categories</a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="./images/card/our-product-5.png" alt="" class="w-50">
+                <p>lorem ipsum dolor sit amet?</p>
+                <a href="#" class="text-E35757">see categories</a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="./images/card/our-product-7.png" alt="" class="w-50">
+                <p>lorem ipsum dolor sit amet?</p>
+                <a href="#" class="text-E35757">see categories</a>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-4 mb-3">
+                <img src="./images/card/our-product-3.png" alt="" class="w-50">
+                <p>lorem ipsum dolor sit amet?</p>
+                <a href="#" class="text-E35757">see categories</a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="./images/card/our-product-2.png" alt="" class="w-50">
+                <p>lorem ipsum dolor sit amet?</p>
+                <a href="#" class="text-E35757">see categories</a>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="text-center">
+                <button class="button-purple w-25 my-5">See all</button>
+            </div>
+        </div>
+    </div>
+    <section class="bg-021D3B">
+        <div class="container">
+            <div class="text-center">
+                <p class="text-white fw-bold h4">OUR NEWS</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card-color" style="width: 18rem;">
+                        <img src="./images/card/color-card-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="text-E35757">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-color" style="width: 18rem;">
+                        <img src="./images/card/color-card-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="text-E35757">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-color" style="width: 18rem;">
+                        <img src="./images/card/color-card-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="text-E35757">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-3">
+                <div class="text-center py-3">
+                    <p class="text-white font-bold h4">Our Partners</p>
+                </div>
+                <div class="owl-slider">
+                    <div id="carousel" class="owl-carousel">
+                        <div class="item">
+                            <img src="./images/company/1.svg" alt="1000X1000" class="img-fluid">
+                        </div>
+                        <div class="item">
+                            <img src="./images/company/2.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="item">
+                            <img src="./images/company/3.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="item">
+                            <img src="./images/company/4.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="item">
+                            <img src="./images/company/5.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="item">
+                            <img src="./images/company/6.svg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-3">
+                <div class="text-center py-3">
+                    <p class="text-white text-uppercase h4">What our client say</p>
+                </div>
+                <div class="main-content">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="carousel-card">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dignissimos. Temporibus dicta aperiam esse quae similique nisi amet mollitia perspiciatis inventore consequuntur laboriosam, corrupti accusamus eveniet molestias
+                                    excepturi exercitationem quia?</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="name">
+                                        <p class="fw-bold">
+                                            john doe
+                                        </p>
+                                        <p>doe kohnson co.</p>
+                                    </div>
+                                    <div class="d-flex mr-2">
+                                        <img src="./images/icon/star-fill.svg" alt=""><img src="./images/icon/star-fill.svg" alt=""><img src="./images/icon/star-fill.svg" alt=""><img src="./images/icon/star-fill.svg" alt=""><img src="./images/icon/star.svg"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="carousel-card">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dignissimos. Temporibus dicta aperiam esse quae similique nisi amet mollitia perspiciatis inventore consequuntur laboriosam, corrupti accusamus eveniet molestias
+                                    excepturi exercitationem quia?</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="name">
+                                        <p class="fw-bold">
+                                            john doe
+                                        </p>
+                                        <p>doe kohnson co.</p>
+                                    </div>
+                                    <div class="d-flex mr-2">
+                                        <img src="./images/icon/star-fill.svg" alt=""><img src="./images/icon/star-fill.svg" alt=""><img src="./images/icon/star-fill.svg" alt=""><img src="./images/icon/star-fill.svg" alt=""><img src="./images/icon/star.svg"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="carousel-card">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dignissimos. Temporibus dicta aperiam esse quae similique nisi amet mollitia perspiciatis inventore consequuntur laboriosam, corrupti accusamus eveniet molestias
+                                    excepturi exercitationem quia?</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="name">
+                                        <p class="fw-bold">
+                                            john doe
+                                        </p>
+                                        <p>doe kohnson co.</p>
+                                    </div>
+                                    <div class="d-flex mr-2">
+                                        <img src="./images/icon/star-fill.svg" alt=""><img src="./images/icon/star-fill.svg" alt=""><img src="./images/icon/star-fill.svg" alt=""><img src="./images/icon/star-fill.svg" alt=""><img src="./images/icon/star.svg"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="carousel-card">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dignissimos. Temporibus dicta aperiam esse quae similique nisi amet mollitia perspiciatis inventore consequuntur laboriosam, corrupti accusamus eveniet molestias
+                                    excepturi exercitationem quia?</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="name">
+                                        <p class="fw-bold">
+                                            john doe
+                                        </p>
+                                        <p>doe kohnson co.</p>
+                                    </div>
+                                    <div class="d-flex mr-2">
+                                        <img src="./images/icon/star-fill.svg" alt=""><img src="./images/icon/star-fill.svg" alt=""><img src="./images/icon/star-fill.svg" alt=""><img src="./images/icon/star-fill.svg" alt=""><img src="./images/icon/star.svg"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-theme">
+                        <div class="owl-controls">
+                            <div class="custom-nav owl-nav"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <img src="./images/bg/wave-bg-3.svg" alt="" class="wave-bg3">
+    <section class="jobs">
+        <div class="text-center">
+            <p class="text-white fw-bold h4">JOBS</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./images/job/1.png" alt="" class="w-75">
+                    <div class="text-start">
+                        <p>lorem ipsum</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/job/2.png" alt="" class="w-75">
+                    <div class="text-start">
+                        <p>lorem ipsum</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/job/3.png" alt="" class="w-75">
+                    <div class="text-start">
+                        <p>lorem ipsum</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="button-purple w-25">See More</button>
+            </div>
+        </div>
+    </section>
+    <section class="documents">
+        <div class="container">
+            <div class="container">
+                <div class="container-fluid bg-021D3B m-5 rounded-3">
+                    <div class="d-flex justify-content-between p-5">
+                        <p class="text-white">Our Documnets</p>
+                        <button class="button-purple w-25">See All</button>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <hr>
+                            <div class="d-flex justify-content-between" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+                                <p class="text-E35757">First Document</p>
+                                <p class="fw-bold text-7B53C1">+</p>
+                            </div>
+                            <div class="collapse" id="collapseExample4">
+                                <div class="card card-body bg-021D3B">
+                                    <p class="text-white fw-bold">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus reprehenderit maiores distinctio quas! Quaerat debitis inventore a officia nemo cum mollitia voluptatum quae! Nisi atque quas aliquid error nostrum animi?
+                                    </p>
+                                    <div class="d-flex justify-content-around">
+                                        <p class="text-white">20.08.2021</p>
+                                        <p class="">75mb</p>
+                                    </div>
+                                    <button class="button-purple">Download</button>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-between" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+                                <p class="text-E35757">Second Document</p>
+                                <p class="fw-bold text-7B53C1">+</p>
+                            </div>
+                            <div class="collapse" id="collapseExample5">
+                                <div class="card card-body bg-021D3B">
+                                    <p class="text-white fw-bold">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus reprehenderit maiores distinctio quas! Quaerat debitis inventore a officia nemo cum mollitia voluptatum quae! Nisi atque quas aliquid error nostrum animi?
+                                    </p>
+                                    <div class="d-flex justify-content-around">
+                                        <p class="text-white">20.08.2021</p>
+                                        <p class="">75mb</p>
+                                    </div>
+                                    <button class="button-purple">Download</button>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-between" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample">
+                                <p class="text-E35757">Third Document</p>
+                                <p class="fw-bold text-7B53C1">+</p>
+                            </div>
+                            <div class="collapse" id="collapseExample6">
+                                <div class="card card-body bg-021D3B">
+                                    <p class="text-white fw-bold">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus reprehenderit maiores distinctio quas! Quaerat debitis inventore a officia nemo cum mollitia voluptatum quae! Nisi atque quas aliquid error nostrum animi?
+                                    </p>
+                                    <div class="d-flex justify-content-around">
+                                        <p class="text-white">20.08.2021</p>
+                                        <p class="">75mb</p>
+                                    </div>
+                                    <button class="button-purple">Download</button>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-between" data-bs-toggle="collapse" data-bs-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample">
+                                <p class="text-E35757">Fourth Document</p>
+                                <p class="fw-bold text-7B53C1">+</p>
+                            </div>
+                            <div class="collapse" id="collapseExample7">
+                                <div class="card card-body bg-021D3B">
+                                    <p class="text-white fw-bold">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus reprehenderit maiores distinctio quas! Quaerat debitis inventore a officia nemo cum mollitia voluptatum quae! Nisi atque quas aliquid error nostrum animi?
+                                    </p>
+                                    <div class="d-flex justify-content-around">
+                                        <p class="text-white">20.08.2021</p>
+                                        <p class="">75mb</p>
+                                    </div>
+                                    <button class="button-purple">Download</button>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-between" data-bs-toggle="collapse" data-bs-target="#collapseExample8" aria-expanded="false" aria-controls="collapseExample">
+                                <p class="text-E35757">Fifth Document</p>
+                                <p class="fw-bold text-7B53C1">+</p>
+                            </div>
+                            <div class="collapse" id="collapseExample8">
+                                <div class="card card-body bg-021D3B">
+                                    <p class="text-white fw-bold">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus reprehenderit maiores distinctio quas! Quaerat debitis inventore a officia nemo cum mollitia voluptatum quae! Nisi atque quas aliquid error nostrum animi?
+                                    </p>
+                                    <div class="d-flex justify-content-around">
+                                        <p class="text-white">20.08.2021</p>
+                                        <p class="">75mb</p>
+                                    </div>
+                                    <button class="button-purple">Download</button>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/document/1.png" alt="" style="width: 137%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container linear-bg">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="text-white h3 fw-bold">lorem ipsam dolor sit</p>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias laudantium consequuntur at esse perferendis obcaecati temporibus minus similique nisi sit possimus, impedit beatae cupiditate voluptates nostrum magnam ipsa ad debitis?</p>
+                <button class="btn-danger">Get started</button>
+            </div>
+            <div class="col-md-6">
+                <img src="./images/document/2.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <div class="text-center">
+        <p class="fw-bold">JOIN OUR NEWSLETTER</p>
+        <p>Get 5% off discount every purchase!</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"><input type="text" class="input-field" placeholder="first name"></div>
+            <div class="col-md-3"><input type="text" class="input-field" placeholder="surname"></div>
+            <div class="col-md-3"><input type="text" class="input-field" placeholder="Email"></div>
+            <div class="col-md-3"><img src="./images/icon/send.svg" alt=""></div>
+        </div>
+    </div>
     <footer class="row">
         <div class="col-md-4 left">
             <img class="img-fluid logo" src="./images/logo/end-logo.png" srcset="">
@@ -191,7 +727,10 @@
         <hr>
         <p class="text-center">&copy;MYSI.ALl rights reserved</p>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/carousel.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 

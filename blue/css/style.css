@@ -225,6 +225,13 @@ body {
     color: #fff;
 }
 
+.partner-logo {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #7b53c186;
+    min-height: 170px;
+}
+
 .product-img,
 .product-pricing {
     width: 90%;

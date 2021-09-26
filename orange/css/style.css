@@ -438,6 +438,10 @@ a:hover {
     margin-bottom: 20px;
 }
 
+.line {
+    border-left: 2px solid #7B53C1;
+}
+
 .button-w-full {
     width: 100% !important;
 }
@@ -453,6 +457,31 @@ a:hover {
     width: 3px;
 }
 
+.filter {
+    width: 30%;
+}
+
+.add-to-cart-product {
+    height: 100vh;
+    overflow-y: auto;
+    width: 60%;
+}
+
+.add-to-cart-card {
+    border: none;
+    margin-bottom: 5px;
+    width: 190px;
+}
+
+.add-to-cart-card p,
+.add-to-cart-card a {
+    font-size: 13px;
+}
+
+.add-to-cart-column {
+    width: 33% !important;
+}
+
 .button-purple {
     border-radius: 30px;
     padding: 5px 10px;
@@ -462,6 +491,7 @@ a:hover {
 }
 
 .button-outline-purple {
+    margin-top: 10px;
     border-radius: 30px;
     padding: 5px 10px;
     color: #000;

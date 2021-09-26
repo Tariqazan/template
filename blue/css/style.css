@@ -225,6 +225,35 @@ body {
     min-height: 200px;
 }
 
+.filter {
+    width: 30%;
+}
+
+.add-to-cart-product {
+    height: 100vh;
+    overflow-y: auto;
+    width: 60%;
+}
+
+.add-to-cart-card {
+    border: none;
+    margin-bottom: 5px;
+    width: 190px;
+}
+
+.add-to-cart-card p,
+.add-to-cart-card a {
+    font-size: 13px;
+}
+
+.add-to-cart-column {
+    width: 33% !important;
+}
+
+.line {
+    border-left: 2px solid #7B53C1;
+}
+
 .error {
     background-color: #021D3B;
     height: 80vh;

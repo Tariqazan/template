@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+:root {
+    --color-blue: #7B53C1;
+    --color-red: #E35757;
+    --color-orange: #FFA970;
+    --color-white: #fff;
+    --color-black: #000;
+}
+
 html {
     margin-top: -4px;
 }
@@ -14,7 +22,7 @@ body {
     background-image: url("../images/bg/right.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-color: #FFA970;
+    background-color: var(--color-orange);
 }
 
 #laptop {
@@ -48,6 +56,16 @@ body {
     border: none;
 }
 
+.social-icon {
+    width: 70%;
+}
+
+.select-filter {
+    border-radius: 10px;
+    padding: 5px 15px;
+    border: 1px solid var(--color-blue);
+}
+
 #tablet {
     visibility: hidden;
 }
@@ -61,7 +79,7 @@ body {
 }
 
 .nav-link {
-    color: #fff !important;
+    color: var(--color-white) !important;
 }
 
 .logo {
@@ -95,11 +113,11 @@ body {
     width: 100%;
     z-index: -10;
     position: absolute;
-    background-color: #FFA970;
+    background-color: var(--color-orange);
     top: 120%;
 }
 
-.text-A4D26A {
+.text-green {
     color: #A4D26A;
 }
 
@@ -107,7 +125,7 @@ body {
     width: 100%;
     z-index: -10;
     position: absolute;
-    background-color: #FFA970;
+    background-color: var(--color-orange);
     top: 415%;
 }
 
@@ -115,7 +133,7 @@ body {
     width: 100%;
     z-index: -10;
     position: absolute;
-    background-color: #FFA970;
+    background-color: var(--color-orange);
     top: 955%;
 }
 
@@ -179,12 +197,12 @@ body {
     width: 150%;
 }
 
-.text-7B53C1 {
-    color: #7B53C1;
+.text-blue {
+    color: var(--color-blue);
 }
 
-.text-E35757 {
-    color: #E35757;
+.text-red {
+    color: var(--color-red);
 }
 
 .middle-content {
@@ -197,7 +215,19 @@ body {
 }
 
 .linear-bg {
-    background: linear-gradient(to right, #7B53C1, #E35757);
+    background: linear-gradient(to right, var(--color-blue), var(--color-red));
+}
+
+.menu {
+    width: 30%;
+    padding: 0 20px;
+    border-right: 1px solid var(--color-blue);
+}
+
+.small-line {
+    background-color: var(--color-blue);
+    width: 50%;
+    text-align: center;
 }
 
 .documents {
@@ -208,7 +238,7 @@ body {
 }
 
 .bg-FFA970 {
-    background-color: #FFA970;
+    background-color: var(--color-orange);
 }
 
 .bg-E35757 {
@@ -216,7 +246,7 @@ body {
 }
 
 .card-color {
-    background-color: #FFA970;
+    background-color: var(--color-orange);
     border-radius: 50px;
     box-shadow: 0 0 50px #8a7160;
 }
@@ -249,13 +279,28 @@ body {
     padding: 20px 100px;
 }
 
+.card-img-top {
+    height: 250px;
+}
+
+.service-detailimg {
+    width: 100%;
+    height: 250px;
+    margin: 20px 0;
+}
+
+.address-form {
+    margin-left: 20px;
+    width: 70%;
+}
+
 .address h6 {
-    color: #7B53C1;
+    color: var(--color-blue);
     font-weight: 800;
 }
 
 .product-details span {
-    color: #7B53C1;
+    color: var(--color-blue);
 }
 
 .content {
@@ -263,7 +308,7 @@ body {
 }
 
 .content h2 {
-    color: #fff;
+    color: var(--color-white);
     padding: 30px 0;
     text-align: left;
     font-weight: bold;
@@ -272,11 +317,11 @@ body {
 }
 
 .content p {
-    color: #fff;
+    color: var(--color-white);
 }
 
 a {
-    color: #FFFF;
+    color: var(--color-white)F;
     text-decoration: none;
 }
 
@@ -312,7 +357,7 @@ a:hover {
 .button-one {
     background-color: #758BFD;
     font-size: 13px;
-    color: #FFFF;
+    color: var(--color-white)F;
     font-weight: 600;
 }
 
@@ -342,7 +387,7 @@ a:hover {
 .border-top-input {
     border-radius: 50rem;
     border: 4px solid transparent;
-    border-image: linear-gradient(to bottom, #E35757, #758BFD) 1;
+    border-image: linear-gradient(to bottom, var(--color-red), #758BFD) 1;
     /* border-radius: 25px;
     border: 3px solid #73AD21;
     padding: 20px; 
@@ -368,7 +413,7 @@ a:hover {
 
 .promo-input {
     margin-left: 20px;
-    border: 1px solid #7B53C1;
+    border: 1px solid var(--color-blue);
 }
 
 .line-to-order {
@@ -398,11 +443,11 @@ a:hover {
     padding: 20px 10px;
     margin-bottom: 10px;
     border: 4px solid transparent;
-    border-image: linear-gradient(to bottom, #E35757, #758BFD) 1;
+    border-image: linear-gradient(to bottom, var(--color-red), #758BFD) 1;
 }
 
 .carousel-card {
-    background-color: #fff;
+    background-color: var(--color-white);
     border-radius: 30px;
     padding: 20px 40px;
     width: 195%;
@@ -439,7 +484,23 @@ a:hover {
 }
 
 .line {
-    border-left: 2px solid #7B53C1;
+    border-left: 2px solid var(--color-blue);
+}
+
+.img-event {
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    width: 5%;
+    margin-right: 5px;
+}
+
+.progressbar-skill {
+    background: #ED6C4E;
+    width: 100%;
+    height: 8px;
 }
 
 .button-w-full {
@@ -452,7 +513,7 @@ a:hover {
 }
 
 .vertical-line {
-    border-left: 6px solid #7B53C1;
+    border-left: 6px solid var(--color-blue);
     height: 500px;
     width: 3px;
 }
@@ -485,8 +546,8 @@ a:hover {
 .button-purple {
     border-radius: 30px;
     padding: 5px 10px;
-    color: #fff;
-    background-color: #7B53C1;
+    color: var(--color-white);
+    background-color: var(--color-blue);
     border: none;
 }
 
@@ -495,13 +556,13 @@ a:hover {
     border-radius: 30px;
     padding: 5px 10px;
     color: #000;
-    background: #fff;
-    border: 1px solid #7B53C1;
+    background: var(--color-white);
+    border: 1px solid var(--color-blue);
 }
 
 .button-outline-purple:hover {
-    background: #7B53C1;
-    color: #fff;
+    background: var(--color-blue);
+    color: var(--color-white);
     transition: 0.5s;
 }
 
@@ -516,6 +577,11 @@ a:hover {
 
 .horizontal-line {
     display: none;
+}
+
+.review-help {
+    margin-top: 20px;
+    width: 30%;
 }
 
 .map {
@@ -533,7 +599,7 @@ a:hover {
 }
 
 .faq-line {
-    background-color: #7B53C1;
+    background-color: var(--color-blue);
     padding: 1px 0;
 }
 
@@ -545,16 +611,21 @@ a:hover {
 }
 
 .error {
-    background-color: #FFA970;
+    background-color: var(--color-orange);
     height: 80vh;
 }
 
-.color-border {
+.inverted-comma {
+    position: absolute;
+    top: -15px;
+}
+
+.card-color-border {
     padding: 20px 35px;
     border-radius: 30px;
     border-width: 3px;
     border-style: solid;
-    border-image: linear-gradient( to bottom, #E35757, #7B53C1) 1 10%;
+    border-image: linear-gradient( to bottom, var(--color-red), var(--color-blue)) 1 10%;
     min-height: 200px;
 }
 
@@ -578,10 +649,13 @@ video {
     width: 10%;
 }
 
-.pagination {}
+.pagination {
+    display: flex;
+    justify-content: end;
+}
 
 .page-number {
-    color: #E35757;
+    color: var(--color-red);
     font-size: 20px;
     font-weight: bold;
 }
@@ -595,7 +669,7 @@ video {
 }
 
 footer {
-    background-color: #FFA970;
+    background-color: var(--color-orange);
     padding: 20px 150px;
     display: flex;
 }
@@ -606,13 +680,13 @@ footer .left .logo {
 }
 
 footer .left .footer-content {
-    color: #fff;
+    color: var(--color-white);
     text-align: justify;
     max-width: 240px;
 }
 
 footer .left span {
-    color: #7B53C1;
+    color: var(--color-blue);
     width: 80%;
 }
 
@@ -661,7 +735,7 @@ footer .right-links {
 }
 
 footer .right-links p {
-    color: #E35757;
+    color: var(--color-red);
 }
 
 .end {
@@ -672,7 +746,7 @@ footer .right-links p {
 }
 
 .end a {
-    color: #7B53C1;
+    color: var(--color-blue);
 }
 
 .end p {
@@ -746,7 +820,7 @@ footer .right-links p {
         display: none;
     }
     .horizontal-line {
-        background: #7B53C1;
+        background: var(--color-blue);
     }
     .product-fail {
         padding: 20px 100px;
@@ -779,7 +853,7 @@ footer .right-links p {
         display: block;
     }
     footer {
-        background-color: #FFA970;
+        background-color: var(--color-orange);
         padding: 20px 72px;
         display: flex;
     }
@@ -793,10 +867,10 @@ footer .right-links p {
         display: flex;
         padding: 0;
         justify-content: space-between;
-        background: #FFA970;
+        background: var(--color-orange);
     }
     .payment-fail-table h6 {
-        color: #fff;
+        color: var(--color-white);
     }
     .payment-fail-table p {
         padding: 0;
@@ -852,13 +926,13 @@ footer .right-links p {
         display: none;
     }
     #mobile-end a {
-        color: #7B53C1;
+        color: var(--color-blue);
     }
     #mobile-end span {
         margin-left: 40px;
     }
     footer {
-        background-color: #FFA970;
+        background-color: var(--color-orange);
         padding: 20px 36px;
         display: flex;
     }

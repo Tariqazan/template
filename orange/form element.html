@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Service detail</title>
+    <title>Form Element</title>
 </head>
 
 <body>
@@ -115,15 +115,11 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item px-2"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item px-2"><a href="#">Service</a></li>
-                        <li class="breadcrumb-item">Service Detail</li>
+                        <li class="breadcrumb-item">Form Element</li>
                     </ol>
                 </nav>
                 <div class="content">
-                    <h2>lorem ipsum</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi tenetur iste, cumque tempore veniam asperiores voluptatum dolores fugit excepturi aliquam nobis sapiente. Optio quis similique eligendi, aliquid cumque repudiandae
-                        eius!
-                    </p>
+                    <h2>Form Element</h2>
                 </div>
             </div>
         </section>
@@ -134,57 +130,202 @@
         </svg>
     </header>
     <section class="container">
-        <p class="fw-bold mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus lacinia erat libero vel nibh. Eget erat aliquet nisl diam blandit semper feugiat. Lectus dis aenean consectetur blandit sit at nullam aliquam. Sed imperdiet sapien lacus, lectus adipiscing.
-            Condimentum scelerisque mauris, fusce neque odio adipiscing elit, sed facilisis. Lorem felis egestas mattis pellentesque neque tellus quam elit. Arcu ullamcorper nam adipiscing pellentesque lorem ac a. Sit vestibulum feugiat placerat in lectus
-            in. Leo, vestibulum, dignissim nulla auctor non eget tincidunt. Elit sed lorem massa, egestas ultrices varius morbi ac. Integer massa volutpat ultrices iaculis dictum nisl viverra ut. Convallis risus dolor dictum lobortis. Sed tempor egestas
-            lacinia morbi imperdiet nulla pulvinar nisi.
-        </p>
-        <p>
-            Sapien imperdiet eleifend consectetur aliquam. Risus lacinia nunc, auctor orci at enim leo, magna quisque. Sit quis mattis quisque nunc feugiat. Id bibendum lacinia enim facilisis consequat nisl et lacus imperdiet. Ultrices viverra ornare in nulla nisl
-            bibendum orci. Donec aenean at consectetur morbi amet, sit ut enim gravida. Turpis ac, praesent pretium lectus nunc congue. Nibh viverra scelerisque vitae habitasse justo, vel ac, aliquam et. Pulvinar massa, maecenas in aenean sed. At auctor
-            enim sit quis sagittis, sem. Integer sem euismod vitae pellentesque.</p>
-        <div class="row">
-            <div class="col-md-12">
-                <img src="./images/service/large.png" alt="" class="detailimg">
+        <div class="row my-5">
+            <div class="col-md-6">
+                <div class="file-group">
+                    <div class="icons">
+                        <img src="./images/icon/gallery.svg" alt="" class="border-end p-2">
+                        <img src="./images/icon/file.svg" alt="" class="border-end p-2">
+                        <img src="./images/icon/checklist.svg" alt="" class="border-end p-2">
+                        <img src="./images/icon/clip.svg" alt="" class="border-end p-2">
+                    </div>
+                    <input type="file" class="input-field">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="file-group">
+                    <input type="file" class="input-field">
+                    <div class="fileupload-buttons">
+                        <img src="./images/icon/gallery.svg" alt="" class="border-end p-2">
+                        <button class="button-purple">Confirm</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <p>Sed placerat dolor at turpis posuere ornare. Mauris sem enim, porttitor pretium molestie eget, dignissim vel arcu. Aenean tristique, erat non pretium rhoncus, quam diam porta augue, quis pharetra purus erat ac neque. Sed congue viverra rutrum.
-            Duis arcu ipsum, pretium in commodo a, venenatis quis nulla.
-        </p>
-        <p>
-            Curabitur erat ipsum, tincidunt at tortor at, blandit auctor magna. Fusce ullamcorper eros odio, at vulputate nisl tincidunt in. Pellentesque consectetur nisl dolor. In tellus tortor, tristique eget molestie eu, venenatis a odio. Sed a magna quam. Maecenas
-            nec nisi enim. Morbi interdum, arcu a vehicula scelerisque, purus ante pharetra mauris, sit amet condimentum velit mauris nec lacus.</p>
-        <p class="fw-bold">Cras non bibendum odio, sed vehicula orci
-        </p>
-        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-            sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-        </p>
-        <div class="row">
+        <div class="row my-5">
             <div class="col-md-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
+                <select name="" id="" class="select-filter">
+                    <option value="all" selected>All</option>
+                    <option value="lorem ipsum">lorem ipsum</option>
+                    <option value="lorem ipsum">lorem ipsum</option>
+                    <option value="lorem ipsum">lorem ipsum</option>
+                    <option value="lorem ipsum">lorem ipsum</option>
+                    <option value="lorem ipsum">lorem ipsum</option>
+                    <option value="lorem ipsum">lorem ipsum</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <div class="has-search">
+                    <input type="text" class="input-field search" placeholder="Search">
+                    <div class="icon-search">
+                        <img src="./images/icon/search.svg" alt="" class="">
+                        <img src="./images/icon/cross.svg" alt="">
+                    </div>
+                </div>
+                <input type="text" name="" id="" class="input-field" placeholder="current password">
+                <select name="" id="" class="select-region">
+                    <option value="region" disabled selected>Region</option>
+                </select>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="send-email">
+                            <input type="text" name="" id="" placeholder="email">
+                            <img src="./images/icon/send.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="quantity-field">
+                            <p class="fw-bold">+</p>
+                            <p class="text-blue">1</p>
+                            <p class="fw-bold">-</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="d-flex my-3 justify-content-around">
+                            <label class="switch-white">
+                                <input type="checkbox">
+                                <span class="slider-white round"></span>
+                            </label>
+                            <label class="switch-black">
+                                <input type="checkbox">
+                                <span class="slider-black round"></span>
+                            </label>
+                            <label class="switch-gray">
+                                <input type="checkbox">
+                                <span class="slider-gray round"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="send-button mb-3">
+                    <button class="button-purple w-10"><svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.930465 0.0709767C0.822846 0.0147172 0.70228 -0.00884413 0.582483 0.00297297C0.462686 0.0147901 0.348467 0.0615112 0.252817 0.137822C0.157168 0.214132 0.083929 0.316969 0.041431 0.434633C-0.00106702 0.552298 -0.0111179 0.680067 0.0124218 0.803407L1.81636 7.32136C1.85 7.44283 1.91575 7.55191 2.00604 7.63606C2.09634 7.72022 2.20752 7.77604 2.32682 7.7971L9.64287 9.07785C9.98746 9.14907 9.98746 9.66513 9.64287 9.73636L2.32682 11.0171C2.20752 11.0382 2.09634 11.094 2.00604 11.1781C1.91575 11.2623 1.85 11.3714 1.81636 11.4929L0.0124218 18.0108C-0.0111179 18.1341 -0.00106702 18.2619 0.041431 18.3796C0.083929 18.4972 0.157168 18.6001 0.252817 18.6764C0.348467 18.7527 0.462686 18.7994 0.582483 18.8112C0.70228 18.8231 0.822846 18.7995 0.930465 18.7432L17.6455 10.0078C17.7522 9.95197 17.8418 9.86619 17.9045 9.7601C17.9672 9.65401 18.0004 9.53179 18.0004 9.4071C18.0004 9.28242 17.9672 9.1602 17.9045 9.05411C17.8418 8.94802 17.7522 8.86224 17.6455 8.80638L0.930465 0.0709767Z"
+                                fill="#fff" />
+                        </svg></button>
+                </div>
+                <div class="getstarted25-button mb-3">
+                    <button class="button-purple w-25">Get started</button>
+                </div>
+                <div class="cancel-button mb-3">
+                    <button class="button-outline-purple w-25">Cancel</button>
+                </div>
+                <div class="savechanges-button mb-3">
+                    <button class="button-purple w-50">Save Changes</button>
+                </div>
+                <div class="getstartedfull-button mb-3">
+                    <button class="button-purple w-100">Get started</button>
+                </div>
+                <div class="createaccount-button mb-3">
+                    <button class="button-outline-purple w-100">Create Account</button>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <p>Choose Type:</p>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">lorem</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">ipsum</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">set</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">dolor</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">amet</label>
+                </div>
             </div>
             <div class="col-md-4">
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="col-md-4">
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <img src="./images/service/7.png" alt="" class="w-75">
-            </div>
-            <div class="col-md-3">
-                <img src="./images/service/8.png" alt="" class="w-75">
-            </div>
-            <div class="col-md-3">
-                <img src="./images/service/9.png" alt="" class="w-75">
-            </div>
-            <div class="col-md-3">
-                <img src="./images/service/10.png" alt="" class="w-75">
+                <div class="mt-2">
+                    <p class="fw-bold">Price range:</p>
+                    <input type="range">
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">Smartphones and phones</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">TVs, audio and photos</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">Household appliances</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">Laptops, PCs and tablets</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">Apple</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">Xiaomi</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">Gadgets and electric vehicles</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">Headphones and speakers</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">Sports and health</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">Tourism and fishing</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">Plumbing and repair</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">Cottage, house and garden</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">Goods for children</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">Auto and motorcycle goods</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">Clothes, shoes and
+                        accessories</label>
+                </div>
+                <div class="mt-2">
+                    <input type="checkbox">
+                    <label for="">Perfume, review, jewelry</label>
+                </div>
             </div>
         </div>
     </section>

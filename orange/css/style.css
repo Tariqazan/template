@@ -283,6 +283,11 @@ body {
     height: 250px;
 }
 
+.add-details {
+    margin-left: 20px;
+    width: 70%;
+}
+
 .service-detailimg {
     width: 100%;
     height: 250px;

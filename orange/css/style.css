@@ -5,6 +5,7 @@
     --color-orange: #FFA970;
     --color-white: #fff;
     --color-black: #000;
+    --color-green: #A4D26A;
 }
 
 html {
@@ -378,13 +379,20 @@ input:checked+.slider-gray:before {
     border: none;
 }
 
-.button-outline-purple {
-    margin-top: 10px;
+.button-red {
     border-radius: 30px;
     padding: 5px 10px;
-    color: #000;
-    background: var(--color-white);
+    color: var(--color-white);
+    background-color: var(--color-red);
+    border: none;
+}
+
+.button-outline-purple {
+    border-radius: 30px;
+    padding: 5px 10px;
+    color: var(--color-blue);
     border: 1px solid var(--color-blue);
+    background-color: var(--color-white);
 }
 
 .button-outline-purple:hover {
@@ -418,6 +426,10 @@ input:checked+.slider-gray:before {
 
 .img-select {
     display: flex;
+}
+
+.newsletter-img {
+    height: 19.4em;
 }
 
 .img-item {
@@ -622,8 +634,59 @@ input:checked+.slider-gray:before {
 }
 
 .banner-cards {
+    width: 75%;
     margin: auto;
     padding: 50px 80px;
+}
+
+.card-img-overlay {
+    top: 100px !important;
+}
+
+.our-product {
+    position: relative;
+}
+
+.sale {
+    position: absolute;
+    color: var(--color-white);
+    background-color: var(--color-green);
+    padding: 5px 20px;
+    top: 20px;
+    left: 40px;
+}
+
+.bestseller {
+    position: absolute;
+    color: var(--color-white);
+    background-color: var(--color-red);
+    padding: 5px 20px;
+    top: 20px;
+    left: 40px;
+}
+
+.features {
+    color: var(--color-white);
+    position: absolute;
+    background-color: var(--color-blue);
+    padding: 5px 20px;
+    top: 20px;
+    left: 40px;
+}
+
+.overlay {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 14px;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 20px;
+}
+
+.our-product:hover .overlay {
+    opacity: 1;
 }
 
 .wave-bg1 {
@@ -651,7 +714,7 @@ input:checked+.slider-gray:before {
     z-index: -10;
     position: absolute;
     background-color: var(--color-orange);
-    top: 955%;
+    top: 942%;
 }
 
 .card-img {
@@ -716,6 +779,10 @@ input:checked+.slider-gray:before {
 
 .text-blue {
     color: var(--color-blue);
+}
+
+.text-green {
+    color: var(--color-green);
 }
 
 .text-red {
@@ -879,7 +946,7 @@ a:hover {
 .button-one {
     background-color: #758BFD;
     font-size: 13px;
-    color: var(--color-white)F;
+    color: var(--color-white);
     font-weight: 600;
 }
 
@@ -993,7 +1060,7 @@ a:hover {
 .carousel-card {
     background-color: var(--color-white);
     border-radius: 30px;
-    padding: 20px 40px;
+    padding: 20px 10px;
     width: 195%;
 }
 

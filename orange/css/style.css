@@ -41,13 +41,40 @@ body {
     background-image: url('../images/bg/background-wave.svg'), url('../images/bg/hill.png');
 }
 
+.dropdown button {
+    background: transparent;
+    border: none;
+    margin-top: 5px;
+}
+
+.laptop-nav button {
+    background: transparent;
+    border: none;
+}
+
 .topbar {
     padding-top: 10px;
 }
 
 .navbar {
-    overflow-x: hidden;
-    margin-left: 60px;
+    padding: 0 0 0 60px;
+}
+
+.navbar-brand {
+    width: 8em;
+}
+
+.navbar-brand img {
+    width: 70%;
+}
+
+.dropdown-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-menu {
+    width: 350px;
 }
 
 .topbar-link,
@@ -1275,11 +1302,21 @@ footer .right-links p {
     padding: 0 100px;
 }
 
+#tablet-link-footer {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
 @media only screen and (max-width: 769px) {
     #tablet {
         visibility: visible;
     }
+    #tablet-link-footer {
+        visibility: visible;
+    }
     #laptop {
+        width: 0;
         visibility: hidden;
     }
     .navbar {
@@ -1378,9 +1415,12 @@ footer .right-links p {
     }
     #tablet {
         visibility: hidden;
+        width: 0;
+        height: 0;
     }
     #laptop {
         visibility: hidden;
+        width: 0;
     }
     .navbar {
         margin-top: -50px;
@@ -1416,6 +1456,10 @@ footer .right-links p {
     #mobile-end {
         display: block;
     }
+    #tablet-link-footer {
+        visibility: hidden;
+        width: 0;
+    }
     #tablet-end {
         display: none;
     }
@@ -1439,3 +1483,45 @@ footer .right-links p {
         padding: 0 20px;
     }
 }
+
+
+/* ============ desktop view ============ */
+
+@media all and (min-width: 992px) {
+    .dropdown-menu li {
+        position: relative;
+    }
+    .nav-item .submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -7px;
+    }
+    .nav-item .submenu-left {
+        right: 100%;
+        left: auto;
+    }
+    .dropdown-menu>li:hover {
+        background-color: #f1f1f1
+    }
+    .dropdown-menu>li:hover>.submenu {
+        display: block;
+    }
+}
+
+
+/* ============ desktop view .end// ============ */
+
+
+/* ============ small devices ============ */
+
+@media (max-width: 991px) {
+    .dropdown-menu .dropdown-menu {
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+        margin-bottom: .5rem;
+    }
+}
+
+
+/* ============ small devices .end// ============ */

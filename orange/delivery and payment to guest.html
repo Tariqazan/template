@@ -64,85 +64,9 @@
                         <a class="nav-link" href="#"><img src="./images/icon/search.svg" alt=""></a>
                         <a class="nav-link" href="#"><img src="./images/icon/heart.svg" alt=""></a>
 
-                        <div class="dropdown dropstart">
-                            <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="./images/icon/cart.svg" alt="">
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="height: 50vh; overflow: auto; width: 40em;">
-                                <li>
-                                    <a href="#" class="dropdown-item">
-                                        <div class="d-flex">
-                                            <img src="./images/cart/1.png" alt="">
-                                            <div class="">
-                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                <p>739/5174</p>
-                                                <div><span class="text-blue">COLOUR:</span> White</div>
-                                                <div class="d-flex justify-content-between">
-                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                    <p>$90</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="dropdown-item">
-                                        <div class="d-flex">
-                                            <img src="./images/cart/2.png" alt="">
-                                            <div class="">
-                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                <p>739/5174</p>
-                                                <div><span class="text-blue">COLOUR:</span> White</div>
-                                                <div class="d-flex justify-content-between">
-                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                    <p>$90</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="dropdown-item">
-                                        <div class="d-flex">
-                                            <img src="./images/cart/3.png" alt="">
-                                            <div class="">
-                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                <p>739/5174</p>
-                                                <div><span class="text-blue">COLOUR:</span> White</div>
-                                                <div class="d-flex justify-content-between">
-                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                    <p>$90</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="dropdown-item">
-                                        <div class="d-flex">
-                                            <img src="./images/cart/4.png" alt="">
-                                            <div class="">
-                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                <p>739/5174</p>
-                                                <div><span class="text-blue">COLOUR:</span> White</div>
-                                                <div class="d-flex justify-content-between">
-                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                    <p>$90</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="dropdown-item">
-                                        <div class="d-flex">
-                                            <img src="./images/cart/5.png" alt="">
-                                            <div class="">
-                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                <p>739/5174</p>
-                                                <div><span class="text-blue">COLOUR:</span> White</div>
-                                                <div class="d-flex justify-content-between">
-                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                    <p>$90</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                        <button type="button" class="bg-transparent border" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <img src="./images/icon/cart.svg" alt="">
+                        </button>
                         <div class="dropdown">
                             <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img src="./images/icon/profile.svg" alt="">
@@ -323,14 +247,20 @@
                             <li class="nav-item laptop-nav">
                                 <a class="nav-link" href="#"><img src="./images/icon/heart.svg" alt=""></a>
                             </li>
-                            <div class="dropdown nav-item laptop-nav dropstart">
-                                <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li class="nav-item laptop-nav">
+                                <button type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <img src="./images/icon/cart.svg" alt="">
                                 </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="height: 50vh; overflow: auto; width: 40em;">
-                                    <li>
-                                        <a href="#" class="dropdown-item">
-                                            <div class="d-flex">
+                            </li>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog  modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="d-flex mb-3">
                                                 <img src="./images/cart/1.png" alt="">
                                                 <div class="">
                                                     <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -342,9 +272,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" class="dropdown-item">
-                                            <div class="d-flex">
+                                            <div class="d-flex mb-3">
                                                 <img src="./images/cart/2.png" alt="">
                                                 <div class="">
                                                     <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -356,9 +284,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" class="dropdown-item">
-                                            <div class="d-flex">
+                                            <div class="d-flex mb-3">
                                                 <img src="./images/cart/3.png" alt="">
                                                 <div class="">
                                                     <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -370,9 +296,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" class="dropdown-item">
-                                            <div class="d-flex">
+                                            <div class="d-flex mb-3">
                                                 <img src="./images/cart/4.png" alt="">
                                                 <div class="">
                                                     <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -384,9 +308,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" class="dropdown-item">
-                                            <div class="d-flex">
+                                            <div class="d-flex mb-3">
                                                 <img src="./images/cart/5.png" alt="">
                                                 <div class="">
                                                     <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -398,9 +320,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                    </li>
-                                </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="dropdown nav-item laptop-nav">
                                 <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -468,12 +390,12 @@
                             <input placeholder="Enter a zip code or location" type="text" class="w-full form-control rounded-pill top-input" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                             <button class="button-purple mx-4">Search</button>
                         </div>
-                        <div class="d-flex location">
-                            <div class="map-container">
+                        <div class="row">
+                            <div class="col-md-9 map-container">
                                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.82239034277!2d90.27923688816911!3d23.780887457377204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1632156896550!5m2!1sen!2sbd"
                                     width="350" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                             </div>
-                            <div class="location-container mx-5 mt-4">
+                            <div class="col-md-3 location-container mt-4">
                                 <p class="text-blue">Location 1</p>
                                 <p>Lorem ipsum dolor sit</p>
                                 <p class="">Location 2</p>

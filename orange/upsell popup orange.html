@@ -64,85 +64,9 @@
                         <a class="nav-link" href="#"><img src="./images/icon/search.svg" alt=""></a>
                         <a class="nav-link" href="#"><img src="./images/icon/heart.svg" alt=""></a>
 
-                        <div class="dropdown dropstart">
-                            <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="./images/icon/cart.svg" alt="">
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="height: 50vh; overflow: auto; width: 40em;">
-                                <li>
-                                    <a href="#" class="dropdown-item">
-                                        <div class="d-flex">
-                                            <img src="./images/cart/1.png" alt="">
-                                            <div class="">
-                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                <p>739/5174</p>
-                                                <div><span class="text-blue">COLOUR:</span> White</div>
-                                                <div class="d-flex justify-content-between">
-                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                    <p>$90</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="dropdown-item">
-                                        <div class="d-flex">
-                                            <img src="./images/cart/2.png" alt="">
-                                            <div class="">
-                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                <p>739/5174</p>
-                                                <div><span class="text-blue">COLOUR:</span> White</div>
-                                                <div class="d-flex justify-content-between">
-                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                    <p>$90</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="dropdown-item">
-                                        <div class="d-flex">
-                                            <img src="./images/cart/3.png" alt="">
-                                            <div class="">
-                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                <p>739/5174</p>
-                                                <div><span class="text-blue">COLOUR:</span> White</div>
-                                                <div class="d-flex justify-content-between">
-                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                    <p>$90</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="dropdown-item">
-                                        <div class="d-flex">
-                                            <img src="./images/cart/4.png" alt="">
-                                            <div class="">
-                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                <p>739/5174</p>
-                                                <div><span class="text-blue">COLOUR:</span> White</div>
-                                                <div class="d-flex justify-content-between">
-                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                    <p>$90</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="dropdown-item">
-                                        <div class="d-flex">
-                                            <img src="./images/cart/5.png" alt="">
-                                            <div class="">
-                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                <p>739/5174</p>
-                                                <div><span class="text-blue">COLOUR:</span> White</div>
-                                                <div class="d-flex justify-content-between">
-                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                    <p>$90</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                        <button type="button" class="bg-transparent border" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <img src="./images/icon/cart.svg" alt="">
+                        </button>
                         <div class="dropdown">
                             <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img src="./images/icon/profile.svg" alt="">
@@ -323,14 +247,20 @@
                             <li class="nav-item laptop-nav">
                                 <a class="nav-link" href="#"><img src="./images/icon/heart.svg" alt=""></a>
                             </li>
-                            <div class="dropdown nav-item laptop-nav dropstart">
-                                <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li class="nav-item laptop-nav">
+                                <button type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <img src="./images/icon/cart.svg" alt="">
                                 </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="height: 50vh; overflow: auto; width: 40em;">
-                                    <li>
-                                        <a href="#" class="dropdown-item">
-                                            <div class="d-flex">
+                            </li>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog  modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="d-flex mb-3">
                                                 <img src="./images/cart/1.png" alt="">
                                                 <div class="">
                                                     <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -342,9 +272,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" class="dropdown-item">
-                                            <div class="d-flex">
+                                            <div class="d-flex mb-3">
                                                 <img src="./images/cart/2.png" alt="">
                                                 <div class="">
                                                     <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -356,9 +284,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" class="dropdown-item">
-                                            <div class="d-flex">
+                                            <div class="d-flex mb-3">
                                                 <img src="./images/cart/3.png" alt="">
                                                 <div class="">
                                                     <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -370,9 +296,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" class="dropdown-item">
-                                            <div class="d-flex">
+                                            <div class="d-flex mb-3">
                                                 <img src="./images/cart/4.png" alt="">
                                                 <div class="">
                                                     <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -384,9 +308,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" class="dropdown-item">
-                                            <div class="d-flex">
+                                            <div class="d-flex mb-3">
                                                 <img src="./images/cart/5.png" alt="">
                                                 <div class="">
                                                     <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -398,9 +320,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                    </li>
-                                </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="dropdown nav-item laptop-nav">
                                 <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -479,135 +401,159 @@
                 </table>
             </div>
         </div>
-        <div class="card-color-border summary-card">
-            <p class="fw-bold text-uppercase">Summary</p>
-            <div class="d-flex justify-content-between">
-                <p>Order total</p>
-                <p>$1320</p>
-                <p>Promo code</p>
-                <input type="text" class="promo-input">
-            </div>
-            <div class="d-flex justify-content-between w-25">
-                <p>Shipping</p>
-                <p>$219</p>
-            </div>
-            <hr>
-            <div class="d-flex justify-content-between">
-                <p class="fw-bold">Subtotal</p>
-                <p>$1539</p>
-                <button type="button" class="button-purple w-25" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                    Checkout
-                </button>
+        <div class="summary">
+            <div class="padding">
+                <p class="fw-bold text-uppercase">Summary</p>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h6>Order Total</h6>
+                    </div>
+                    <div class="col-md-3">
+                        <p>$1320</p>
+                    </div>
+                    <div class="col-md-3">
+                        <p>Promo code</p>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="promo-input">
+                    </div>
+                    <div class="col-md-9">
+                        <h6>Shipping</h6>
+                    </div>
+                    <div class="col-md-3">
+                        <p>$219</p>
+                    </div>
+                    <hr>
+                    <div class="col-md-9">
+                        <p>Sub Total</p>
+                    </div>
+                    <div class="col-md-3">
+                        <p>$1539</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="fw-bold">Subtotal</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>$1539</p>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="button-purple w-100" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Checkout
+                        </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <div class="text-center">
-                                    <p class="fw-bold text-uppercase">The product was successfully added to the cart</p>
-                                </div>
-                                <div class="d-flex justify-content-around">
-                                    <button class="button-outline-purple text-uppercase" style="width: 25% !important;">Proceed to checkout</button>
-                                    <button class="button-purple text-uppercase" style="width: 25% !important;">Continue
-                                        shopping</button>
-                                </div>
-                                <div class="product-table">
-                                    <div class="table-responsive">
-                                        <table class="table">
-                                            <thead>
-                                                <tr>
-                                                    <th>Product</th>
-                                                    <th>Price</th>
-                                                    <th>Quantity</th>
-                                                    <th>Total</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td class="d-flex">
-                                                        <img src="images/product/headphone-white.png" alt="">
-                                                        <div class="product-details">
-                                                            <p>Beats by DRE studio wireless<br> over ear headphones white
-                                                            </p>
-                                                            <p>379/3774</p>
-                                                            <p><span>Colour: </span>White</p>
-                                                        </div>
-                                                    </td>
-                                                    <td>$123</td>
-                                                    <td>
-                                                        <p>+ 10 -</p>
-                                                    </td>
-                                                    <td>$1230</td>
-                                                    <td>X</td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="d-flex">
-                                                        <img src="images/product/headphone-black.png" alt="">
-                                                        <div class="product-details">
-                                                            <p>SENNHEISER HD 458 BT BLACK</p>
-                                                            <p>50B968</p>
-                                                            <p><span>Colour: </span>Black</p>
-                                                        </div>
-                                                    </td>
-                                                    <td>$90</td>
-                                                    <td>
-                                                        <p>+ 1 -</p>
-                                                    </td>
-                                                    <td>$90</td>
-                                                    <td>X</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="text-center">
+                                            <p class="fw-bold text-uppercase">The product was successfully added to the cart
+                                            </p>
+                                        </div>
+                                        <div class="d-flex justify-content-around">
+                                            <button class="button-outline-purple text-uppercase" style="width: 25% !important;">Proceed to
+                                                checkout</button>
+                                            <button class="button-purple text-uppercase" style="width: 25% !important;">Continue
+                                                shopping</button>
+                                        </div>
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Product</th>
+                                                        <th>Price</th>
+                                                        <th>Quantity</th>
+                                                        <th>Total</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="d-flex">
+                                                            <img src="images/product/headphone-white.png" alt="">
+                                                            <div class="product-details">
+                                                                <p>Beats by DRE studio wireless<br> over ear headphones white
+                                                                </p>
+                                                                <p>379/3774</p>
+                                                                <p><span>Colour: </span>White</p>
+                                                            </div>
+                                                        </td>
+                                                        <td>$123</td>
+                                                        <td>
+                                                            <p>+ 10 -</p>
+                                                        </td>
+                                                        <td>$1230</td>
+                                                        <td>X</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="d-flex">
+                                                            <img src="images/product/headphone-black.png" alt="">
+                                                            <div class="product-details">
+                                                                <p>SENNHEISER HD 458 BT BLACK</p>
+                                                                <p>50B968</p>
+                                                                <p><span>Colour: </span>Black</p>
+                                                            </div>
+                                                        </td>
+                                                        <td>$90</td>
+                                                        <td>
+                                                            <p>+ 1 -</p>
+                                                        </td>
+                                                        <td>$90</td>
+                                                        <td>X</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <p class="fw-bold">you may also like theese items</p>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="suggestion-card text-center">
+                                                    <p class="fw-bold">lorem ipsum</p>
+                                                    <div class="d-flex justify-content-around">
+                                                        <p class="fw-bold">$25</p>
+                                                        <p class="text-decoration-line-through text-muted">$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="text-center">
+                                                    <button class="mt-2 button-purple">Add to cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="suggestion-card text-center">
+                                                    <p class="fw-bold">lorem ipsum</p>
+                                                    <div class="d-flex justify-content-around">
+                                                        <p class="fw-bold">$25</p>
+                                                        <p class="text-decoration-line-through text-muted">$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="text-center">
+                                                    <button class="mt-2 button-purple">Add to cart</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="suggestion-card text-center">
+                                                    <p class="fw-bold">lorem ipsum</p>
+                                                    <div class="d-flex justify-content-around">
+                                                        <p class="fw-bold">$25</p>
+                                                        <p class="text-decoration-line-through text-muted">$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="text-center">
+                                                    <button class="mt-2 button-purple">Add to cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <p class="fw-bold">you may also like theese items</p>
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="suggestion-card text-center">
-                                                <p class="fw-bold">lorem ipsum</p>
-                                                <div class="d-flex justify-content-around">
-                                                    <p class="fw-bold">$25</p>
-                                                    <p class="text-decoration-line-through text-muted">$30</p>
-                                                </div>
-                                            </div>
-                                            <div class="text-center">
-                                                <button class="mt-2 button-purple">Add to cart</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="suggestion-card text-center">
-                                                <p class="fw-bold">lorem ipsum</p>
-                                                <div class="d-flex justify-content-around">
-                                                    <p class="fw-bold">$25</p>
-                                                    <p class="text-decoration-line-through text-muted">$30</p>
-                                                </div>
-                                            </div>
-                                            <div class="text-center">
-                                                <button class="mt-2 button-purple">Add to cart</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="suggestion-card text-center">
-                                                <p class="fw-bold">lorem ipsum</p>
-                                                <div class="d-flex justify-content-around">
-                                                    <p class="fw-bold">$25</p>
-                                                    <p class="text-decoration-line-through text-muted">$30</p>
-                                                </div>
-                                            </div>
-                                            <div class="text-center">
-                                                <button class="mt-2 button-purple">Add to cart</button>
-                                            </div>
-                                        </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
     </section>
     <footer class="row">
         <div class="col-md-4 left">

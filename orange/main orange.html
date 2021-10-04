@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>variant video</title>
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
@@ -66,14 +66,20 @@
                         <a class="nav-link" href="#"><img src="./images/icon/search.svg" alt=""></a>
                         <a class="nav-link" href="#"><img src="./images/icon/heart.svg" alt=""></a>
 
-                        <div class="dropdown dropstart">
-                            <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-link">
+                            <button type="button" class="bg-transparent border" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                                 <img src="./images/icon/cart.svg" alt="">
                             </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="height: 50vh; overflow: auto; width: 40em;">
-                                <li>
-                                    <a href="#" class="dropdown-item">
-                                        <div class="d-flex">
+                        </li>
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="d-flex mb-3">
                                             <img src="./images/cart/1.png" alt="">
                                             <div class="">
                                                 <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -85,9 +91,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
-                                    <a href="#" class="dropdown-item">
-                                        <div class="d-flex">
+                                        <div class="d-flex mb-3">
                                             <img src="./images/cart/2.png" alt="">
                                             <div class="">
                                                 <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -99,9 +103,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
-                                    <a href="#" class="dropdown-item">
-                                        <div class="d-flex">
+                                        <div class="d-flex mb-3">
                                             <img src="./images/cart/3.png" alt="">
                                             <div class="">
                                                 <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -113,9 +115,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
-                                    <a href="#" class="dropdown-item">
-                                        <div class="d-flex">
+                                        <div class="d-flex mb-3">
                                             <img src="./images/cart/4.png" alt="">
                                             <div class="">
                                                 <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -127,9 +127,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
-                                    <a href="#" class="dropdown-item">
-                                        <div class="d-flex">
+                                        <div class="d-flex mb-3">
                                             <img src="./images/cart/5.png" alt="">
                                             <div class="">
                                                 <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -141,12 +139,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
-                                </li>
-                            </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="dropdown">
-                            <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img src="./images/icon/profile.svg" alt="">
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -325,14 +323,20 @@
                             <li class="nav-item laptop-nav">
                                 <a class="nav-link" href="#"><img src="./images/icon/heart.svg" alt=""></a>
                             </li>
-                            <div class="dropdown nav-item laptop-nav dropstart">
-                                <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li class="nav-item laptop-nav">
+                                <button type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <img src="./images/icon/cart.svg" alt="">
                                 </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="height: 50vh; overflow: auto; width: 40em;">
-                                    <li>
-                                        <a href="#" class="dropdown-item">
-                                            <div class="d-flex">
+                            </li>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="d-flex mb-3">
                                                 <img src="./images/cart/1.png" alt="">
                                                 <div class="">
                                                     <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -344,9 +348,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" class="dropdown-item">
-                                            <div class="d-flex">
+                                            <div class="d-flex mb-3">
                                                 <img src="./images/cart/2.png" alt="">
                                                 <div class="">
                                                     <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -358,9 +360,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" class="dropdown-item">
-                                            <div class="d-flex">
+                                            <div class="d-flex mb-3">
                                                 <img src="./images/cart/3.png" alt="">
                                                 <div class="">
                                                     <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -372,9 +372,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" class="dropdown-item">
-                                            <div class="d-flex">
+                                            <div class="d-flex mb-3">
                                                 <img src="./images/cart/4.png" alt="">
                                                 <div class="">
                                                     <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -386,9 +384,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                        <a href="#" class="dropdown-item">
-                                            <div class="d-flex">
+                                            <div class="d-flex mb-3">
                                                 <img src="./images/cart/5.png" alt="">
                                                 <div class="">
                                                     <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
@@ -400,9 +396,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                    </li>
-                                </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="dropdown nav-item laptop-nav">
                                 <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -1088,7 +1084,7 @@
     <script src="js/main.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
     <script src="js/carousel.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

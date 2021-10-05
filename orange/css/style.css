@@ -71,6 +71,10 @@ body {
     width: 100%;
 }
 
+.pc-img {
+    width: 50%;
+}
+
 .fade {
     background-color: var(--color-light-orange);
 }
@@ -644,7 +648,7 @@ input:checked+.slider-gray:before {
 }
 
 .banner-title {
-    font-size: 50px;
+    font-size: 33px;
 }
 
 .banner-cards {
@@ -703,12 +707,16 @@ input:checked+.slider-gray:before {
     opacity: 1;
 }
 
+.wave-bg {
+    position: relative;
+}
+
 .wave-bg1 {
     width: 100%;
     z-index: -10;
     position: absolute;
     background-color: var(--color-orange);
-    top: -59%;
+    top: -55%;
 }
 
 .text-green {
@@ -720,7 +728,7 @@ input:checked+.slider-gray:before {
     z-index: -10;
     position: absolute;
     background-color: var(--color-orange);
-    top: 305%;
+    top: -284%;
 }
 
 .wave-bg3 {
@@ -728,7 +736,7 @@ input:checked+.slider-gray:before {
     z-index: -10;
     position: absolute;
     background-color: var(--color-orange);
-    top: 868%;
+    top: 0%;
 }
 
 .card-img {
@@ -743,9 +751,13 @@ input:checked+.slider-gray:before {
 
 .content-bg {
     background-image: url('../images/bg/left-content.png'), url('../images/bg/right-content.png');
-    background-position: left top, right top;
+    background-position: left center, right top;
     background-repeat: no-repeat;
     background-size: 200px;
+}
+
+.ip-img {
+    width: 75%;
 }
 
 .get-started {
@@ -843,6 +855,10 @@ input:checked+.slider-gray:before {
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 120px;
+}
+
+.spacing {
+    margin-left: 100px;
 }
 
 .bg-FFA970 {
@@ -1404,17 +1420,11 @@ footer .left .icon-time {
 }
 
 .footer-links {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
     display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x) * -.5);
 }
 
-.footer-links .links {
-    flex: 0 0 auto;
-    width: 36%;
+.links a {
+    color: var(--color-white) !important;
 }
 
 footer .footer-icons {
@@ -1482,10 +1492,6 @@ footer .right-links p {
     display: none;
 }
 
-#tablet-link-footer {
-    display: none;
-}
-
 .product-fail,
 .product-success {
     padding: 0 100px;
@@ -1522,7 +1528,7 @@ footer .right-links p {
         width: 100% !important;
     }
     .wave-bg1 {
-        top: 60% !important;
+        top: 78% ​!important;
     }
     .features,
     .bestseller,
@@ -1535,6 +1541,14 @@ footer .right-links p {
     .our-product img {
         width: 100% !important;
     }
+    #tablet-link-footer {
+        visibility: visible !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .spacing {
+        margin-left: 20px !important;
+    }
     .middle-content {
         width: 100%;
         padding: 50px 0 0 25px !important;
@@ -1543,9 +1557,6 @@ footer .right-links p {
         margin-top: 30px !important;
         width: 48em;
         height: 20em;
-    }
-    .wave-bg2 {
-        top: 550% !important;
     }
     .card-color {
         width: 12rem !important;
@@ -1603,9 +1614,6 @@ footer .right-links p {
     #tablet-link-footer .links {
         margin-right: 20px;
         margin-bottom: 30px;
-    }
-    #tablet-link-footer {
-        display: block;
     }
     footer {
         background-color: var(--color-orange);
@@ -1669,6 +1677,18 @@ footer .right-links p {
     .container-fluid {
         padding: 0 !important;
     }
+    #tablet-link-footer {
+        visibility: visible !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .banner-text {
+        width: 100%;
+        text-align: center;
+    }
+    .play-icon {
+        margin: 5em !important;
+    }
     .product-fail {
         padding: 20px 20px;
     }
@@ -1682,6 +1702,15 @@ footer .right-links p {
     .address-form {
         width: 100% !important;
     }
+    .ip-img {
+        width: 100% !important;
+    }
+    .wave-bg2 {
+        top: -20% !important;
+    }
+    .card-color {
+        width: 19rem !important;
+    }
     .vertical-line {
         display: none;
     }
@@ -1693,6 +1722,15 @@ footer .right-links p {
     }
     .topnav-right {
         width: 0%;
+    }
+    .middle-content {
+        text-align: center !important;
+    }
+    .middle-img {
+        width: 20em !important;
+    }
+    .pc-img {
+        width: 100% !important;
     }
     #web-end {
         display: none;
@@ -1726,6 +1764,9 @@ footer .right-links p {
     }
     .case-card img {
         width: 100% !important;
+    }
+    .spacing {
+        margin-left: 0 !important;
     }
     .product-table,
     .summary,

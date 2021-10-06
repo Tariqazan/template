@@ -54,7 +54,13 @@ body {
     background-position: right;
     background-color: var(--color-orange);
 }
-
+.banner-noimg{
+    width: 100%;
+    height: 180%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/bg/main\ 2\ eyecatcher.svg');
+}
 #laptop {
     margin-left: 63px;
 }
@@ -65,6 +71,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../images/bg/background-wave.svg'), url('../images/bg/hill.png');
+}
+.banner-img-eyecatcher{
+    width: 100%;
+    height: 180%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/bg/main\ 2\ eyecatcher.svg'), url('../images/bg/hill.png');
 }
 .btn-responsive{
     width: 25%;

@@ -1670,6 +1670,9 @@ footer .right-links p {
         padding: 0;
         background: none;
     }
+    .search-group{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 430px) {

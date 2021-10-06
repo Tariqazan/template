@@ -1761,6 +1761,9 @@ footer .right-links p {
     .middle-img {
         width: 20em !important;
     }
+    .right {
+        height: 100vh;
+    }
     .pc-img {
         width: 100% !important;
     }
@@ -1768,6 +1771,7 @@ footer .right-links p {
         display: none;
     }
     #mobile-end {
+        margin: 10px 0;
         display: block;
     }
     #tablet-end {

@@ -8,6 +8,7 @@
     --color-green: #A4D26A;
     --color-light-orange: #ffa970be;
     --color-navyblue: #021D3B;
+    --color-lightwhite: #CECECE;
 }
 
 * {
@@ -1083,9 +1084,9 @@ a:hover {
 }
 
 .input-field {
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--color-lightwhite);
     border-radius: 20px;
-    padding: 6px 15px;
+    padding: 10px 15px;
     margin-bottom: 10px;
     width: 100%;
 }
@@ -1847,6 +1848,9 @@ footer .right-links p {
     }
     .product-title{
         width: 11em !important;
+    }
+    .owl-carousel{
+        height: 180px !important;
     }
     .fileupload-buttons {
         margin: -56px 0px 0 30px !important;

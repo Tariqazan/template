@@ -57,41 +57,264 @@
             </div>
         </div>
         <div class="navbar">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="./images/logo/logo.png" alt="" class="logo"></a>
+                    <a class="navbar-brand" href="#"><img src="./images/logo/logo.png" alt=""></a>
                     <div class="tablet-nav d-flex">
                         <a class="nav-link" href="#"><img src="./images/icon/search.svg" alt=""></a>
                         <a class="nav-link" href="#"><img src="./images/icon/heart.svg" alt=""></a>
-                        <a class="nav-link" href="#"><img src="./images/icon/cart.svg" alt=""></a>
+
+                        <li class="nav-link">
+                            <button type="button" class="transparent-button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                <img src="./images/icon/cart.svg" alt="">
+                            </button>
+                        </li>
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="d-flex mb-3">
+                                            <img src="./images/cart/1.png" alt="">
+                                            <div class="">
+                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                                                <p>739/5174</p>
+                                                <div><span class="text-blue">COLOUR:</span> White</div>
+                                                <div class="d-flex justify-content-between">
+                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                                                    <p>$90</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mb-3">
+                                            <img src="./images/cart/2.png" alt="">
+                                            <div class="">
+                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                                                <p>739/5174</p>
+                                                <div><span class="text-blue">COLOUR:</span> White</div>
+                                                <div class="d-flex justify-content-between">
+                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                                                    <p>$90</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mb-3">
+                                            <img src="./images/cart/3.png" alt="">
+                                            <div class="">
+                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                                                <p>739/5174</p>
+                                                <div><span class="text-blue">COLOUR:</span> White</div>
+                                                <div class="d-flex justify-content-between">
+                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                                                    <p>$90</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mb-3">
+                                            <img src="./images/cart/4.png" alt="">
+                                            <div class="">
+                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                                                <p>739/5174</p>
+                                                <div><span class="text-blue">COLOUR:</span> White</div>
+                                                <div class="d-flex justify-content-between">
+                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                                                    <p>$90</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mb-3">
+                                            <img src="./images/cart/5.png" alt="">
+                                            <div class="">
+                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                                                <p>739/5174</p>
+                                                <div><span class="text-blue">COLOUR:</span> White</div>
+                                                <div class="d-flex justify-content-between">
+                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                                                    <p>$90</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./images/icon/profile.svg" alt="">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <a class="dropdown-item text-red fw-bold" href="#">John Doeson</a>
+                                    <a href="#" class="dropdown-item">Change Password</a>
+                                    <a href="#" class="dropdown-item">My Card Information</a>
+                                    <a href="#" class="dropdown-item">My Cart</a>
+                                    <a href="#" class="dropdown-item">My Favorites</a>
+                                    <a href="#" class="dropdown-item">My Orders</a>
+                                    <a href="#" class="dropdown-item">My Subscription</a>
+                                    <a href="#" class="dropdown-item">Log Out</a>
+                                </li>
+                            </ul>
+                        </div>
                         <a class="button-purple mt-2" href="#">Get started</a>
                     </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"><img src="./images/icon/menu.svg" alt=""></span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Home</a>
+                    <div class="collapse navbar-collapse" id="main_nav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active"> <a class="nav-link" href="#">Home </a> </li>
+                            <li class="nav-item"><a class="nav-link" href="#"> Projects </a></li>
+                            <li class="nav-item dropdown" id="myDropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Products
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"> Smartphones and phones <img
+                                                src="./images/icon/submenu.svg" alt=""> </a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="#"> TVs, audio and photos<img
+                                                src="./images/icon/submenu.svg" alt=""></a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="#">Laptops, PCs and tablets<img
+                                                src="./images/icon/submenu.svg" alt=""> </a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="#"> Apple <img src="./images/icon/submenu.svg"
+                                                alt="">
+                                        </a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="#"> Xiaomi <img src="./images/icon/submenu.svg"
+                                                alt="">
+                                        </a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="#"> Gadgets and electric vehicles <img
+                                                src="./images/icon/submenu.svg" alt=""> </a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="#"> Headphones and speakers <img
+                                                src="./images/icon/submenu.svg" alt=""> </a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="#"> Sports and health <img
+                                                src="./images/icon/submenu.svg" alt=""> </a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="#">Tourism and fishing <img
+                                                src="./images/icon/submenu.svg" alt=""> </a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="#">Plumbing and repair<img
+                                                src="./images/icon/submenu.svg" alt=""> </a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="#">Cottage, house and garden<img
+                                                src="./images/icon/submenu.svg" alt=""> </a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="#"> Goods for children<img
+                                                src="./images/icon/submenu.svg" alt=""> </a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="#"> Auto and motorcycle goods <img
+                                                src="./images/icon/submenu.svg" alt=""> </a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="#"> Clothes, shoes and accessories <img
+                                                src="./images/icon/submenu.svg" alt=""> </a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="#"> Perfume, review, jewelry<img
+                                                src="./images/icon/submenu.svg" alt=""> </a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                            <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Products</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Events</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">FAQs</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">News</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Partners</a>
-                            </li>
+                            <li class="nav-item active"> <a class="nav-link" href="#">Events </a> </li>
+                            <li class="nav-item"><a class="nav-link" href="#"> FAQs </a></li>
+                            <li class="nav-item active"> <a class="nav-link" href="#">News </a> </li>
+                            <li class="nav-item"><a class="nav-link" href="#"> Partners </a></li>
                             <li class="nav-item laptop-nav">
                                 <a class="nav-link" href="#"><img src="./images/icon/search.svg" alt=""></a>
                             </li>
@@ -99,14 +322,107 @@
                                 <a class="nav-link" href="#"><img src="./images/icon/heart.svg" alt=""></a>
                             </li>
                             <li class="nav-item laptop-nav">
-                                <a class="nav-link" href="#"><img src="./images/icon/cart.svg" alt=""></a>
+                                <button type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <img src="./images/icon/cart.svg" alt="">
+                                </button>
                             </li>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="d-flex mb-3">
+                                                <img src="./images/cart/1.png" alt="">
+                                                <div class="">
+                                                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                                                    <p>739/5174</p>
+                                                    <div><span class="text-blue">COLOUR:</span> White</div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                                                        <p>$90</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3">
+                                                <img src="./images/cart/2.png" alt="">
+                                                <div class="">
+                                                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                                                    <p>739/5174</p>
+                                                    <div><span class="text-blue">COLOUR:</span> White</div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                                                        <p>$90</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3">
+                                                <img src="./images/cart/3.png" alt="">
+                                                <div class="">
+                                                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                                                    <p>739/5174</p>
+                                                    <div><span class="text-blue">COLOUR:</span> White</div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                                                        <p>$90</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3">
+                                                <img src="./images/cart/4.png" alt="">
+                                                <div class="">
+                                                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                                                    <p>739/5174</p>
+                                                    <div><span class="text-blue">COLOUR:</span> White</div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                                                        <p>$90</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3">
+                                                <img src="./images/cart/5.png" alt="">
+                                                <div class="">
+                                                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                                                    <p>739/5174</p>
+                                                    <div><span class="text-blue">COLOUR:</span> White</div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                                                        <p>$90</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown nav-item laptop-nav">
+                                <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="./images/icon/profile.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li>
+                                        <a class="dropdown-item text-red fw-bold" href="#">John Doeson</a>
+                                        <a href="#" class="dropdown-item">Change Password</a>
+                                        <a href="#" class="dropdown-item">My Card Information</a>
+                                        <a href="#" class="dropdown-item">My Cart</a>
+                                        <a href="#" class="dropdown-item">My Favorites</a>
+                                        <a href="#" class="dropdown-item">My Orders</a>
+                                        <a href="#" class="dropdown-item">My Subscription</a>
+                                        <a href="#" class="dropdown-item">Log Out</a>
+                                    </li>
+                                </ul>
+                            </div>
                             <li class="nav-item get-started laptop-nav">
                                 <a class="button-purple mt-2" href="#">Get started</a>
                             </li>
                         </ul>
                     </div>
+                    <!-- navbar-collapse.// -->
                 </div>
+                <!-- container-fluid.// -->
             </nav>
         </div>
     </header>
@@ -148,12 +464,12 @@
                             <input placeholder="Enter a zip code or location" type="text" class="w-full form-control rounded-pill top-input" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                             <button class="button-purple mx-4">Search</button>
                         </div>
-                        <div class="d-flex location">
-                            <div class="map-container">
+                        <div class="row">
+                            <div class="col-md-9 map-container">
                                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.82239034277!2d90.27923688816911!3d23.780887457377204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1632156896550!5m2!1sen!2sbd"
                                     width="350" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                             </div>
-                            <div class="location-container mx-5 mt-4">
+                            <div class="col-md-3 location-container mt-4">
                                 <p class="text-blue">Location 1</p>
                                 <p>Lorem ipsum dolor sit</p>
                                 <p class="">Location 2</p>

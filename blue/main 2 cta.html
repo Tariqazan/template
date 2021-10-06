@@ -514,7 +514,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-0D2644">
+    <div class="bg-FFA970">
         <div class="container">
             <div class="text-center my-4">
                 <p class="text-white h4 fw-bold">OUR PRODUCT</p>
@@ -588,7 +588,7 @@
                     </div>
                 </div>
                 <div class="text-center my-5">
-                    <button class="button-purple w-50">SEE MORE</button>
+                    <button class="button-purple btn-responsive">SEE MORE</button>
                 </div>
             </div>
         </div>
@@ -606,10 +606,10 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 mb-3">
-                        <button class="button-outline-purple w-50">SEE ALL</button>
+                        <button class="button-outline-purple">SEE ALL</button>
                     </div>
                     <div class="col-md-6">
-                        <button class="button-purple w-50">SEE DETAILS</button>
+                        <button class="button-purple">SEE DETAILS</button>
                     </div>
                 </div>
             </div>
@@ -617,38 +617,48 @@
                 <img src="./images/card/timeline.png" alt="" class="middle-img" style="margin-top: -10%;">
             </div>
         </div>
-        <div class="middle-content">
+        <div class="container">
             <div class="text-start">
                 <p class="text-red fw-bold">FAQs</p>
             </div>
-            <hr>
-            <div class="d-flex" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-                <p class="fw-bold text-blue mx-3">+</p>
-                <p>lorem ipsum dolor sit amet?</p>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            lorem ipsum dolor sit amet?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, voluptas, itaque facilis animi harum eligendi ea a reprehenderit voluptatibus officiis tempore deserunt? Velit eligendi rerum voluptatibus assumenda quam error neque!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            lorem ipsum dolor sit amet?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia velit fugiat odio autem? Et, earum? Dolorum at ratione, aspernatur eligendi, voluptatibus, veritatis cupiditate quae nobis eius dolorem maxime nostrum unde!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            lorem ipsum dolor sit amet?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, beatae. Dignissimos, nobis nostrum ex commodi neque, assumenda possimus labore fugit sapiente harum reprehenderit quos provident quod autem nam voluptas excepturi!
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="collapse" id="collapseExample1">
-                <div class="card card-body">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus reprehenderit maiores distinctio quas! Quaerat debitis inventore a officia nemo cum mollitia voluptatum quae! Nisi atque quas aliquid error nostrum animi? </div>
-            </div>
-            <hr>
-            <div class="d-flex" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-                <p class="fw-bold text-blue mx-3">+</p>
-                <p>lorem ipsum dolor sit amet?</p>
-            </div>
-            <div class="collapse" id="collapseExample2">
-                <div class="card card-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente, earum possimus libero quos enim laborum eveniet ipsam adipisci, nisi tempore laudantium error architecto commodi delectus numquam impedit dolorum. Sed! </div>
-            </div>
-            <hr>
-            <div class="d-flex" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
-                <p class="fw-bold text-blue mx-3">+</p>
-                <p>lorem ipsum dolor sit amet?</p>
-            </div>
-            <div class="collapse" id="collapseExample3">
-                <div class="card card-body">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, labore. Sit maxime eveniet culpa quos explicabo nisi possimus, incidunt fugiat at veritatis quo! Provident blanditiis rerum alias ut quas autem. </div>
-            </div>
-            <hr>
         </div>
     </div>
     <div class="category-bg">
@@ -690,7 +700,7 @@
             </div>
         </div>
     </div>
-    <section class="bg-0D2644">
+    <section class="bg-FFA970">
         <div class="container">
             <div class="text-center">
                 <p class="text-white fw-bold h4">OUR NEWS</p>
@@ -759,9 +769,10 @@
                     <div class="col-sm-12">
                         <div id="customers-testimonials" class="owl-carousel">
                             <div class="item">
-                                <div class="carousel-card">
+                                <div class="carousel-card position-relative">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dignissimos. Temporibus dicta aperiam esse quae similique nisi amet mollitia perspiciatis inventore consequuntur laboriosam, corrupti accusamus eveniet
                                         molestias excepturi exercitationem quia?</p>
+                                    <img src="./images/icon/inverted-comma.svg" alt="" class="inverted-comma w-10">
                                     <div class="d-flex justify-content-between">
                                         <div class="name">
                                             <p class="fw-bold">
@@ -777,9 +788,11 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="carousel-card">
+                                <div class="carousel-card position-relative">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dignissimos. Temporibus dicta aperiam esse quae similique nisi amet mollitia perspiciatis inventore consequuntur laboriosam, corrupti accusamus eveniet
                                         molestias excepturi exercitationem quia?</p>
+                                    <img src="./images/icon/inverted-comma.svg" alt="" class="inverted-comma w-10">
+
                                     <div class="d-flex justify-content-between">
                                         <div class="name">
                                             <p class="fw-bold">
@@ -795,9 +808,11 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="carousel-card">
+                                <div class="carousel-card position-relative">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dignissimos. Temporibus dicta aperiam esse quae similique nisi amet mollitia perspiciatis inventore consequuntur laboriosam, corrupti accusamus eveniet
                                         molestias excepturi exercitationem quia?</p>
+                                    <img src="./images/icon/inverted-comma.svg" alt="" class="inverted-comma w-10">
+
                                     <div class="d-flex justify-content-between">
                                         <div class="name">
                                             <p class="fw-bold">
@@ -813,9 +828,11 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="carousel-card">
+                                <div class="carousel-card position-relative">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dignissimos. Temporibus dicta aperiam esse quae similique nisi amet mollitia perspiciatis inventore consequuntur laboriosam, corrupti accusamus eveniet
                                         molestias excepturi exercitationem quia?</p>
+                                    <img src="./images/icon/inverted-comma.svg" alt="" class="inverted-comma w-10">
+
                                     <div class="d-flex justify-content-between">
                                         <div class="name">
                                             <p class="fw-bold">
@@ -869,13 +886,13 @@
     </section>
     <section class="documents">
         <div class="spacing">
-            <div class="bg-0D2644 rounded-3">
+            <div class="bg-FFA970 rounded-3">
                 <div class="row p-5">
                     <div class="col-md-6">
-                    <p class="text-white">Our Documnets</p>
+                        <p class="text-white">Our Documnets</p>
                     </div>
                     <div class="col-md-6">
-                    <button class="button-purple btn-responsive">See All</button>
+                        <button class="button-purple btn-responsive">See All</button>
                     </div>
                 </div>
                 <div class="row">

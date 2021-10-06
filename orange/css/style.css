@@ -295,6 +295,7 @@ input:checked+.slider-white:before {
 /* Rounded sliders */
 
 .slider-white.round {
+    width: 69%;
     border-radius: 34px;
 }
 
@@ -359,6 +360,7 @@ input:checked+.slider-black:before {
 /* Rounded sliders */
 
 .slider-black.round {
+    width: 69%;
     border-radius: 34px;
 }
 
@@ -423,6 +425,7 @@ input:checked+.slider-gray:before {
 /* Rounded sliders */
 
 .slider-gray.round {
+    width: 69%;
     border-radius: 34px;
 }
 
@@ -1811,6 +1814,15 @@ footer .right-links p {
     }
     .btn-responsive{
         width: 75%;
+    }
+    .switch-black,.switch-gray{
+        margin-left: 0 !important;
+    }
+    .purchase-info{
+        width: 20em;
+    }
+    .product-title{
+        width: 11em !important;
     }
     .fileupload-buttons {
         margin: -56px 0px 0 30px !important;

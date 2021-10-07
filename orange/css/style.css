@@ -47,6 +47,27 @@ body {
     width: 10% !important;
 }
 
+.card-img-overlay {
+    top: 10em;
+}
+
+.accordion-button::after {
+    background-image: none !important;
+}
+
+.accordion-header {
+    display: flex;
+}
+
+.accordion-button i {
+    margin: 10px;
+}
+
+.accordion-header i {
+    font-size: 15px;
+    color: var(--color-purple);
+}
+
 .banner {
     height: auto;
     background-size: auto;
@@ -74,12 +95,15 @@ body {
     background-repeat: no-repeat;
     background-image: url('../images/bg/background-wave.svg'), url('../images/bg/hill.png');
 }
-.cta-bg{
+
+.cta-bg {
     width: 65%;
 }
-.owl-nav{
+
+.owl-nav {
     display: none !important;
 }
+
 .banner-img-eyecatcher {
     width: 100%;
     height: 180%;
@@ -774,6 +798,7 @@ input:checked+.slider-gray:before {
 .banner-title {
     font-size: 33px;
 }
+
 .banner-cards {
     width: 75%;
     margin: auto;
@@ -782,10 +807,6 @@ input:checked+.slider-gray:before {
 
 .add-to-cart-column {
     position: relative;
-}
-
-.card-img-overlay {
-    top: 10px !important;
 }
 
 .our-product {

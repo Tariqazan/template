@@ -21,3 +21,78 @@ function mobile(x) {
 var x = window.matchMedia("(max-width: 430px)")
 mobile(x) // Call listener function at run time
 x.addListener(mobile) // Attach listener function on state changes
+
+$('#headingOne .fas').append('<i class="fas fa-minus"></i>')
+
+$('#headingTwo .fas').replaceWith('<i class="fas fa-plus"></i>')
+$('#headingThree .fas').replaceWith('<i class="fas fa-plus"></i>')
+$('.accordion-header').click(function() {
+    if ($('#headingOne button').hasClass('collapsed')) {
+        $('#headingOne .fas').replaceWith('<i class="fas fa-plus"></i>')
+    } else {
+        $('#headingOne .fas').replaceWith('<i class="fas fa-minus"></i>')
+    }
+});
+
+$('.accordion-header').click(function() {
+    if ($('#headingTwo button').hasClass('collapsed')) {
+        $('#headingTwo .fas').replaceWith('<i class="fas fa-plus"></i>')
+    } else {
+        $('#headingTwo .fas').replaceWith('<i class="fas fa-minus"></i>')
+    }
+});
+
+$('.accordion-header').click(function() {
+    if ($('#headingThree button').hasClass('collapsed')) {
+        $('#headingThree .fas').replaceWith('<i class="fas fa-plus"></i>')
+    } else {
+        $('#headingThree .fas').replaceWith('<i class="fas fa-minus"></i>')
+    }
+});
+
+
+
+$('#documentOne .fas').append('<i class="fas fa-minus"></i>')
+$('#documentTwo .fas').replaceWith('<i class="fas fa-plus"></i>')
+$('#documentThree .fas').replaceWith('<i class="fas fa-plus"></i>')
+$('#documentFour .fas').replaceWith('<i class="fas fa-plus"></i>')
+$('#documentFive .fas').replaceWith('<i class="fas fa-plus"></i>')
+$('.accordion-header').click(function() {
+    if ($('#documentOne button').hasClass('collapsed')) {
+        $('#documentOne .fas').replaceWith('<i class="fas fa-plus"></i>')
+    } else {
+        $('#documentOne .fas').replaceWith('<i class="fas fa-minus"></i>')
+    }
+});
+
+$('.accordion-header').click(function() {
+    if ($('#documentTwo button').hasClass('collapsed')) {
+        $('#documentTwo .fas').replaceWith('<i class="fas fa-plus"></i>')
+    } else {
+        $('#documentTwo .fas').replaceWith('<i class="fas fa-minus"></i>')
+    }
+});
+
+$('.accordion-header').click(function() {
+    if ($('#documentThree button').hasClass('collapsed')) {
+        $('#documentThree .fas').replaceWith('<i class="fas fa-plus"></i>')
+    } else {
+        $('#documentThree .fas').replaceWith('<i class="fas fa-minus"></i>')
+    }
+});
+
+$('.accordion-header').click(function() {
+    if ($('#documentFour button').hasClass('collapsed')) {
+        $('#documentFour .fas').replaceWith('<i class="fas fa-plus"></i>')
+    } else {
+        $('#documentFour .fas').replaceWith('<i class="fas fa-minus"></i>')
+    }
+});
+
+$('.accordion-header').click(function() {
+    if ($('#documentFive button').hasClass('collapsed')) {
+        $('#documentFive .fas').replaceWith('<i class="fas fa-plus"></i>')
+    } else {
+        $('#documentFive .fas').replaceWith('<i class="fas fa-minus"></i>')
+    }
+});

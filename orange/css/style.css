@@ -47,6 +47,27 @@ body {
     width: 10% !important;
 }
 
+.card-img-overlay {
+    top: 10em;
+}
+
+.accordion-button::after {
+    background-image: none !important;
+}
+
+.accordion-header {
+    display: flex;
+}
+
+.accordion-button i {
+    margin: 10px;
+}
+
+.accordion-header i {
+    font-size: 15px;
+    color: var(--color-purple);
+}
+
 .banner {
     height: auto;
     background-size: auto;
@@ -57,10 +78,8 @@ body {
 }
 
 .banner-noimg {
-    width: 100%;
-    height: 100%;
-    background-position: top right, center left;
-    background-size: 400px, 300px, cover;
+    background-position: right top, left 10em;
+    background-size: 400px, 200px, contain;
     background-repeat: no-repeat;
     background-image: url("../images/bg/right.png"), url("../images/bg/left.png"), url('../images/bg/main\ eyecatcher-dark.svg');
 }
@@ -72,15 +91,23 @@ body {
 .banner-img {
     width: 100%;
     height: 180%;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-image: url('../images/bg/background-wave.svg'), url('../images/bg/hill.png');
+}
+
+.cta-bg {
+    width: 65%;
+}
+
+.owl-nav {
+    display: none !important;
 }
 
 .banner-img-eyecatcher {
     width: 100%;
     height: 180%;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-image: url('../images/bg/main\ 2\ eyecatcher.svg'), url('../images/bg/hill.png');
 }
@@ -780,10 +807,6 @@ input:checked+.slider-gray:before {
 
 .add-to-cart-column {
     position: relative;
-}
-
-.card-img-overlay {
-    top: 10px !important;
 }
 
 .our-product {

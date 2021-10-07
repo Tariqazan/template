@@ -51,29 +51,30 @@ body {
 .banner {
     height: auto;
     background-size: auto;
-    background-image: url("../images/bg/right.png");
-    background-repeat: no-repeat;
-    background-position: right;
     background-color: var(--color-blue);
+    background-position: right top, left 10em;
+    background-size: 400px, 200px ;
+    background-repeat: no-repeat;
+    background-image: url("../images/bg/right.png"), url("../images/bg/left.png");
 }
 
 .banner-noimg {
-    width: 100%;
-    height: 100%;
-    background-position: top right, center left;
-    background-size: 400px, 300px, cover;
-    background-repeat: no-repeat;
-    background-image: url("../images/bg/right.png"), url("../images/bg/left.png"), url('../images/bg/main\ eyecatcher-dark.svg');
+    background-image: url('../images/bg/main\ eyecatcher-dark.svg');
 }
 
 #laptop {
     margin-left: 63px;
 }
-
+.cta-bg{
+    width: 65%;
+}
+.owl-nav{
+    display: none !important;
+}
 .banner-img {
     width: 100%;
     height: 180%;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-image: url('../images/bg/background-wave.svg'), url('../images/bg/hill.png');
     ;
@@ -82,7 +83,7 @@ body {
 .banner-img-eyecatcher {
     width: 100%;
     height: 180%;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-image: url('../images/bg/main\ 2\ eyecatcher.svg'), url('../images/bg/hill.png');
 }
@@ -90,7 +91,7 @@ body {
 .banner-img-eyecatcher-blue {
     width: 100%;
     height: 180%;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-image: url('../images/bg/main\ 2\ eyecatcher.svg'), url('../images/bg/main\ 2\ eyecather\ bannerimg.png');
 }
@@ -775,17 +776,18 @@ input:checked+.slider-gray:before {
 }
 
 .banner-content {
-    padding: 100px 150px;
+    padding: 65px 150px;
 }
 
 .banner-title {
     font-size: 33px;
 }
 
+
 .banner-cards {
     width: 75%;
     margin: auto;
-    padding: 50px 80px;
+    padding: 20px 80px;
 }
 
 .add-to-cart-column {
@@ -793,7 +795,7 @@ input:checked+.slider-gray:before {
 }
 
 .card-img-overlay {
-    top: 10px !important;
+    top: 14em !important;
 }
 
 .our-product {
@@ -858,10 +860,18 @@ input:checked+.slider-gray:before {
 
 .content-bg {
     position: relative;
+    background-image: url('../images/bg/left-content.png'), url('../images/bg/right-content.png'), url('../images/bg/wave-bg-1.svg'),url('../images/bg/implemented\ projects.svg');
+    background-position: left center, right 15em, bottom,top;
+    background-repeat: no-repeat;
+    background-size: 200px, 200px, contain,contain;
+    margin-top: -10px;
+}.content-bgnosvg {
+    position: relative;
     background-image: url('../images/bg/left-content.png'), url('../images/bg/right-content.png'), url('../images/bg/wave-bg-1.svg');
-    background-position: left center, right top, bottom;
+    background-position: left center, right 15em, bottom;
     background-repeat: no-repeat;
     background-size: 200px, 200px, contain;
+    margin-top: -10px;
 }
 
 .ip-img {
@@ -1650,6 +1660,9 @@ footer .right-links p {
     .icon-search {
         width: 39% !important;
     }
+    .card-img-overlay {
+        top: 10em !important;
+    }
     .features,
     .bestseller,
     .sale {
@@ -1793,6 +1806,8 @@ footer .right-links p {
     .size {
         width: 90%;
         margin: 5px 15px;
+    }.card-img-overlay {
+        top: 16em !important;
     }
     .icon-search {
         width: 84% !important;

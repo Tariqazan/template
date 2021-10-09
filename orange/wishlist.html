@@ -141,23 +141,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="dropdown">
-                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="./images/icon/profile.svg" alt="">
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li>
-                                    <a class="dropdown-item text-red fw-bold" href="#">John Doeson</a>
-                                    <a href="#" class="dropdown-item">Change Password</a>
-                                    <a href="#" class="dropdown-item">My Card Information</a>
-                                    <a href="#" class="dropdown-item">My Cart</a>
-                                    <a href="#" class="dropdown-item">My Favorites</a>
-                                    <a href="#" class="dropdown-item">My Orders</a>
-                                    <a href="#" class="dropdown-item">My Subscription</a>
-                                    <a href="#" class="dropdown-item">Log Out</a>
-                                </li>
-                            </ul>
-                        </div>
                         <a class="button-one mt-2" href="#">Get started</a>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -398,23 +381,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="dropdown nav-item laptop-nav">
-                                <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img src="./images/icon/profile.svg" alt="">
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li>
-                                        <a class="dropdown-item text-red fw-bold" href="#">John Doeson</a>
-                                        <a href="#" class="dropdown-item">Change Password</a>
-                                        <a href="#" class="dropdown-item">My Card Information</a>
-                                        <a href="#" class="dropdown-item">My Cart</a>
-                                        <a href="#" class="dropdown-item">My Favorites</a>
-                                        <a href="#" class="dropdown-item">My Orders</a>
-                                        <a href="#" class="dropdown-item">My Subscription</a>
-                                        <a href="#" class="dropdown-item">Log Out</a>
-                                    </li>
-                                </ul>
-                            </div>
                             <li class="nav-item get-started laptop-nav">
                                 <a class="button-one mt-2" href="#">Get started</a>
                             </li>
@@ -425,6 +391,26 @@
                 <!-- container-fluid.// -->
             </nav>
         </div>
+        <section class="top-section">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item px-2"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item px-2"><a href="#">My Profile</a></li>
+                        <li class="breadcrumb-item px-2">Wishlist</li>
+                    </ol>
+                </nav>
+                <div class="content">
+                    <h2>Wishlist</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vitae laboriosam quo accusantium voluptas nobis, minus officia eaque quis error voluptatibus necessitatibus dicta a, vero consequatur alias cumque sint eum!</p>
+                </div>
+            </div>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,32L40,80C80,128,160,224,240,250.7C320,277,400,235,480,181.3C560,128,640,64,720,32C800,0,880,0,960,21.3C1040,43,1120,85,1200,96C1280,107,1360,85,1400,74.7L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
     </header>
     <section class="container">
         <div class="options">
@@ -433,8 +419,9 @@
         </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-12">
+            <div class="col-lg-4 col-md-6 col-12 position-relative">
                 <img src="images/wishlist/1.png" alt="" class="product-img">
+                <input type="checkbox" class="wishlist-check">
                 <div class="product-pricing">
                     <p class="fw-bold">lorem ipsum dolar sit</p>
                     <p class="fw-bold">$123</p>
@@ -455,8 +442,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <img src="images/wishlist/2.png" alt="" class="product-img">
+            <div class="col-lg-4 col-md-6 col-12 position-relative">
+                <img src="images/wishlist/2.png" alt="" class="product-img"><input type="checkbox" class="wishlist-check">
                 <div class="product-pricing">
                     <p class="fw-bold">lorem ipsum dolar sit</p>
                     <p class="fw-bold">$123</p>
@@ -477,7 +464,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12">
+            <div class="col-lg-4 col-md-6 col-12 position-relative">
+                <input type="checkbox" class="wishlist-check">
                 <img src="images/wishlist/3.png" alt="" class="product-img">
                 <div class="product-pricing">
                     <p class="fw-bold">lorem ipsum dolar sit</p>
@@ -499,8 +487,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <img src="images/wishlist/4.png" alt="" class="product-img">
+            <div class="col-lg-4 col-md-6 col-12 position-relative">
+                <img src="images/wishlist/4.png" alt="" class="product-img"><input type="checkbox" class="wishlist-check">
                 <div class="product-pricing">
                     <p class="fw-bold">lorem ipsum dolar sit</p>
                     <p class="fw-bold">$123</p>
@@ -521,8 +509,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <img src="images/wishlist/5.png" alt="" class="product-img">
+            <div class="col-lg-4 col-md-6 col-12 position-relative">
+                <img src="images/wishlist/5.png" alt="" class="product-img"><input type="checkbox" class="wishlist-check">
                 <div class="product-pricing">
                     <p class="fw-bold">lorem ipsum dolar sit</p>
                     <p class="fw-bold">$123</p>
@@ -543,8 +531,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <img src="images/wishlist/6.png" alt="" class="product-img">
+            <div class="col-lg-4 col-md-6 col-12 position-relative">
+                <img src="images/wishlist/6.png" alt="" class="product-img"><input type="checkbox" class="wishlist-check">
                 <div class="product-pricing">
                     <p class="fw-bold">lorem ipsum dolar sit</p>
                     <p class="fw-bold">$123</p>

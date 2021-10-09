@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Variant video</title>
+    <title>main 2 blue</title>
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header class="banner-img">
+    <header class="banner-noimg">
         <div class="d-flex justify-content-around topbar" id="laptop">
             <div class="d-flex nav-links">
                 <a href="#" class="topbar-link">Home</a>
@@ -144,6 +144,23 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./images/icon/profile.svg" alt="">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <a class="dropdown-item text-red fw-bold" href="#">John Doeson</a>
+                                    <a href="#" class="dropdown-item">Change Password</a>
+                                    <a href="#" class="dropdown-item">My Card Information</a>
+                                    <a href="#" class="dropdown-item">My Cart</a>
+                                    <a href="#" class="dropdown-item">My Favorites</a>
+                                    <a href="#" class="dropdown-item">My Orders</a>
+                                    <a href="#" class="dropdown-item">My Subscription</a>
+                                    <a href="#" class="dropdown-item">Log Out</a>
+                                </li>
+                            </ul>
                         </div>
                         <a class="button-one mt-2" href="#">Get started</a>
                     </div>
@@ -385,6 +402,23 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="dropdown nav-item laptop-nav">
+                                <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="./images/icon/profile.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li>
+                                        <a class="dropdown-item text-red fw-bold" href="#">John Doeson</a>
+                                        <a href="#" class="dropdown-item">Change Password</a>
+                                        <a href="#" class="dropdown-item">My Card Information</a>
+                                        <a href="#" class="dropdown-item">My Cart</a>
+                                        <a href="#" class="dropdown-item">My Favorites</a>
+                                        <a href="#" class="dropdown-item">My Orders</a>
+                                        <a href="#" class="dropdown-item">My Subscription</a>
+                                        <a href="#" class="dropdown-item">Log Out</a>
+                                    </li>
+                                </ul>
+                            </div>
                             <li class="nav-item get-started laptop-nav">
                                 <a class="button-one mt-2" href="#">Get started</a>
                             </li>
@@ -402,7 +436,19 @@
                 <button class="text-uppercase mt-5 button-purple">See the collection</button>
             </div>
             <div class="col-md-6">
-                <img src="./images/icon/play.png" alt="" class="play-icon">
+                <div class="owl-slider">
+                    <div id="banner-carousel" class="owl-carousel">
+                        <div class="item">
+                            <img src="./images/bg/cta-banner-bg.png" alt="1000X1000" class="img-fluid">
+                        </div>
+                        <div class="item">
+                            <img src="./images/bg/cta-banner-bg.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="item">
+                            <img src="./images/bg/cta-banner-bg.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="text-center">
@@ -446,7 +492,7 @@
             </div>
         </div>
     </header>
-    <div class="content-bgnosvg">
+    <div class="content-bg">
         <div class="container">
             <div class="text-center py-5">
                 <p class="text-red text-uppercase h4">Our implemented projects</p>
@@ -1022,8 +1068,7 @@
             <div class="col-md-3"><input type="text" class="input-field" placeholder="first name"></div>
             <div class="col-md-3"><input type="text" class="input-field" placeholder="surname"></div>
             <div class="col-md-3"><input type="text" class="input-field" placeholder="Email"></div>
-            <div class="col-md-3"><button class="button-purple w-50"><img src="./images/icon/white-send.svg"
-                        alt=""></button>
+            <div class="col-md-3"><button class="button-purple w-50"><img src="./images/icon/send.svg" alt=""></button>
             </div>
         </div>
     </div>

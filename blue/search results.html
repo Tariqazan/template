@@ -141,23 +141,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="dropdown">
-                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="./images/icon/profile.svg" alt="">
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li>
-                                    <a class="dropdown-item text-red fw-bold" href="#">John Doeson</a>
-                                    <a href="#" class="dropdown-item">Change Password</a>
-                                    <a href="#" class="dropdown-item">My Card Information</a>
-                                    <a href="#" class="dropdown-item">My Cart</a>
-                                    <a href="#" class="dropdown-item">My Favorites</a>
-                                    <a href="#" class="dropdown-item">My Orders</a>
-                                    <a href="#" class="dropdown-item">My Subscription</a>
-                                    <a href="#" class="dropdown-item">Log Out</a>
-                                </li>
-                            </ul>
-                        </div>
                         <a class="button-one mt-2" href="#">Get started</a>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -398,23 +381,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="dropdown nav-item laptop-nav">
-                                <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img src="./images/icon/profile.svg" alt="">
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li>
-                                        <a class="dropdown-item text-red fw-bold" href="#">John Doeson</a>
-                                        <a href="#" class="dropdown-item">Change Password</a>
-                                        <a href="#" class="dropdown-item">My Card Information</a>
-                                        <a href="#" class="dropdown-item">My Cart</a>
-                                        <a href="#" class="dropdown-item">My Favorites</a>
-                                        <a href="#" class="dropdown-item">My Orders</a>
-                                        <a href="#" class="dropdown-item">My Subscription</a>
-                                        <a href="#" class="dropdown-item">Log Out</a>
-                                    </li>
-                                </ul>
-                            </div>
                             <li class="nav-item get-started laptop-nav">
                                 <a class="button-one mt-2" href="#">Get started</a>
                             </li>
@@ -447,11 +413,14 @@
         </svg>
     </header>
     <section class="container">
-        <select name="" id="" class="select-filter">
+        <select name="" id="" class="select-filter w-25">
             <option value="all">All</option>
         </select>
         <div class="events">
-            <p class="fw-bold">In Events</p>
+            <div class="d-flex justify-content-between">
+                <p class="fw-bold">In Events</p>
+                <a href="#" class="text-blue fw-bold">View all <img src="./images/icon/fi_arrow-right.svg" alt=""></a>
+            </div>
             <div class="row mt-2">
                 <div class="col-md-6">
                     <div class="card mb-3" style="max-width: 540px;">
@@ -470,13 +439,11 @@
                                     </p>
                                     <p class="card-text"><small class="text-muted">Start Time:</small></p>
                                     <div class="d-flex justify-content-between">
-                                        <p class="w-50 text-red">29 NOV,13:00</p>
-                                        <p class="w-50 text-blue fw-bolder">$50</p>
+                                        <p class="text-red">29 NOV,13:00</p>
+                                        <p class="text-blue fw-bolder">$50</p>
                                     </div>
-                                    <div class="d-flex justify-content-between w-50">
-                                        <a href="#" class="text-blue">See Details</a>
-                                        <img src="./images/icon/right-arrow.svg" alt="" class="">
-                                    </div>
+                                    <a href="#" class="">See Services<img src="./images/icon/right-arrow.svg" alt=""
+                                            class="mx-2"></a>
                                 </div>
                             </div>
                         </div>
@@ -499,13 +466,11 @@
                                     </p>
                                     <p class="card-text"><small class="text-muted">Start Time:</small></p>
                                     <div class="d-flex justify-content-between">
-                                        <p class="w-50 text-red">29 NOV,13:00</p>
-                                        <p class="w-50 text-blue fw-bolder">$50</p>
+                                        <p class="text-red">29 NOV,13:00</p>
+                                        <p class="text-blue fw-bolder">Free</p>
                                     </div>
-                                    <div class="d-flex justify-content-between w-50">
-                                        <a href="#" class="text-blue">See Details</a>
-                                        <img src="./images/icon/right-arrow.svg" alt="" class="">
-                                    </div>
+                                    <a href="#" class="">See Services<img src="./images/icon/right-arrow.svg" alt=""
+                                            class="mx-2"></a>
                                 </div>
                             </div>
                         </div>
@@ -514,7 +479,10 @@
             </div>
         </div>
         <div class="news">
-            <p class="fw-bold">In News</p>
+            <div class="d-flex justify-content-between">
+                <p class="fw-bold">In News</p>
+                <a href="#" class="text-blue fw-bold">View all <img src="./images/icon/fi_arrow-right.svg" alt=""></a>
+            </div>
             <div class="row">
                 <div class="col-md-4 mb-2">
                     <div class="card service-card">
@@ -525,10 +493,8 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolor vitae amet soluta molestias numquam rem totam voluptatibus natus, unde, voluptate fugiat aspernatur accusamus praesentium? Temporibus itaque nostrum saepe
                                 harum.
                             </p>
-                            <div class="d-flex">
-                                <a href="#" class="m-3">See Services</a>
-                                <img src="./images/icon/right-arrow.svg" alt="">
-                            </div>
+                            <a href="#" class="">See Services<img src="./images/icon/right-arrow.svg" alt=""
+                                    class="mx-2"></a>
                         </div>
                     </div>
                 </div>
@@ -541,10 +507,8 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolor vitae amet soluta molestias numquam rem totam voluptatibus natus, unde, voluptate fugiat aspernatur accusamus praesentium? Temporibus itaque nostrum saepe
                                 harum.
                             </p>
-                            <div class="d-flex">
-                                <a href="#" class="m-3">See Services</a>
-                                <img src="./images/icon/right-arrow.svg" alt="">
-                            </div>
+                            <a href="#" class="">See Services<img src="./images/icon/right-arrow.svg" alt=""
+                                    class="mx-2"></a>
                         </div>
                     </div>
                 </div>
@@ -557,17 +521,18 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolor vitae amet soluta molestias numquam rem totam voluptatibus natus, unde, voluptate fugiat aspernatur accusamus praesentium? Temporibus itaque nostrum saepe
                                 harum.
                             </p>
-                            <div class="d-flex">
-                                <a href="#" class="m-3">See Services</a>
-                                <img src="./images/icon/right-arrow.svg" alt="">
-                            </div>
+                            <a href="#" class="">See Services<img src="./images/icon/right-arrow.svg" alt=""
+                                    class="mx-2"></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="services">
-            <p class="fw-bold">In Services</p>
+            <div class="d-flex justify-content-between">
+                <p class="fw-bold">In Services</p>
+                <a href="#" class="text-blue fw-bold">View all <img src="./images/icon/fi_arrow-right.svg" alt=""></a>
+            </div>
             <div class="row">
                 <div class="col-md-4 mb-2">
                     <div class="card service-card">
@@ -577,10 +542,8 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolor vitae amet soluta molestias numquam rem totam voluptatibus natus, unde, voluptate fugiat aspernatur accusamus praesentium? Temporibus itaque nostrum saepe
                                 harum.
                             </p>
-                            <div class="d-flex">
-                                <a href="#" class="m-3">See Services</a>
-                                <img src="./images/icon/right-arrow.svg" alt="">
-                            </div>
+                            <a href="#" class="">See Services<img src="./images/icon/right-arrow.svg" alt=""
+                                    class="mx-2"></a>
                         </div>
                     </div>
                 </div>
@@ -592,10 +555,8 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolor vitae amet soluta molestias numquam rem totam voluptatibus natus, unde, voluptate fugiat aspernatur accusamus praesentium? Temporibus itaque nostrum saepe
                                 harum.
                             </p>
-                            <div class="d-flex">
-                                <a href="#" class="m-3">See Services</a>
-                                <img src="./images/icon/right-arrow.svg" alt="">
-                            </div>
+                            <a href="#" class="">See Services<img src="./images/icon/right-arrow.svg" alt=""
+                                    class="mx-2"></a>
                         </div>
                     </div>
                 </div>
@@ -607,10 +568,8 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolor vitae amet soluta molestias numquam rem totam voluptatibus natus, unde, voluptate fugiat aspernatur accusamus praesentium? Temporibus itaque nostrum saepe
                                 harum.
                             </p>
-                            <div class="d-flex">
-                                <a href="#" class="m-3">See Services</a>
-                                <img src="./images/icon/right-arrow.svg" alt="">
-                            </div>
+                            <a href="#" class="">See Services<img src="./images/icon/right-arrow.svg" alt=""
+                                    class="mx-2"></a>
                         </div>
                     </div>
                 </div>

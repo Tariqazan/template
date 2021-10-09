@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="row invoice-bg">
+        <div class="col-md-6">
+            <img src="./images/logo/logo.png" alt="" class="w-25 mb-3">
+            <p class="text-white">1234 State St</p>
+            <p class="text-white">San Francisco, CA, 12345</p>
+            <p class="text-white">+0 123 456 78 90</p>
+            <p class="text-blue">mysi@mail.com | mysi.com</p>
+        </div>
+        <div class="col-md-6 text-end">
+            <p class="text-white h4 fw-bold">Invoice</p>
+            <div class="py-3">
+                <div class="d-flex justify-content-end text-white">
+                    <p class="mx-5">Date</p>
+                    <p>2021-05-11</p>
+                </div>
+                <div class="d-flex justify-content-end text-white">
+                    <p class="mx-5">Invoice</p>
+                    <p>#[202010]</p>
+                </div>
+                <div class="d-flex justify-content-end text-white">
+                    <p class="mx-4">Due Date</p>
+                    <p>2021-06-15</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="text-blue">Bill To:</p>
+                <p>Jonathan Doeson</p>
+                <p> TechElectronics Co.</p>
+                <p>1234 State St</p>
+                <p>San Francisco, CA, 12345</p>
+                <p> +0 123 456 78 90</p>
+            </div>
+            <div class="col-md-6">
+                <p class="text-blue">Ship To:</p>
+                <p>Jonathan Doeson</p>
+                <p> TechElectronics Co.</p>
+                <p>1234 State St</p>
+                <p>San Francisco, CA, 12345</p>
+                <p> +0 123 456 78 90</p>
+            </div>
+        </div>
+        <hr>
+        <div class="table-responsive">
+            <table class="table">
+                <thead class="text-blue fw-bold">
+                    <tr>
+                        <th>Summary</th>
+                        <th>Q-ty</th>
+                        <th>Unit Price</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody class="invoice-bg text-white">
+                    <tr>
+                        <td>lorem ipsum dolor sit amet</td>
+                        <td>1</td>
+                        <td>$180.00</td>
+                        <td>$180.00</td>
+                    </tr>
+                    <tr>
+                        <td>lorem ipsum</td>
+                        <td>1</td>
+                        <td>$15.00</td>
+                        <td>$15.00</td>
+                    </tr>
+                    <tr>
+                        <td>sit amet</td>
+                        <td>1</td>
+                        <td>$115.00</td>
+                        <td>$115.00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>lorem ipsum dolor sit amet</td>
+                        <td>1</td>
+                        <td>$180.00</td>
+                        <td>$180.00</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="invoice-summary">
+            <div class="d-flex justify-content-between">
+                <p>Subtotal</p>
+                <p>$490.00</p>
+            </div>
+            <div class="d-flex justify-content-between">
+                <p>Discount</p>
+                <p>$5.00</p>
+            </div>
+            <div class="d-flex justify-content-between">
+                <p>Tax</p>
+                <p>$10.50</p>
+            </div>
+            <div class="d-flex justify-content-between">
+                <p class="fw-bold">Total</p>
+                <p class="fw-bold">$505.50</p>
+            </div>
+        </div>
+    </div>
+    <div class="invoice-bg">
+        <div class="d-flex justify-content-around">
+            <div class="">
+                <p class="text-blue fw-bold">Comments</p>
+                <p class="text-white">1. Payment due in 30 days</p>
+                <p class="text-white">2. Please, note the invoice number in your payment method.</p>
+                <p class="text-white">Banking and wire transfer may also be included here.</p>
+            </div>
+            <img src="./images/logo/logo.png" alt="" class="w-25 h-25 m-auto">
+        </div>
+    </div>
+</body>
+
+</html>

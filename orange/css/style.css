@@ -94,7 +94,7 @@ body {
 .banner-img {
     width: 100%;
     height: 180%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../images/bg/background-wave.svg'), url('../images/bg/hill.png');
     ;
@@ -103,7 +103,7 @@ body {
 .banner-img-eyecatcher {
     width: 100%;
     height: 180%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../images/bg/main\ 2\ eyecatcher.svg'), url('../images/bg/hill.png');
 }
@@ -111,9 +111,9 @@ body {
 .banner-img-eyecatcher-blue {
     width: 100%;
     height: 180%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../images/bg/main\ 2\ eyecatcher.svg'), url('../images/bg/main\ 2\ eyecather\ bannerimg.png');
+    background-image: url('../images/bg/eyecather.svg'), url('../images/bg/hill.png');
 }
 
 .btn-responsive {
@@ -220,6 +220,7 @@ body {
 
 .main-page-banner-card {
     width: 80%;
+    margin: 15px 0;
 }
 
 .main-page-banner-card-title {
@@ -414,6 +415,11 @@ body {
 
 .send-button button {
     width: 50px;
+}
+
+.timeless-traditional-title {
+    width: 60%;
+    height: 60px;
 }
 
 .get-started {
@@ -1041,7 +1047,7 @@ input:checked+.slider-gray:before {
 
 .document-finalimg {
     width: 100%;
-    height: 250px;
+    height: 340px;
 }
 
 .clients-say p {
@@ -1110,9 +1116,9 @@ input:checked+.slider-gray:before {
     background-color: var(--color-orange);
     position: relative;
     background-image: url('../images/bg/left-content.png'), url('../images/bg/right-content.png'), url('../images/bg/wave-full.svg');
-    background-position: left center, right 15em, center top;
+    background-position: left center, right 15em, top, bottom;
     background-repeat: no-repeat;
-    background-size: 200px, 200px, cover;
+    background-size: 200px, 200px, cover, cover;
     margin-top: -10px;
 }
 
@@ -1949,6 +1955,9 @@ footer .right-links p {
         padding: 0 !important;
         width: 100% !important;
     }
+    .overlay-banner {
+        top: 8em !important;
+    }
     .product {
         padding: 0 30px !important;
     }
@@ -1978,7 +1987,7 @@ footer .right-links p {
         height: 20em;
     }
     .timeline-img {
-        height: 100% !important;
+        height: 350px !important;
         width: 100% !important;
         margin-top: 20px !important;
     }
@@ -2100,7 +2109,7 @@ footer .right-links p {
         margin: 5px 15px;
     }
     .timeline-img {
-        height: 100% !important;
+        height: 200px !important;
         width: 100% !important;
         margin-top: 20px !important;
     }
@@ -2256,6 +2265,12 @@ footer .right-links p {
     }
     .faq {
         width: 100% !important;
+    }
+    .main-page-banner-card {
+        width: 100% !important;
+    }
+    .see-more button {
+        width: 60%;
     }
 }
 

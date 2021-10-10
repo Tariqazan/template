@@ -1052,7 +1052,7 @@ input:checked+.slider-gray:before {
     background-color: var(--color-orange);
     position: relative;
     background-image: url('../images/bg/document-bg.png'), url('../images/bg/jobs-bg.svg');
-    background-position: left 15em, center;
+    background-position: left 15em, top;
     background-repeat: no-repeat;
     background-size: 150px, cover;
 }
@@ -1083,6 +1083,10 @@ input:checked+.slider-gray:before {
     width: 70%;
 }
 
+.faq {
+    width: 75%;
+}
+
 .see-all {
     width: 35%;
 }
@@ -1106,10 +1110,16 @@ input:checked+.slider-gray:before {
     background-color: var(--color-orange);
     position: relative;
     background-image: url('../images/bg/left-content.png'), url('../images/bg/right-content.png'), url('../images/bg/wave-full.svg');
-    background-position: left center, right 15em, center;
+    background-position: left center, right 15em, center top;
     background-repeat: no-repeat;
     background-size: 200px, 200px, cover;
     margin-top: -10px;
+}
+
+.implemented-projects {
+    background-image: url('../images/bg/wave-bg-2.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .content-bgnosvg {
@@ -2234,6 +2244,18 @@ footer .right-links p {
     }
     .fileupload-buttons {
         margin: -56px 0px 0 30px !important;
+    }
+    .product-categories-img {
+        width: 100% !important;
+    }
+    .our-product img {
+        width: 100% !important;
+    }
+    .our-product p {
+        text-align: center;
+    }
+    .faq {
+        width: 100% !important;
     }
 }
 

@@ -993,7 +993,7 @@ input:checked+.slider-gray:before {
     background-color: var(--color-orange);
     position: relative;
     background-image: url('../images/bg/left-bg.png'), url('../images/bg/right-bg.png'), url('../images/bg/timeline-bg.svg');
-    background-position: left 10em, right 30em, 0 -22em;
+    background-position: left 10em, right 30em, 0 -25em;
     background-repeat: no-repeat;
     background-size: 200px, 200px, cover;
     margin-top: -10px;
@@ -1113,12 +1113,11 @@ input:checked+.slider-gray:before {
 }
 
 .content-bg {
-    background-color: var(--color-orange);
     position: relative;
-    background-image: url('../images/bg/left-content.png'), url('../images/bg/right-content.png'), url('../images/bg/wave-full.svg');
+    background-image: url('../images/bg/left-content.png'), url('../images/bg/right-content.png'), url('../images/bg/wave-bg-3.svg'), url('../images/bg/wave-bg-4.svg');
     background-position: left center, right 15em, top, bottom;
     background-repeat: no-repeat;
-    background-size: 200px, 200px, cover, cover;
+    background-size: 200px, 200px, contain, contain;
     margin-top: -10px;
 }
 
@@ -1960,6 +1959,9 @@ footer .right-links p {
     }
     .product {
         padding: 0 30px !important;
+    }
+    .our-product img {
+        width: 100% !important;
     }
     .icon-search {
         width: 39% !important;

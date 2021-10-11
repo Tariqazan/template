@@ -213,7 +213,7 @@ body {
 
 .fade {
     height: 100vh;
-    background-color: var(--color-light-orange) !important;
+    background-color: var(--color-light-blue) !important;
 }
 
 .main-page-banner-card {
@@ -1770,13 +1770,17 @@ input[type=range]::-webkit-slider-thumb {
     border-radius: 30px;
     border-width: 3px;
     border-style: solid;
-    border-image: linear-gradient( to bottom, var(--color-red), var(--color-purple)) 1 10%;
+    border-image: linear-gradient( to bottom, var(--color-red), var(--color-purple)) 10 10%;
 }
 
 .card-color-border {
     border-width: 3px;
     border-style: solid;
-    border-image: linear-gradient( to bottom, var(--color-red), var(--color-purple)) 1 10%;
+    border-image: linear-gradient( to bottom, var(--color-red), var(--color-purple)) 10 10%;
+}
+
+.map-location {
+    width: 140%;
 }
 
 video {
@@ -1962,6 +1966,9 @@ footer .right-links p {
     .product {
         padding: 0 30px !important;
     }
+    .map-location {
+        width: 100% !important;
+    }
     .icon-search {
         width: 39% !important;
     }
@@ -2107,6 +2114,9 @@ footer .right-links p {
         visibility: hidden;
         width: 0;
         height: 0;
+    }
+    .map-location {
+        width: 100% !important;
     }
     .size {
         width: 90%;

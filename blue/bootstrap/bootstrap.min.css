@@ -5670,6 +5670,7 @@ fieldset:disabled .btn {
 .modal {
     position: fixed;
     top: 0;
+    left: 0;
     z-index: 1060;
     display: none;
     width: 100%;

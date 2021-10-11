@@ -1147,10 +1147,10 @@ input:checked+.slider-gray:before {
 
 .content-bgnosvg {
     position: relative;
-    background-image: url('../images/bg/left-content.png'), url('../images/bg/right-content.png'), url('../images/bg/wave-bg-1.svg');
+    background-image: url('../images/bg/left.png'), url('../images/bg/right-content.png'), url('../images/bg/wave-bg-4.svg');
     background-position: left center, right 15em, bottom;
     background-repeat: no-repeat;
-    background-size: 200px, 200px, contain;
+    background-size: 200px, 200px, 250%;
     margin-top: -10px;
 }
 

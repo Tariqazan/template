@@ -267,7 +267,7 @@ body {
 }
 
 .social-icon {
-    width: 70%;
+    width: 100%;
 }
 
 .jobs {
@@ -396,9 +396,9 @@ body {
 }
 
 .icon-search {
-    margin: -41px 0px 0 10px;
+    margin: -45px 0px 0 10px;
     display: flex;
-    width: 33%;
+    width: 38%;
     position: absolute;
     justify-content: space-between;
 }
@@ -462,7 +462,7 @@ body {
 .switch-white {
     position: relative;
     display: inline-block;
-    width: 100%;
+    width: 85%;
     height: 34px;
 }
 
@@ -1274,6 +1274,7 @@ input:checked+.slider-gray:before {
 
 .small-line {
     background-color: var(--color-purple);
+    padding: 1px;
     width: 50%;
     text-align: center;
 }
@@ -1316,9 +1317,33 @@ input:checked+.slider-gray:before {
 }
 
 .payment-table {
-    background-color: var(--color-blue);
+    background-color: var(--color-orange);
     text-align: center;
     color: var(--color-white);
+}
+
+.document-card {
+    position: relative;
+    min-height: 240px;
+}
+
+.document-svg {
+    width: 70px;
+}
+
+.document-name {
+    font-size: 10px;
+}
+
+.document-title {
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+}
+
+.icon-document {
+    margin-right: 10px;
+    width: 30px;
 }
 
 .payment-success-table {
@@ -1590,7 +1615,6 @@ a:hover {
 }
 
 .progressbar-skill {
-    background: #ED6C4E;
     width: 100%;
     height: 8px;
 }
@@ -1753,8 +1777,19 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .error {
-    background-color: var(--color-orange);
     height: 100vh;
+    padding: 30px 0;
+    background-color: var(--color-orange);
+    text-align: center;
+}
+
+.error img {
+    width: 50%;
+    margin: auto;
+}
+
+.breadcrumb-item {
+    color: var(--color-white);
 }
 
 .inverted-comma {
@@ -1784,20 +1819,6 @@ video {
     width: 100%;
     height: auto;
     margin-bottom: 40px;
-}
-
-.document-svg {
-    width: 70px;
-    margin-bottom: 50px;
-}
-
-.document-name {
-    font-size: 10px;
-}
-
-.icon-document {
-    margin-right: 10px;
-    width: 30px;
 }
 
 .pagination {

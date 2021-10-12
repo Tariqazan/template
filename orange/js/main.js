@@ -1,3 +1,11 @@
+function openRightMenu() {
+    document.getElementById("rightMenu").style.display = "block";
+}
+
+function closeRightMenu() {
+    document.getElementById("rightMenu").style.display = "none";
+}
+
 function tablet(x) {
     if (x.matches) { // If media query matches
         document.getElementsByClassName(".web-end").remove();

@@ -15,6 +15,81 @@
 </head>
 
 <body>
+    <div class="cart">
+        <div class="cart-sidebar bar-block cart-card animate-right" style="display:none;right:0;" id="rightMenu">
+            <div class="d-flex justify-content-between">
+                <div class="d-flex">
+                    <button onclick="closeRightMenu()" class="transparent-button text-blue">X</button>
+                    <div class="text-center">
+                        <p class="m-4">Your Cart(12)</p>
+                    </div>
+                </div>
+                <div class="text-end">
+                    <p class="m-4">Select</p>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <img src="./images/cart/1.png" alt="">
+                <div class="mx-2">
+                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                    <p>739/5174</p>
+                    <div><span class="text-blue">COLOUR:</span> White</div>
+                    <div class="d-flex justify-content-between">
+                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                        <p>$90</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <img src="./images/cart/2.png" alt="">
+                <div class="mx-2">
+                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                    <p>739/5174</p>
+                    <div><span class="text-blue">COLOUR:</span> White</div>
+                    <div class="d-flex justify-content-between">
+                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                        <p>$90</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <img src="./images/cart/3.png" alt="">
+                <div class="mx-2">
+                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                    <p>739/5174</p>
+                    <div><span class="text-blue">COLOUR:</span> White</div>
+                    <div class="d-flex justify-content-between">
+                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                        <p>$90</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <img src="./images/cart/4.png" alt="">
+                <div class="mx-2">
+                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                    <p>739/5174</p>
+                    <div><span class="text-blue">COLOUR:</span> White</div>
+                    <div class="d-flex justify-content-between">
+                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                        <p>$90</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <img src="./images/cart/5.png" alt="">
+                <div class="mx-2">
+                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                    <p>739/5174</p>
+                    <div><span class="text-blue">COLOUR:</span> White</div>
+                    <div class="d-flex justify-content-between">
+                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                        <p>$90</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <header class="banner-img">
         <div class="d-flex justify-content-around topbar" id="laptop">
             <div class="d-flex nav-links">
@@ -69,82 +144,10 @@
                         <a class="nav-link" href="#"><img src="./images/icon/heart.svg" alt=""></a>
 
                         <li class="nav-link">
-                            <button type="button" class="transparent-button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                            <button type="button" class="transparent-button" onclick="openRightMenu()">
                                 <img src="./images/icon/cart.svg" alt="">
                             </button>
                         </li>
-                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="d-flex mb-3">
-                                            <img src="./images/cart/1.png" alt="">
-                                            <div class="">
-                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                <p>739/5174</p>
-                                                <div><span class="text-blue">COLOUR:</span> White</div>
-                                                <div class="d-flex justify-content-between">
-                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                    <p>$90</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex mb-3">
-                                            <img src="./images/cart/2.png" alt="">
-                                            <div class="">
-                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                <p>739/5174</p>
-                                                <div><span class="text-blue">COLOUR:</span> White</div>
-                                                <div class="d-flex justify-content-between">
-                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                    <p>$90</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex mb-3">
-                                            <img src="./images/cart/3.png" alt="">
-                                            <div class="">
-                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                <p>739/5174</p>
-                                                <div><span class="text-blue">COLOUR:</span> White</div>
-                                                <div class="d-flex justify-content-between">
-                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                    <p>$90</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex mb-3">
-                                            <img src="./images/cart/4.png" alt="">
-                                            <div class="">
-                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                <p>739/5174</p>
-                                                <div><span class="text-blue">COLOUR:</span> White</div>
-                                                <div class="d-flex justify-content-between">
-                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                    <p>$90</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex mb-3">
-                                            <img src="./images/cart/5.png" alt="">
-                                            <div class="">
-                                                <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                <p>739/5174</p>
-                                                <div><span class="text-blue">COLOUR:</span> White</div>
-                                                <div class="d-flex justify-content-between">
-                                                    <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                    <p>$90</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <a class="button-one mt-2" href="#">Get started</a>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -309,82 +312,10 @@
                                 <a class="nav-link" href="#"><img src="./images/icon/heart.svg" alt=""></a>
                             </li>
                             <li class="nav-item laptop-nav">
-                                <button type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <button type="button" class="nav-link" onclick="openRightMenu()">
                                     <img src="./images/icon/cart.svg" alt="">
                                 </button>
                             </li>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="d-flex mb-3">
-                                                <img src="./images/cart/1.png" alt="">
-                                                <div class="">
-                                                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                    <p>739/5174</p>
-                                                    <div><span class="text-blue">COLOUR:</span> White</div>
-                                                    <div class="d-flex justify-content-between">
-                                                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                        <p>$90</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex mb-3">
-                                                <img src="./images/cart/2.png" alt="">
-                                                <div class="">
-                                                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                    <p>739/5174</p>
-                                                    <div><span class="text-blue">COLOUR:</span> White</div>
-                                                    <div class="d-flex justify-content-between">
-                                                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                        <p>$90</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex mb-3">
-                                                <img src="./images/cart/3.png" alt="">
-                                                <div class="">
-                                                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                    <p>739/5174</p>
-                                                    <div><span class="text-blue">COLOUR:</span> White</div>
-                                                    <div class="d-flex justify-content-between">
-                                                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                        <p>$90</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex mb-3">
-                                                <img src="./images/cart/4.png" alt="">
-                                                <div class="">
-                                                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                    <p>739/5174</p>
-                                                    <div><span class="text-blue">COLOUR:</span> White</div>
-                                                    <div class="d-flex justify-content-between">
-                                                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                        <p>$90</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex mb-3">
-                                                <img src="./images/cart/5.png" alt="">
-                                                <div class="">
-                                                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
-                                                    <p>739/5174</p>
-                                                    <div><span class="text-blue">COLOUR:</span> White</div>
-                                                    <div class="d-flex justify-content-between">
-                                                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
-                                                        <p>$90</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <li class="nav-item get-started laptop-nav">
                                 <a class="button-one mt-2" href="#">Get started</a>
                             </li>
@@ -410,36 +341,39 @@
             <p class="text-uppercase text-white h4 mt-5">Welcome to <br> vena</p>
 
             <div class="row banner-cards">
-                <div class="col-sm-4 col-12">
-                    <div class="card banner-card">
-                        <img src="./images/card/middle-card1.png" class="card-img" alt="...">
+                <div class="col-md-4">
+                    <div class="card main-page-banner-card text-white">
+                        <img src="./images/card/middle-card1.png" class="card-img main-page-banner-card-img" alt="...">
                         <div class="card-img-overlay overlay-banner">
-                            <div class="bg-E35757">
-                                <p class="card-text text-white">lorem ipsum dolor amet?</p>
-                                <a href="#" class="card-text text-white">See services</a>
-                            </div>
+                            <h5 class="card-title main-page-banner-card-title">lorem ipsum dolor sit amet
+                                <div class="text-end my-2">
+                                    <a href="#">SEE SERVICES <img src="./images/icon/arrow-white.svg" alt="" class="mx-2"></a>
+                                </div>
+                            </h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 col-12">
-                    <div class="card banner-card">
-                        <img src="./images/card/middle-card2.png" class="card-img" alt="...">
+                <div class="col-md-4">
+                    <div class="card main-page-banner-card text-white">
+                        <img src="./images/card/middle-card2.png" class="card-img main-page-banner-card-img" alt="...">
                         <div class="card-img-overlay overlay-banner">
-                            <div class="bg-E35757">
-                                <p class="card-text text-white">lorem ipsum dolor amet?</p>
-                                <a href="#" class="card-text text-white">See services</a>
-                            </div>
+                            <h5 class="card-title main-page-banner-card-title">lorem ipsum dolor sit amet
+                                <div class="text-end my-2">
+                                    <a href="#">SEE SERVICES <img src="./images/icon/arrow-white.svg" alt="" class="mx-2"></a>
+                                </div>
+                            </h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 col-12">
-                    <div class="card banner-card">
-                        <img src="./images/card/middle-card3.png" class="card-img" alt="...">
+                <div class="col-md-4">
+                    <div class="card main-page-banner-card text-white">
+                        <img src="./images/card/middle-card2.png" class="card-img main-page-banner-card-img" alt="...">
                         <div class="card-img-overlay overlay-banner">
-                            <div class="bg-E35757">
-                                <p class="card-text text-white">lorem ipsum dolor amet?</p>
-                                <a href="#" class="card-text text-white">See services</a>
-                            </div>
+                            <h5 class="card-title main-page-banner-card-title">lorem ipsum dolor sit amet
+                                <div class="text-end my-2">
+                                    <a href="#">SEE SERVICES <img src="./images/icon/arrow-white.svg" alt="" class="mx-2"></a>
+                                </div>
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -459,13 +393,13 @@
                     <p class="fw-bold text-uppercase">lorem ipsum dolor sit amet, consectetur</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ut aperiam accusantium natus sint quaerat porro iste, voluptate harum obcaecati vero odio facilis rerum necessitatibus officia vitae veniam pariatur ab?
                     </p>
-                    <a href="#" class="text-red text-uppercase">see projects</a>
+                    <a href="#" class="text-red text-uppercase fw-bold">see projects <img src="./images/icon/right-arrow.svg" alt="" class="mx-2"></a>
                 </div>
                 <div class="col-md-6 p-5">
                     <p class="fw-bold text-uppercase">lorem ipsum dolor sit amet, consectetur</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ut aperiam accusantium natus sint quaerat porro iste, voluptate harum obcaecati vero odio facilis rerum necessitatibus officia vitae veniam pariatur ab?
                     </p>
-                    <a href="#" class="text-red text-uppercase">see projects</a>
+                    <a href="#" class="text-red text-uppercase fw-bold">see projects <img src="./images/icon/right-arrow.svg" alt="" class="mx-2"></a>
                 </div>
                 <div class="col-md-6">
                     <img src="./images/card/video-variant-2.png" alt="" class="ip-img">
@@ -477,7 +411,7 @@
                     <p class="fw-bold text-uppercase text-white">lorem ipsum dolor sit amet, consectetur</p>
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ut aperiam accusantium natus sint quaerat porro iste, voluptate harum obcaecati vero odio facilis rerum necessitatibus officia vitae veniam pariatur ab?
                     </p>
-                    <a href="#" class="text-red text-uppercase">see projects</a>
+                    <a href="#" class="text-red text-uppercase fw-bold">see projects <img src="./images/icon/right-arrow.svg" alt="" class="mx-2"></a>
                 </div>
             </div>
         </div>

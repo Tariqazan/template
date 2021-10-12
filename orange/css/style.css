@@ -61,6 +61,16 @@ body {
     margin: 10px;
 }
 
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
 .accordion-header i {
     font-size: 15px;
     color: var(--color-purple);
@@ -278,8 +288,13 @@ body {
     background-color: var(--color-light-orange) !important;
 }
 
+.main-page-banner-cards {
+    width: 90%;
+    margin: auto;
+}
+
 .main-page-banner-card {
-    width: 100%;
+    width: 85%;
     margin: 15px 0;
 }
 
@@ -292,7 +307,7 @@ body {
 
 .main-page-banner-card-img {
     width: 100%;
-    height: 370px;
+    height: 300px;
 }
 
 .wishlist-check {
@@ -324,6 +339,7 @@ body {
     background: transparent;
     border: none;
     color: var(--color-red);
+    margin: 0 5px;
 }
 
 .social-icon {
@@ -504,7 +520,8 @@ body {
 }
 
 .overlay-banner {
-    top: 14em !important;
+    top: 10em !important;
+    padding: 0 !important;
 }
 
 .send-email img {
@@ -1118,12 +1135,39 @@ input:checked+.slider-gray:before {
     background-color: var(--color-orange);
     position: relative;
     background-image: url('../images/bg/document-bg.png'), url('../images/bg/jobs-bg.svg');
-    background-position: left 15em, top;
+    background-position: left 20em, top;
     background-repeat: no-repeat;
-    background-size: 150px, cover;
+    background-size: 100px, cover;
+}
+
+.documents-title {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.documents-img {
+    width: 38em;
+    height: 22em;
+}
+
+.documents-title button {
+    width: 15%;
+}
+
+.newsletter-content-left {
+    width: 70%;
+    top: 2em !important;
+}
+
+.newsletter-content {
+    width: 70%;
+    left: 10em;
+    top: 2em !important;
 }
 
 .see-more {
+    margin: 0 0 20px 0;
     padding: 30px 0;
     text-align: center;
 }
@@ -1231,7 +1275,7 @@ input:checked+.slider-gray:before {
 }
 
 .ip-img {
-    width: 85%;
+    width: 80%;
 }
 
 .breadcrumb {
@@ -2082,6 +2126,9 @@ footer .right-links p {
     .our-product img {
         width: 100% !important;
     }
+    .cart-sidebar {
+        width: 100vw !important;
+    }
     .icon-search {
         width: 39% !important;
     }
@@ -2094,6 +2141,10 @@ footer .right-links p {
         visibility: visible !important;
         width: 100% !important;
         height: 25% !important;
+    }
+    .documents-img {
+        width: 100% !important;
+        height: 100% !important;
     }
     .spacing {
         margin-left: 20px !important;
@@ -2221,6 +2272,9 @@ footer .right-links p {
     .map-location {
         width: 100% !important;
     }
+    .cart-sidebar {
+        width: 100vw !important;
+    }
     #tablet {
         visibility: hidden;
         width: 0;
@@ -2247,6 +2301,10 @@ footer .right-links p {
         visibility: visible !important;
         height: 100% !important;
         width: 100% !important;
+    }
+    .documents-img {
+        width: 100% !important;
+        height: 100% !important;
     }
     .navbar {
         margin-top: 0;

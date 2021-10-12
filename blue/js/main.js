@@ -60,7 +60,7 @@ $('.accordion-header').click(function() {
 
 
 
-$('#documentOne .fas').append('<i class="fas fa-minus"></i>')
+$('#documentOne .fas').append('<i class="fas fa-plus"></i>')
 $('#documentTwo .fas').replaceWith('<i class="fas fa-plus"></i>')
 $('#documentThree .fas').replaceWith('<i class="fas fa-plus"></i>')
 $('#documentFour .fas').replaceWith('<i class="fas fa-plus"></i>')

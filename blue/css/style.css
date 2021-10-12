@@ -9,8 +9,9 @@
     --color-light-orange: #ffa970be;
     --color-lightwhite: #CECECE;
     --color-blue: #021D3B;
-    --color-lightpurple: #b8bdd1;
-    --color-light-blue: #021d3bb0;
+    --color-lightpurple: #758BFD;
+    --color-light-blue: #676f79b0;
+    --color-softred: #ed6b4eb7;
 }
 
 * {
@@ -73,7 +74,7 @@ body {
     background-position: right top, left 10em;
     background-size: 400px, 200px;
     background-repeat: no-repeat;
-    background-image: url("../images/bg/right.png"), url("../images/bg/left.png");
+    background-image: url("../images/bg/right.png"), url("../images/bg/banner-left.png");
 }
 
 .banner-noimg {
@@ -177,18 +178,20 @@ body {
 }
 
 .owl-dots button.owl-dot {
-    width: 5px;
-    height: 5px;
-    border-radius: 20%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
     display: inline-block;
     background-color: var(--color-red) !important;
     margin: 0 3px;
 }
 
 .owl-dots button.owl-dot.active {
-    width: 45px;
-    height: 5px;
+    width: 50px;
+    height: 1px;
     background-color: var(--color-red);
+    border-radius: 0;
+    transition: 0.3s;
 }
 
 .owl-dots button.owl-dot:focus {
@@ -218,20 +221,24 @@ body {
 }
 
 .main-page-banner-card {
-    width: 80%;
+    width: 100%;
     margin: 15px 0;
 }
 
 .main-page-banner-card-title {
     padding: 10px;
-    background-color: #e35757a1;
+    background-color: var(--color-softred);
     color: var(--color-white);
     font-size: 16px;
 }
 
 .main-page-banner-card-img {
     width: 100%;
-    height: 250px;
+    height: 370px;
+}
+
+.overlay-banner {
+    top: 14em !important;
 }
 
 .wishlist-check {
@@ -473,10 +480,6 @@ body {
 
 .send-email input {
     border: none;
-}
-
-.overlay-banner {
-    top: 10em !important;
 }
 
 .send-email img {
@@ -947,7 +950,7 @@ input:checked+.slider-gray:before {
 }
 
 .banner-content {
-    padding: 65px 150px;
+    padding: 15px 150px;
 }
 
 .banner-title {
@@ -1164,11 +1167,12 @@ input:checked+.slider-gray:before {
 }
 
 .content-bg {
+    background-color: var(--color-blue);
     position: relative;
-    background-image: url('../images/bg/left.png'), url('../images/bg/right-content.png'), url('../images/bg/wave-bg-3.svg'), url('../images/bg/wave-bg-4.svg');
-    background-position: left center, right 15em, top, bottom;
+    background-image: url('../images/bg/left.png'), url('../images/bg/right-content.png'), url('../images/bg/wave-full.svg');
+    background-position: left center, right 15em, top;
     background-repeat: no-repeat;
-    background-size: 200px, 200px, 100%, 250%;
+    background-size: 200px, 200px, 100%;
     margin-top: -10px;
 }
 

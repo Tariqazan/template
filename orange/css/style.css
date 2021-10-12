@@ -1248,6 +1248,10 @@ input:checked+.slider-gray:before {
     width: 100%;
 }
 
+.map-location {
+    width: 140%;
+}
+
 .location-container {
     height: 60vh;
     overflow: scroll;
@@ -2121,6 +2125,9 @@ footer .right-links p {
         justify-content: space-between;
         background: var(--color-orange);
     }
+    .map-location {
+        width: 100% !important;
+    }
     .payment-table h6 {
         color: var(--color-white);
     }
@@ -2149,6 +2156,9 @@ footer .right-links p {
     }
     .position-newsletter-card {
         top: 0 !important;
+    }
+    .map-location {
+        width: 100% !important;
     }
     #tablet {
         visibility: hidden;

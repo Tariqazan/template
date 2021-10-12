@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Overview Products</title>
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 </head>
 
 <body>
@@ -439,8 +442,11 @@
                     <label for="">amet</label>
                 </div>
                 <div class="mt-2">
-                    <p class="fw-bold">Price range:</p>
-                    <input type="range">
+                    <p>
+                        <label for="price">Price range:</label>
+                        <input type="text" id="price">
+                    </p>
+                    <div id="slider-3"></div>
                 </div>
                 <div class="mt-2">
                     <input type="checkbox">
@@ -1252,6 +1258,7 @@
     <script src="js/main.js"></script>
     <script src="js/slider.js"></script>
     <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./js/range.js"></script>
 </body>
 
 </html>

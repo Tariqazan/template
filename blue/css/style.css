@@ -148,8 +148,7 @@ body {
 }
 
 #laptop {
-    margin-left: 152px;
-    width: 71%;
+    width: 100%;
 }
 
 .topbar {
@@ -212,12 +211,10 @@ body {
     padding-top: 10px;
 }
 
-.navbar {
-    padding: 0 0 0 72px;
-}
+.navbar {}
 
 .navbar-brand {
-    width: 5em;
+    width: 8em;
 }
 
 .navbar-brand img {
@@ -1543,6 +1540,7 @@ input:checked+.slider-gray:before {
 }
 
 .content {
+    width: 90%;
     padding: 50px 0;
 }
 
@@ -1962,9 +1960,26 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .card-color-border {
-    border-width: 3px;
-    border-style: solid;
-    border-image: linear-gradient( to bottom, var(--color-red), var(--color-purple)) 1 10%;
+    width: 100%;
+    height: 300px;
+    background: var(--color-white);
+    border-radius: 10%;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card-color-border::before {
+    border-radius: 10%;
+    content: '';
+    background-image: linear-gradient(to bottom, var(--color-red) 0%, var(--color-purple) 100%);
+    padding: 19px;
+    width: 102%;
+    height: 102%;
+    top: -4px;
+    left: -3px;
+    position: absolute;
+    z-index: -1;
 }
 
 video {
@@ -2121,7 +2136,6 @@ footer .right-links p {
     }
     .navbar {
         display: block !important;
-        padding: 10px 20px;
     }
     .banner-cards {
         padding: 0 !important;

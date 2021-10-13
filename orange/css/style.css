@@ -148,7 +148,8 @@ body {
 }
 
 #laptop {
-    margin-left: 63px;
+    margin-left: 152px;
+    width: 71%;
 }
 
 .cta-bg {
@@ -208,7 +209,7 @@ body {
 }
 
 .navbar {
-    padding: 0 0 0 60px;
+    padding: 0 0 0 72px;
 }
 
 .navbar-brand {
@@ -242,6 +243,7 @@ body {
 
 .owl-dots {
     text-align: end;
+    display: block !important;
     padding-top: 15px;
 }
 
@@ -1222,7 +1224,7 @@ input:checked+.slider-gray:before {
     background-image: url('../images/bg/left-content.png'), url('../images/bg/right-content.png'), url('../images/bg/wave-full.svg');
     background-position: left center, right 15em, top;
     background-repeat: no-repeat;
-    background-size: 200px, 200px, contain;
+    background-size: 200px, 200px, 100%;
     margin-top: -10px;
 }
 
@@ -1446,6 +1448,10 @@ input:checked+.slider-gray:before {
     border-radius: 50px;
     color: var(--color-white);
     box-shadow: 0 0 50px rgba(138, 113, 96, 0.315);
+}
+
+.card-color-text {
+    padding: 10px;
 }
 
 .card-color-img {

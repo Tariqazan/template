@@ -22,11 +22,11 @@ jQuery("#carousel").owlCarousel({
         },
 
         1024: {
-            items: 6
+            items: 4
         },
 
         1366: {
-            items: 6
+            items: 4
         }
     }
 });

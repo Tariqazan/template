@@ -341,53 +341,59 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#" class="active">Shipping Details</a></li>
+                <li class="breadcrumb-item"><a href="#">Order</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Shipping Details
+                </li>
             </ol>
         </nav>
         <p class="fw-bold fs-3">Your shipping details</p>
-        <div class="row">
-            <div class="col-md-6 mb-3">
-                <input type="text" placeholder="name" class="input-field">
+        <form action="">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <input type="text" placeholder="Name" class="input-field">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <input type="text" placeholder="Surname" class="input-field">
+                </div>
+                <div class="col-md-8 mb-3">
+                    <input type="text" placeholder="Address" class="input-field">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" placeholder="Additional Information" class="input-field">
+                </div>
+                <div class="col-md-12 mb-3">
+                    <select name="" id="" class="input-field">
+                        <option value="" selected disabled>Religion</option>
+                    </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <select name="" id="" class="input-field">
+                        <option value="" selected disabled>Zip Code</option>
+                    </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <select name="" id="" class="input-field">
+                        <option value="" selected disabled>District</option>
+                    </select>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <select name="" id="" class="input-field">
+                        <option value="" selected disabled>City</option>
+                    </select>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <select name="" id="" class="input-field">
+                        <option value="" selected disabled>+14</option>
+                    </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <input type="text" placeholder="mobile number" class="input-field">
+                </div>
+                <div class="col-md-6">
+                    <button class="button-purple">Go to payment</button>
+                </div>
             </div>
-            <div class="col-md-6 mb-3">
-                <input type="text" placeholder="surname" class="input-field">
-            </div>
-            <div class="col-md-8 mb-3">
-                <input type="text" placeholder="address" class="input-field">
-            </div>
-            <div class="col-md-4 mb-3">
-                <input type="text" placeholder="additional information" class="input-field">
-            </div>
-            <div class="col-md-12 mb-3">
-                <select name="" id="" class="input-field">
-                    <option value="" selected disabled>religion</option>
-                </select>
-            </div>
-            <div class="col-md-6 mb-3">
-                <input type="text" placeholder="additional information" class="input-field">
-            </div>
-            <div class="col-md-6 mb-3">
-                <select name="" id="" class="input-field">
-                    <option value="" selected disabled>district</option>
-                </select>
-            </div>
-            <div class="col-md-12 mb-3">
-                <select name="" id="" class="input-field">
-                    <option value="" selected disabled>city</option>
-                </select>
-            </div>
-            <div class="col-md-3 mb-3">
-                <select name="" id="" class="input-field">
-                    <option value="" selected disabled>+14</option>
-                </select>
-            </div>
-            <div class="col-md-6 mb-3">
-                <input type="text" placeholder="mobile number" class="input-field">
-            </div>
-            <div class="col-md-6">
-                <button class="button-purple">Go to payment</button>
-            </div>
-        </div>
+        </form>
     </section>
     <footer class="row">
         <div class="col-md-4 left">

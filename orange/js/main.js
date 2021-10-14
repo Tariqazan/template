@@ -104,3 +104,14 @@ $('.accordion-header').click(function() {
         $('#documentFive .fas').replaceWith('<i class="fas fa-minus"></i>')
     }
 });
+
+
+var header = document.getElementById("menu");
+var btns = header.getElementsByClassName("menu-item");
+for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active-menu-item");
+        current[0].className = current[0].className.replace(" active-menu-item", "");
+        this.className += " active-menu-item";
+    });
+}

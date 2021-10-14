@@ -148,7 +148,6 @@ body {
 }
 
 #laptop {
-    padding: 0 110px;
     width: 100%;
 }
 
@@ -206,10 +205,6 @@ body {
 
 .topbar {
     padding-top: 10px;
-}
-
-.navbar {
-    padding: 0 30px 0 50px;
 }
 
 .navbar-brand {
@@ -893,6 +888,10 @@ input:checked+.slider-gray:before {
     font-size: 0.9rem;
 }
 
+.container-fluid {
+    padding: 0 !important;
+}
+
 .product-detail ul li {
     margin: 0;
     list-style: none;
@@ -997,9 +996,7 @@ input:checked+.slider-gray:before {
     height: 80px;
 }
 
-.banner-content {
-    padding: 15px 150px;
-}
+.banner-content {}
 
 .banner-title {
     font-size: 33px;
@@ -1578,12 +1575,7 @@ a:hover {
     color: rgb(245, 245, 245);
 }
 
-.top-section {
-    background-position: left;
-    background-size: 200px 400px;
-    background-image: url("../images/bg/left.png");
-    background-repeat: no-repeat;
-}
+.top-section {}
 
 .top-header {
     font-size: 12px;
@@ -2295,9 +2287,6 @@ footer .right-links p {
     .container {
         padding: 10px 20px !important;
     }
-    .container-fluid {
-        padding: 0 !important;
-    }
     .side-line {
         position: absolute;
         top: 45%;
@@ -2429,9 +2418,6 @@ footer .right-links p {
     }
     .faq-title {
         height: 20vh !important;
-    }
-    .container-fluid {
-        padding: 0 !important;
     }
     #tablet-link-footer {
         visibility: visible !important;

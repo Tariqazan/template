@@ -93,10 +93,7 @@
                 <a href="#" class="topbar-link">Contact Us</a>
                 <a href="#" class="topbar-link">By theme</a>
                 <a href="#" class="topbar-link">support</a>
-            </div>
-            <div class="d-flex">
-                <img src="images/icon/clock.svg" alt="">
-                <select name="" id="" class="topbar-select">
+                <select name="" id="" class="open-now">
                     <option value="">OPEN NOW</option>
                     <option value="">OPEN NOW</option>
                     <option value="">OPEN NOW</option>
@@ -358,177 +355,182 @@
     </header>
     <section class="container">
         <div class="product-table">
-            <div class="table-responsive">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Product</th>
-                            <th>Price</th>
-                            <th>Quantity</th>
-                            <th>Total</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="d-flex">
-                                <img src="images/product/headphone-white.png" alt="">
-                                <div class="product-details">
-                                    <p>Beats by DRE studio wireless<br> over ear headphones white</p>
-                                    <p>379/3774</p>
-                                    <p><span>Colour: </span>White</p>
-                                </div>
-                            </td>
-                            <td>$123</td>
-                            <td>
-                                <p>+ <span class="text-blue">10</span> -</p>
-                            </td>
-                            <td>$1230</td>
-                            <td><span class="text-blue">X</span></td>
-                        </tr>
-                        <tr>
-                            <td class="d-flex">
-                                <img src="images/product/headphone-black.png" alt="">
-                                <div class="product-details">
-                                    <p>SENNHEISER HD 458 BT BLACK</p>
-                                    <p>50B968</p>
-                                    <p><span>Colour: </span>Black</p>
-                                </div>
-                            </td>
-                            <td>$90</td>
-                            <td>
-                                <p>+ <span class="text-blue">1</span> -</p>
-                            </td>
-                            <td>$90</td>
-                            <td><span class="text-blue">X</span></td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="row" id="product-table-header">
+                <div class="col-lg-5">
+                    <p class="fw-bold text-center">Product</p>
+                </div>
+                <div class="col-lg-2">
+                    <p class="fw-bold text-center">Price</p>
+                </div>
+                <div class="col-lg-2">
+                    <p class="fw-bold text-center">Quantity</p>
+                </div>
+                <div class="col-lg-2">
+                    <p class="fw-bold text-center">Total</p>
+                </div>
             </div>
+            <hr class="product-table-line">
+            <div class="row">
+                <div class="col-lg-5 d-flex ">
+                    <img src="./images/product/headphone-white.png" alt="">
+                    <div class="product-details">
+                        <p>Beats by DRE studio wireless<br> over ear headphones white</p>
+                        <p>379/3774</p>
+                        <p><span>Colour: </span>White</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 mb-2">
+                    <p class="text-center">$123</p>
+                </div>
+                <div class="col-lg-2 text-center mb-2"><span class="fw-bold">+</span><span class="text-blue fw-bold mx-3">10</span><span class="fw-bold">-</span></div>
+                <div class="col-lg-2">
+                    <p class="text-center">$1230</p>
+                </div>
+                <div class="col-lg-1 text-end"><span class="text-blue">X</span></div>
+            </div>
+            <hr class="product-table-line">
+            <div class="row">
+                <div class="col-lg-5 d-flex ">
+                    <img src="./images/product/headphone-black.png" alt="">
+                    <div class="product-details">
+                        <p>Beats by DRE studio wireless<br> over ear headphones white</p>
+                        <p>379/3774</p>
+                        <p><span>Colour: </span>White</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <p class="text-center">$123</p>
+                </div>
+                <div class="col-lg-2 text-center"><span class="fw-bold">+</span><span class="text-blue fw-bold mx-3">1</span><span class="fw-bold">-</span></div>
+                <div class="col-lg-2">
+                    <p class="text-center">$123</p>
+                </div>
+                <div class="col-lg-1 text-end"><span class="text-blue">X</span></div>
+            </div>
+            <hr class="product-table-line">
         </div>
         <div class="summary">
-            <div class="padding">
-                <p class="fw-bold text-uppercase">Summary</p>
-                <div class="row">
-                    <div class="col-md-3">
-                        <h6>Order Total</h6>
-                    </div>
-                    <div class="col-md-3">
-                        <p>$1320</p>
-                    </div>
-                    <div class="col-md-3">
-                        <p>Promo code</p>
-                    </div>
-                    <div class="col-md-3">
-                        <input type="text" class="promo-input w-75">
-                    </div>
-                    <div class="col-md-3">
-                        <h6>Shipping</h6>
-                    </div>
-                    <div class="col-md-3">
-                        <p>$219</p>
-                    </div>
-                    <hr>
-                    <div class="col-md-4">
-                        <p class="fw-bold">Subtotal</p>
-                    </div>
-                    <div class="col-md-4">
-                        <p class="fw-bold">$1539</p>
-                    </div>
-                    <div class="col-md-4">
-                        <button type="button" class="button-purple w-100" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                            Checkout
-                        </button>
+            <p class="fw-bold text-uppercase">Summary</p>
+            <div class="row">
+                <div class="col-md-3">
+                    <h6>Order Total</h6>
+                </div>
+                <div class="col-md-3">
+                    <p>$1320</p>
+                </div>
+                <div class="col-md-3">
+                    <p>Promo code</p>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" class="promo-input w-75">
+                </div>
+                <div class="col-md-3">
+                    <h6>Shipping</h6>
+                </div>
+                <div class="col-md-3">
+                    <p>$219</p>
+                </div>
+                <hr>
+                <div class="col-md-4">
+                    <p class="fw-bold">Subtotal</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="fw-bold">$1539</p>
+                </div>
+                <div class="col-md-4">
+                    <button type="button" class="button-purple w-100" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Checkout
+                    </button>
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-scrollable">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <div class="text-center">
-                                            <p class="fw-bold text-uppercase">The product was successfully added to the cart
-                                            </p>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="text-center">
+                                        <p class="fw-bold text-uppercase">The product was successfully added to the cart
+                                        </p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 col-12">
+                                            <button class="button-outline-purple text-uppercase py-2">Proceed to
+                                                checkout</button>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-md-6 col-12">
-                                                <button class="button-outline-purple text-uppercase py-2">Proceed to
-                                                    checkout</button>
-                                            </div>
-                                            <div class="col-md-6 col-12">
-                                                <button class="button-purple text-uppercase">Continue
-                                                    shopping</button>
-                                            </div>
+                                        <div class="col-md-6 col-12">
+                                            <button class="button-purple text-uppercase">Continue
+                                                shopping</button>
                                         </div>
-                                        <div class="row py-3">
-                                            <div class="col-md-4">
-                                                <img src="./images/product/headphone-white.png" alt="" class="h-50">
-                                            </div>
-                                            <div class="col-md-8">
-                                                <p>Beats by Dre Studio 3 Wireless Over-Ear Headphones - White</p>
-                                                <p>739/3174</p>
-                                                <p><span class="text-blue">COLOUR: </span>White</p>
-                                                <div class="d-flex justify-content-between">
-                                                    <p>+ <span class="text-blue">10</span> -</p>
-                                                    <p>$1230</p>
-                                                </div>
-                                            </div>
+                                    </div>
+                                    <div class="row py-3">
+                                        <div class="col-md-4">
+                                            <img src="./images/product/headphone-white.png" alt="" class="h-50">
                                         </div>
-                                        <div class="row py-3">
-                                            <div class="col-md-4">
-                                                <img src="./images/product/headphone-black.png" alt="" class="h-50">
-                                            </div>
-                                            <div class="col-md-8">
-                                                <p>Beats by Dre Studio 3 Wireless Over-Ear Headphones - White</p>
-                                                <p>739/3174</p>
-                                                <p><span class="text-blue">COLOUR: </span>White</p>
-                                                <div class="d-flex justify-content-between">
-                                                    <p>+ <span class="text-blue">10</span> -</p>
-                                                    <p>$1230</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <p class="fw-bold">you may also like theese items</p>
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <div class="suggestion-card text-center">
-                                                    <p class="fw-bold">lorem ipsum</p>
-                                                    <div class="d-flex justify-content-around">
-                                                        <p class="fw-bold">$25</p>
-                                                        <p class="text-decoration-line-through text-muted">$30</p>
-                                                    </div>
-                                                </div>
-                                                <div class="text-center">
-                                                    <button class="mt-2 button-purple">Add to cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="suggestion-card text-center">
-                                                    <p class="fw-bold">lorem ipsum</p>
-                                                    <div class="d-flex justify-content-around">
-                                                        <p class="fw-bold">$25</p>
-                                                        <p class="text-decoration-line-through text-muted">$30</p>
-                                                    </div>
-                                                </div>
-                                                <div class="text-center">
-                                                    <button class="mt-2 button-purple">Add to cart</button>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="suggestion-card text-center">
-                                                    <p class="fw-bold">lorem ipsum</p>
-                                                    <div class="d-flex justify-content-around">
-                                                        <p class="fw-bold">$25</p>
-                                                        <p class="text-decoration-line-through text-muted">$30</p>
-                                                    </div>
-                                                </div>
-                                                <div class="text-center">
-                                                    <button class="mt-2 button-purple">Add to cart</button>
-                                                </div>
+                                        <div class="col-md-8">
+                                            <p>Beats by Dre Studio 3 Wireless Over-Ear Headphones - White</p>
+                                            <p>739/3174</p>
+                                            <p><span class="text-blue">COLOUR: </span>White</p>
+                                            <div class="d-flex">
+                                                <p>+ <span class="text-blue">10</span> -</p>
+                                                <p class="mx-3">$1230</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <div class="row py-3">
+                                        <div class="col-md-4">
+                                            <img src="./images/product/headphone-black.png" alt="" class="h-50">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <p>Beats by Dre Studio 3 Wireless Over-Ear Headphones - White</p>
+                                            <p>739/3174</p>
+                                            <p><span class="text-blue">COLOUR: </span>White</p>
+                                            <div class="d-flex">
+                                                <p>+ <span class="text-blue">10</span> -</p>
+                                                <p class="mx-3">$1230</p>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <p class="fw-bold">you may also like theese items</p>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="suggestion-card text-center">
+                                                <p class="fw-bold">lorem ipsum</p>
+                                                <div class="d-flex justify-content-around">
+                                                    <p class="fw-bold">$25</p>
+                                                    <p class="text-decoration-line-through text-muted">$30</p>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <button class="mt-2 button-purple">Add to cart</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="suggestion-card text-center">
+                                                <p class="fw-bold">lorem ipsum</p>
+                                                <div class="d-flex justify-content-around">
+                                                    <p class="fw-bold">$25</p>
+                                                    <p class="text-decoration-line-through text-muted">$30</p>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <button class="mt-2 button-purple">Add to cart</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="suggestion-card text-center">
+                                                <p class="fw-bold">lorem ipsum</p>
+                                                <div class="d-flex justify-content-around">
+                                                    <p class="fw-bold">$25</p>
+                                                    <p class="text-decoration-line-through text-muted">$30</p>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <button class="mt-2 button-purple">Add to cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>

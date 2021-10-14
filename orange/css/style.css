@@ -1268,6 +1268,33 @@ input:checked+.slider-gray:before {
     height: 0.4em !important;
 }
 
+.oneicon-search {
+    position: relative;
+}
+
+.oneicon-search input {
+    padding: 5px 40px;
+    border-radius: 20px;
+    border: none;
+    width: 50%;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    width: 20px;
+}
+
+.card {
+    border: none;
+}
+
+.marker-text {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
 .content-bgnosvg {
     position: relative;
     background-image: url('../images/bg/left.png'), url('../images/bg/right-content.png'), url('../images/bg/wave-bg-4.svg');
@@ -1521,7 +1548,7 @@ input:checked+.slider-gray:before {
 }
 
 .card-img-top {
-    height: 250px;
+    height: 380px;
 }
 
 .add-details {

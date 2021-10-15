@@ -298,9 +298,11 @@
         }
         
         .main-page-banner-cards {
-            --bs-gutter-x: 0 !important;
-            width: 100%;
-            margin: auto;
+            background-color: var(--color-orange);
+            background-image: url('../images/bg/left-content.png'), url('../images/bg/right-content.png'), url('../images/bg/implemented\ projects.png');
+            background-repeat: no-repeat;
+            background-position: left center, right 15em, top;
+            background-size: 150px 300px, 150px, 100%;
         }
         
         .main-page-banner-card {
@@ -405,7 +407,7 @@
             width: 70%;
             border-radius: 10px;
             margin: 15px 0;
-            padding: 10px 15px;
+            padding: 5px 15px;
             border: 1px solid var(--color-purple);
         }
         
@@ -482,7 +484,7 @@
         .icon-search {
             margin: -45px 0px 0 10px;
             display: flex;
-            width: 38%;
+            width: 22%;
             position: absolute;
             justify-content: space-between;
         }
@@ -491,12 +493,20 @@
             width: 1.5em;
         }
         
+        .search-event {
+            position: relative;
+            width: 55%;
+            padding: 5px 35px;
+            border-radius: 20px;
+            border: 1px solid var(--color-lightwhite);
+        }
+        
         .search {
             position: relative;
             width: 30%;
             padding: 5px 35px;
             border-radius: 20px;
-            border: none;
+            border: 1px solid var(--color-lightwhite);
         }
         
         .search-icongroup {
@@ -1098,7 +1108,7 @@
             top: 70%;
         }
         
-        .timeline-bg {
+        .timeline-timeless {
             background-color: var(--color-orange);
             position: relative;
             background-image: url('../images/bg/left-bg.png'), url('../images/bg/right-bg.png'), url('../images/bg/timeline-bg.svg');
@@ -1109,11 +1119,12 @@
         }
         
         .product-categories {
-            margin: 10px 100px;
+            margin-top: 10em;
+            margin-bottom: 3em;
         }
         
         .product-categories-img {
-            width: 100%;
+            width: 50%;
         }
         
         .our-products {
@@ -1166,7 +1177,7 @@
         .jobs-bg {
             background-color: var(--color-orange);
             position: relative;
-            background-image: url('../images/bg/document-bg.png'), url('../images/bg/jobs-bg.svg');
+            background-image: url('../images/bg/jobs.png'), url('../images/bg/jobs-bg.svg');
             background-position: left 20em, top;
             background-repeat: no-repeat;
             background-size: 100px, 100%;
@@ -1199,6 +1210,12 @@
         .newsletter-content {
             width: 70%;
             left: 10em;
+            top: 2em !important;
+        }
+        
+        .main-newsletter-content {
+            width: 90%;
+            left: 5em;
             top: 2em !important;
         }
         
@@ -1251,16 +1268,6 @@
             padding: 5px 30px !important;
             top: 17px !important;
             left: 10px !important;
-        }
-        
-        .content-bg {
-            background-color: var(--color-orange);
-            position: relative;
-            background-image: url('../images/bg/left-content.png'), url('../images/bg/right-content.png'), url('../images/bg/wave-full.svg');
-            background-position: left center, right 15em, top;
-            background-repeat: no-repeat;
-            background-size: 200px, 200px, 100%;
-            margin-top: -10px;
         }
         
         .implemented-projects {
@@ -1768,8 +1775,8 @@
         }
         
         .promo-input {
-            width: 40%;
-            height: 35px;
+            width: 70%;
+            height: 30px;
             border: 1px solid var(--color-purple);
         }
         
@@ -2073,11 +2080,21 @@
         }
         
         .small-card-color-border {
-            padding: 10px 15px;
+            width: 40%;
             border-radius: 30px;
             border-width: 3px;
             border-style: solid;
             border-image: linear-gradient( to bottom, var(--color-red), var(--color-purple)) 1 10%;
+        }
+        
+        .banner-form {
+            width: 100%;
+            padding: 10px 20px;
+        }
+        
+        .banner-form input,
+        .banner-form button {
+            width: 100%;
         }
         
         .contact-color-border {
@@ -2179,7 +2196,7 @@
         
         .summary {
             width: 100%;
-            height: 200px;
+            height: 220px;
             background: var(--color-white);
             border-radius: 20px;
             position: relative;

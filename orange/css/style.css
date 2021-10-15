@@ -20,6 +20,7 @@
         body {
             overflow-x: hidden;
             font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
         }
         /* width */
         
@@ -490,6 +491,27 @@
             width: 1.5em;
         }
         
+        .search {
+            position: relative;
+            width: 30%;
+            padding: 5px 35px;
+            border-radius: 20px;
+            border: none;
+        }
+        
+        .search-icongroup {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            width: 20em;
+            margin-top: 7px;
+            margin-left: 10px;
+        }
+        
+        .search-icongroup img {
+            width: 20px;
+        }
+        
         .select-region {
             width: 100%;
             border-radius: 10px;
@@ -511,6 +533,11 @@
         
         .get-started button {
             width: 120px;
+        }
+        
+        .product-categories-card {
+            width: 70%;
+            background-color: transparent;
         }
         
         .send-email {
@@ -996,7 +1023,9 @@
             height: 80px;
         }
         
-        .banner-content {}
+        .banner-content {
+            margin-bottom: 50px;
+        }
         
         .banner-title {
             font-size: 33px;
@@ -1075,7 +1104,7 @@
             background-image: url('../images/bg/left-bg.png'), url('../images/bg/right-bg.png'), url('../images/bg/timeline-bg.svg');
             background-position: left 10em, right 20em, 0 -25em;
             background-repeat: no-repeat;
-            background-size: 120px 200px, 200px, cover;
+            background-size: 120px 200px, 200px, 130%;
             margin-top: -10px;
         }
         
@@ -1084,7 +1113,7 @@
         }
         
         .product-categories-img {
-            width: 60%;
+            width: 100%;
         }
         
         .our-products {
@@ -1140,7 +1169,11 @@
             background-image: url('../images/bg/document-bg.png'), url('../images/bg/jobs-bg.svg');
             background-position: left 20em, top;
             background-repeat: no-repeat;
-            background-size: 100px, cover;
+            background-size: 100px, 100%;
+        }
+        
+        .send-main {
+            background-color: var(--color-white);
         }
         
         .documents-title {
@@ -1306,7 +1339,7 @@
         }
         
         .ip-img {
-            width: 80%;
+            width: 100%;
         }
         
         .breadcrumb {
@@ -1486,10 +1519,17 @@
             border-radius: 50px;
             color: var(--color-white);
             box-shadow: 0 0 50px rgba(138, 113, 96, 0.315);
+            transition: 0.5s;
+        }
+        
+        .card-color:hover {
+            box-shadow: 0 0 100px rgb(138, 113, 100);
         }
         
         .card-color-text {
+            background-color: var(--color-light-orange);
             padding: 10px;
+            border-radius: 20px;
         }
         
         .card-color-img {
@@ -1986,12 +2026,18 @@
         
         .faq-title {
             overflow: auto;
-            height: 100vh;
+            height: 70em;
         }
         
         .faq-line {
             background-color: var(--color-purple);
             padding: 1px 0;
+        }
+        
+        .faq-option {
+            margin: 15px;
+            border-bottom: 2px solid var(--color-purple);
+            font-weight: 500;
         }
         
         .partner-logo {
@@ -2032,6 +2078,58 @@
             border-width: 3px;
             border-style: solid;
             border-image: linear-gradient( to bottom, var(--color-red), var(--color-purple)) 1 10%;
+        }
+        
+        .contact-color-border {
+            margin: auto;
+            width: 93%;
+            height: 38em;
+            background: var(--color-white);
+            border-radius: 20px;
+            position: relative;
+            box-sizing: border-box;
+        }
+        
+        .contact-color-border::before {
+            border-radius: 20px;
+            content: '';
+            background-image: linear-gradient(to bottom, var(--color-red) 0%, var(--color-purple) 100%);
+            padding: 19px;
+            width: 102%;
+            height: 101%;
+            top: -3px;
+            left: -5px;
+            position: absolute;
+            z-index: -1;
+        }
+        
+        .faq-color-border {
+            margin-top: 10px;
+            width: 85%;
+            height: 85px;
+            background: var(--color-white);
+            border-radius: 20px;
+            position: relative;
+            box-sizing: border-box;
+        }
+        
+        .faq-color-border::before {
+            border-radius: 20px;
+            content: '';
+            background-image: linear-gradient(to bottom, var(--color-red) 0%, var(--color-purple) 100%);
+            padding: 19px;
+            width: 104%;
+            height: 107%;
+            top: -3px;
+            left: -4px;
+            position: absolute;
+            z-index: -1;
+        }
+        
+        .faq-color-border p {
+            padding: 10px;
+            font-weight: 600;
+            color: var(--color-purple);
         }
         
         .card-color-border {

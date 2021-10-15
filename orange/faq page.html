@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>FAQ</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -565,16 +566,19 @@
         <p class="text-center">&copy;MYSI.ALl rights reserved</p>
     </div>
     <script>
-        // Add active class to the current button (highlight it)
-        var header = document.getElementById("faq");
-        var btns = header.getElementsByClassName("faq-option");
-        for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function() {
-                var current = document.getElementsByClassName("faq-color-border");
-                current[0].className = current[0].className.replace(" faq-color-border", "");
-                this.className += " faq-color-border";
-            });
-        }
+        $(".faq-option").click(function() {
+
+            // Select all list items
+            var listItems = $(".faq-option");
+
+            // Remove 'active' tag for all list items
+            for (let i = 0; i < listItems.length; i++) {
+                listItems[i].classList.remove("faq-color-border");
+            }
+
+            // Add 'active' tag for currently selected item
+            this.classList.add("faq-color-border");
+        });
     </script>
     <script src="js/main.js"></script>
     <script src="./bootstrap/bootstrap.bundle.min.js"></script>

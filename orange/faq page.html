@@ -361,7 +361,7 @@
     </header>
     <section class="container">
         <div class="row">
-            <div class="col-md-3 col-12 faq-title">
+            <div class="col-md-3 col-12 faq-title" id="faq">
                 <div class="faq-option">
                     <p>FAQ category name number one</p>
                 </div>
@@ -564,6 +564,18 @@
         <hr>
         <p class="text-center">&copy;MYSI.ALl rights reserved</p>
     </div>
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("faq");
+        var btns = header.getElementsByClassName("faq-option");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("faq-color-border");
+                current[0].className = current[0].className.replace(" faq-color-border", "");
+                this.className += " faq-color-border";
+            });
+        }
+    </script>
     <script src="js/main.js"></script>
     <script src="./bootstrap/bootstrap.bundle.min.js"></script>
 </body>

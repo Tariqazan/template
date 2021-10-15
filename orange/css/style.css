@@ -176,8 +176,7 @@
             height: 180%;
             background-size: cover;
             background-repeat: no-repeat;
-            background-image: url('../images/bg/background-wave.svg'), url('../images/bg/hill.png');
-            ;
+            background-image: url('../images/bg/variant-video-bg.svg'), url('../images/bg/hill.png');
         }
         
         .banner-img-eyecatcher {
@@ -186,6 +185,10 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-image: url('../images/bg/main\ 2\ eyecatcher.svg'), url('../images/bg/hill.png');
+        }
+        
+        .main-bannerimg {
+            width: 75%;
         }
         
         .banner-img-eyecatcher-blue {
@@ -303,6 +306,13 @@
             background-repeat: no-repeat;
             background-position: left center, right 15em, top;
             background-size: 150px 300px, 150px, 100%;
+        }
+        
+        .main-page-banner-cards-img {
+            background-image: url('../images/bg/left-content.png'), url('../images/bg/right-content.png'), url('../images/bg/implemented-project.svg');
+            background-repeat: no-repeat;
+            background-position: left 20em, right 15em, bottom;
+            background-size: 150px 300px, 150px, cover;
         }
         
         .main-page-banner-card {
@@ -1119,12 +1129,13 @@
         }
         
         .product-categories {
+            text-align: center;
             margin-top: 10em;
             margin-bottom: 3em;
         }
         
         .product-categories-img {
-            width: 50%;
+            width: 60%;
         }
         
         .our-products {
@@ -1252,11 +1263,11 @@
         
         .see-all,
         .see-details {
-            width: 10.5em;
+            width: 9.5em;
         }
         
         .timeline-img {
-            height: 385px;
+            height: 440px;
             width: 133%;
             margin-top: -60px;
         }
@@ -2477,6 +2488,9 @@
             .web-responsive {
                 visibility: hidden;
             }
+            .main-bannerimg {
+                width: 100 !important%;
+            }
             #web-link-footer {
                 visibility: hidden;
             }
@@ -2548,6 +2562,9 @@
                 visibility: hidden;
                 width: 0;
                 height: 0;
+            }
+            .main-bannerimg {
+                width: 100% !important;
             }
             .size {
                 width: 90%;

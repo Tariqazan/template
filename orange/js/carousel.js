@@ -81,7 +81,7 @@ jQuery(document).ready(function($) {
                 items: 1
             },
             768: {
-                items: 2
+                items: 3
             },
             1170: {
                 items: 3

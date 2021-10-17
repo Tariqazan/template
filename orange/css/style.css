@@ -79,8 +79,6 @@
         .accordion-item {
             background-color: transparent !important;
             border: none !important;
-            border-bottom: 1px solid #2b3d2d81 !important;
-            border-top: 1px solid #2b3d2d81 !important;
         }
         
         .accordion-header i {
@@ -312,7 +310,7 @@
             background-image: url('../images/bg/left-content.png'), url('../images/bg/right-content.png'), url('../images/bg/implemented-project.svg');
             background-repeat: no-repeat;
             background-position: left 20em, right 15em, bottom;
-            background-size: 150px 300px, 150px, cover;
+            background-size: 150px 300px, 150px, 100%;
         }
         
         .main-page-banner-card {
@@ -527,7 +525,7 @@
         
         .search {
             position: relative;
-            width: 30%;
+            width: 33%;
             padding: 5px 35px;
             border-radius: 20px;
             border: 1px solid var(--color-lightwhite);
@@ -554,6 +552,11 @@
         
         .send-button button {
             width: 50px;
+        }
+        
+        .contactpage-icon {
+            width: 2.5rem;
+            align-self: flex-start;
         }
         
         .timeless-traditional-title {
@@ -599,7 +602,7 @@
         }
         
         .overlay-banner {
-            top: 10em !important;
+            top: 13em !important;
             padding: 0 !important;
         }
         
@@ -618,7 +621,7 @@
         .switch-white {
             position: relative;
             display: inline-block;
-            width: 85%;
+            width: 100%;
             height: 34px;
         }
         
@@ -1060,10 +1063,6 @@
             width: 120px;
         }
         
-        .banner-text {
-            width: 50%;
-        }
-        
         .play-icon {
             margin: 10em;
             height: 80px;
@@ -1150,7 +1149,7 @@
             background-image: url('../images/bg/left-bg.png'), url('../images/bg/right-bg.png'), url('../images/bg/timeline-bg.svg');
             background-position: left 10em, right 20em, 0 -25em;
             background-repeat: no-repeat;
-            background-size: 120px 200px, 200px, 130%;
+            background-size: 120px 200px, 200px, 160%;
             margin-top: -10px;
         }
         
@@ -1240,12 +1239,12 @@
         }
         
         .documents-title button {
-            width: 15%;
+            width: 30%;
         }
         
         .newsletter-content-left {
             width: 70%;
-            top: 2em !important;
+            top: 1em !important;
         }
         
         .newsletter-content {
@@ -1634,6 +1633,16 @@
             width: 30px;
         }
         
+        .icon-document-fb {
+            margin-right: 10px;
+            width: 20px;
+        }
+        
+        .form-check-input {
+            margin-right: 10px;
+            margin-bottom: 15px;
+        }
+        
         .payment-success-table {
             background-color: var(--color-orange);
             text-align: center;
@@ -1650,7 +1659,7 @@
         
         .detailimg {
             width: 100%;
-            height: 300px;
+            height: 340px;
             margin: 20px 0;
         }
         
@@ -1869,12 +1878,14 @@
         .carousel-card {
             background-color: var(--color-white);
             border-radius: 30px;
-            padding: 20px 10px;
-            width: 195%;
+            padding: 20px;
+            width: 100%;
+            font-size: 12px;
         }
         
         .item {
-            width: 50% !important;
+            width: 100% !important;
+            margin-top: 20px;
         }
         
         .category {
@@ -2033,8 +2044,21 @@
             width: 30%;
         }
         
+        .fav-item {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            padding: 1rem;
+            border-radius: calc(.25rem - 1px);
+        }
+        
+        .rating-icon {
+            margin: 0 5px 0 0;
+        }
+        
         .add-to-cart-product {
-            height: 100vh;
+            height: 55rem;
             overflow-y: auto;
         }
         
@@ -2072,7 +2096,12 @@
         
         .review-help {
             margin-top: 20px;
-            width: 30%;
+            width: 50%;
+        }
+        
+        .review-help a {
+            text-decoration: underline;
+            text-transform: uppercase;
         }
         
         .map {
@@ -2126,9 +2155,9 @@
         
         .inverted-comma {
             position: absolute;
-            z-index: 1;
-            left: 27px;
-            top: -17px;
+            z-index: 1103;
+            left: 15px;
+            top: -10px;
             width: 30px;
         }
         
@@ -2152,6 +2181,12 @@
         .banner-form input,
         .banner-form button {
             width: 100%;
+        }
+        
+        .overview-product-menu {
+            font-size: 15px;
+            font-weight: 400;
+            margin: 1rem 0;
         }
         
         .testimonial-color-border {
@@ -2180,7 +2215,7 @@
         .contact-color-border {
             margin: auto;
             width: 93%;
-            height: 38em;
+            height: 41em;
             background: var(--color-white);
             border-radius: 20px;
             position: relative;
@@ -2193,8 +2228,8 @@
             background-image: linear-gradient(to bottom, var(--color-red) 0%, var(--color-purple) 100%);
             padding: 19px;
             width: 102%;
-            height: 101%;
-            top: -3px;
+            height: 102%;
+            top: -6px;
             left: -5px;
             position: absolute;
             z-index: -1;
@@ -2676,6 +2711,18 @@
                 height: 100% !important;
                 width: 100% !important;
             }
+            .main-newsletter-content {
+                width: 100%;
+                left: 2em;
+                top: -1em !important;
+                font-size: 11px;
+            }
+            .timeline-timeless {
+                background-size: 120px 200px, 200px, 778%;
+            }
+            .jobs-bg {
+                background-size: 100px, 717%;
+            }
             .documents-img {
                 width: 100% !important;
                 height: 100% !important;
@@ -2769,6 +2816,15 @@
             }
             .pc-img {
                 width: 100% !important;
+            }
+            .newsletter-content {
+                width: 100%;
+                left: 0em;
+                top: 2em !important;
+            }
+            .newsletter-content-left {
+                width: 100%;
+                top: 1em !important;
             }
             #web-end {
                 display: none;

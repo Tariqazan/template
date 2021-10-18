@@ -358,54 +358,61 @@
     </header>
     <section class="container">
         <div class="product-table">
-            <div class="table-responsive">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Product</th>
-                            <th>Price</th>
-                            <th>Quantity</th>
-                            <th>Total</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="d-flex">
-                                <img src="images/product/headphone-white.png" alt="">
-                                <div class="product-details">
-                                    <p>Beats by DRE studio wireless<br> over ear headphones white</p>
-                                    <p>379/3774</p>
-                                    <p><span>Colour: </span>White</p>
-                                </div>
-                            </td>
-                            <td>$123</td>
-                            <td>
-                                <p>+ <span class="text-blue">10</span> -</p>
-                            </td>
-                            <td>$1230</td>
-                            <td><span class="text-blue">X</span></td>
-                        </tr>
-                        <tr>
-                            <td class="d-flex">
-                                <img src="images/product/headphone-black.png" alt="">
-                                <div class="product-details">
-                                    <p>SENNHEISER HD 458 BT BLACK</p>
-                                    <p>50B968</p>
-                                    <p><span>Colour: </span>Black</p>
-                                </div>
-                            </td>
-                            <td>$90</td>
-                            <td>
-                                <p>+ <span class="text-blue">1</span> -</p>
-                            </td>
-                            <td>$90</td>
-                            <td><span class="text-blue">X</span></td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="row" id="product-table-header">
+                <div class="col-lg-5">
+                    <p class="fw-bold text-center">Product</p>
+                </div>
+                <div class="col-lg-2">
+                    <p class="fw-bold text-center">Price</p>
+                </div>
+                <div class="col-lg-2">
+                    <p class="fw-bold text-center">Quantity</p>
+                </div>
+                <div class="col-lg-2">
+                    <p class="fw-bold text-center">Total</p>
+                </div>
             </div>
+            <hr class="product-table-line">
+            <div class="row">
+                <div class="col-lg-5 d-flex ">
+                    <img src="./images/product/headphone-white.png" alt="">
+                    <div class="product-details">
+                        <p>Beats by DRE studio wireless<br> over ear headphones white</p>
+                        <p>379/3774</p>
+                        <p><span>Colour: </span>White</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 mb-2">
+                    <p class="text-center">$123</p>
+                </div>
+                <div class="col-lg-2 text-center mb-2"><span class="fw-bold">+</span><span class="text-blue fw-bold mx-3">10</span><span class="fw-bold">-</span></div>
+                <div class="col-lg-2">
+                    <p class="text-center">$1230</p>
+                </div>
+                <div class="col-lg-1 text-end"><span class="text-blue">X</span></div>
+            </div>
+            <hr class="product-table-line">
+            <div class="row">
+                <div class="col-lg-5 d-flex ">
+                    <img src="./images/product/headphone-black.png" alt="">
+                    <div class="product-details">
+                        <p>Beats by DRE studio wireless<br> over ear headphones white</p>
+                        <p>379/3774</p>
+                        <p><span>Colour: </span>White</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <p class="text-center">$123</p>
+                </div>
+                <div class="col-lg-2 text-center"><span class="fw-bold">+</span><span class="text-blue fw-bold mx-3">1</span><span class="fw-bold">-</span></div>
+                <div class="col-lg-2">
+                    <p class="text-center">$123</p>
+                </div>
+                <div class="col-lg-1 text-end"><span class="text-blue">X</span></div>
+            </div>
+            <hr class="product-table-line">
         </div>
-        <div class="card-color-border p-3 summary-card">
+        <div class="summary">
             <p class="fw-bold text-uppercase">Summary</p>
             <div class="row">
                 <div class="col-md-3 col-6">
@@ -418,7 +425,7 @@
                     <p>Promo code</p>
                 </div>
                 <div class="col-md-3">
-                    <input type="text" class="promo-input m-0 w-50">
+                    <input type="text" class="promo-input m-0" style="width: 70%;">
                 </div>
             </div>
             <div class="row">
@@ -437,12 +444,13 @@
                 <div class="col-md-4 col-6">
                     <p>$1539</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 text-center">
                     <button class="button-purple">
                         Checkout
                     </button>
                 </div>
             </div>
+        </div>
     </section>
     <footer class="row">
         <div class="col-md-5 left">

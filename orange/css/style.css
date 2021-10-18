@@ -1607,11 +1607,12 @@
         
         .document-card {
             position: relative;
-            min-height: 240px;
+            height: 160px !important;
+            margin: 10px;
         }
         
         .document-svg {
-            width: 70px;
+            width: 60px;
         }
         
         .document-name {
@@ -1622,6 +1623,7 @@
             position: absolute;
             display: flex;
             bottom: 10px;
+            left: 40px;
         }
         
         .to-order {
@@ -1630,7 +1632,7 @@
         
         .icon-document {
             margin-right: 10px;
-            width: 30px;
+            width: 20px;
         }
         
         .icon-document-fb {
@@ -1651,6 +1653,10 @@
         
         .card-img-top {
             height: 380px;
+        }
+        
+        .job-card-img {
+            height: 200px;
         }
         
         .add-details {
@@ -2173,6 +2179,29 @@
             border-image: linear-gradient( to bottom, var(--color-red), var(--color-purple)) 1 10%;
         }
         
+        .job-detail-color-border {
+            width: 82%;
+            height: 100%;
+            background: var(--color-white);
+            border-radius: 10%;
+            position: relative;
+            /* text-align: center; */
+            box-sizing: border-box;
+        }
+        
+        .job-detail-color-border::before {
+            border-radius: 10%;
+            content: '';
+            background-image: linear-gradient(to bottom, var(--color-red) 0%, var(--color-purple) 100%);
+            padding: 19px;
+            width: 102%;
+            height: 103%;
+            top: -4px;
+            left: -3px;
+            position: absolute;
+            z-index: -1;
+        }
+        
         .banner-form {
             width: 100%;
             padding: 10px 20px;
@@ -2281,7 +2310,7 @@
             padding: 19px;
             width: 102%;
             height: 103%;
-            top: -4px;
+            top: -3px;
             left: -3px;
             position: absolute;
             z-index: -1;
@@ -2350,6 +2379,11 @@
             color: var(--color-red);
             font-size: 30px;
             font-weight: bold;
+        }
+        
+        .cancel {
+            width: 70%;
+            padding: 8px 0;
         }
         
         .flex-items {
@@ -2510,6 +2544,9 @@
             }
             #product-table-header {
                 display: none;
+            }
+            .cancel {
+                width: 100%;
             }
             .to-order {
                 width: 100%;
@@ -2688,6 +2725,9 @@
             }
             .main-bannerimg {
                 width: 100% !important;
+            }
+            .cancel {
+                width: 100%;
             }
             .size {
                 width: 90%;

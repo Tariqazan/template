@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>FAQ</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -343,7 +344,13 @@
                 </nav>
                 <div class="content">
                     <h2>Frequently Asked Questions</h2>
-                    <input type="text" name="" id="" class="input-field w-50" placeholder="Search">
+                    <div class="search-group">
+                        <input type="text" placeholder="   Search..." class="search">
+                        <div class="search-icongroup">
+                            <img src="./images/icon/search.svg" alt="" class="">
+                            <img src="./images/icon/cross.svg" alt="" class="cross-icon">
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
@@ -355,35 +362,85 @@
     </header>
     <section class="container">
         <div class="row">
-            <div class="col-md-3 col-12 faq-title">
-                <div class="small-card-color-border">
+            <div class="col-md-3 col-12 faq-title" id="faq">
+                <div class="faq-option">
                     <p>FAQ category name number one</p>
                 </div>
-                <hr class="faq-line">
-                <p>FAQ category name number two</p>
-                <hr class="faq-line">
-                <p>FAQ category name number three</p>
-                <hr class="faq-line">
-                <p>FAQ category name number four</p>
-                <hr class="faq-line">
-                <p>FAQ category name number five</p>
-                <hr class="faq-line">
-                <p>FAQ category name number six</p>
-                <hr class="faq-line">
-                <p>FAQ category name number seven</p>
-                <hr class="faq-line">
-                <p>FAQ category name number eight</p>
-                <hr class="faq-line">
-                <p>FAQ category name number nine</p>
-                <hr class="faq-line">
-                <p>FAQ category name number ten</p>
-                <hr class="faq-line">
-                <p>FAQ category name number eleven</p>
-                <hr class="faq-line">
-                <p>FAQ category name number twelve</p>
-                <hr class="faq-line">
-                <p>FAQ category name number thirteen</p>
-                <hr class="faq-line">
+                <div class="faq-color-border faq-option">
+                    <p>FAQ category name number two</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number three</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number four</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number five</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number six</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number seven</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number eight</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number nine</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number ten</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number eleven</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number twelve</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number thirteen</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number three</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number four</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number five</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number six</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number seven</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number eight</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number nine</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number ten</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number six</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number seven</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number eight</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number nine</p>
+                </div>
+                <div class="faq-option">
+                    <p>FAQ category name number ten</p>
+                </div>
             </div>
             <div class="col-md-9 col-12">
                 <div class="text-start px-3">
@@ -391,14 +448,16 @@
                         <p class="fw-bold h4">FAQ category name number one</p>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                         </p>
-                        <p class="text-red">1. Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
-                        <p class="text-red">2. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?</p>
-                        <p class="text-red">3. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?
+                        <p class="text-red">1. <u>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</u></p>
+                        <p class="text-red">2. <u>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?</u>
                         </p>
-                        <p class="text-red">4. Duis aute irure dolor in reprehenderit in voluptate velit?</p>
-                        <p class="text-red">5. Esse cillum dolore eu fugiat nulla pariatur?</p>
-                        <p class="text-red">6. Excepteur sint occaecat cupidatat non proident?</p>
-                        <p class="text-red">7. Sunt in culpa qui officia deserunt mollit anim id est laborum?</p>
+                        <p class="text-red">3. <u>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                nisi ut aliquip ex ea commodo consequat?</u>
+                        </p>
+                        <p class="text-red">4. <u>Duis aute irure dolor in reprehenderit in voluptate velit?</u></p>
+                        <p class="text-red">5. <u>Esse cillum dolore eu fugiat nulla pariatur?</u></p>
+                        <p class="text-red">6. <u>Excepteur sint occaecat cupidatat non proident?</u></p>
+                        <p class="text-red">7. <u>Sunt in culpa qui officia deserunt mollit anim id est laborum?</u></p>
                     </div>
                     <div class="py-3">
                         <p class="fw-bold h4">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
@@ -507,6 +566,21 @@
         <hr>
         <p class="text-center">&copy;MYSI.ALl rights reserved</p>
     </div>
+    <script>
+        $(".faq-option").click(function() {
+
+            // Select all list items
+            var listItems = $(".faq-option");
+
+            // Remove 'active' tag for all list items
+            for (let i = 0; i < listItems.length; i++) {
+                listItems[i].classList.remove("faq-color-border");
+            }
+
+            // Add 'active' tag for currently selected item
+            this.classList.add("faq-color-border");
+        });
+    </script>
     <script src="js/main.js"></script>
     <script src="./bootstrap/bootstrap.bundle.min.js"></script>
 </body>

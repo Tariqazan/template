@@ -11,6 +11,81 @@
 </head>
 
 <body>
+    <div class="cart">
+        <div class="cart-sidebar bar-block cart-card animate-right" style="display:none;right:0;" id="rightMenu">
+            <div class="d-flex justify-content-between">
+                <div class="d-flex">
+                    <button onclick="closeRightMenu()" class="transparent-button text-blue">X</button>
+                    <div class="text-center">
+                        <p class="m-4">Your Cart(12)</p>
+                    </div>
+                </div>
+                <div class="text-end">
+                    <p class="m-4">Select</p>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <img src="./images/cart/1.png" alt="">
+                <div class="mx-2">
+                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                    <p>739/5174</p>
+                    <div><span class="text-blue">COLOUR:</span> White</div>
+                    <div class="d-flex justify-content-between">
+                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                        <p>$90</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <img src="./images/cart/2.png" alt="">
+                <div class="mx-2">
+                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                    <p>739/5174</p>
+                    <div><span class="text-blue">COLOUR:</span> White</div>
+                    <div class="d-flex justify-content-between">
+                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                        <p>$90</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <img src="./images/cart/3.png" alt="">
+                <div class="mx-2">
+                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                    <p>739/5174</p>
+                    <div><span class="text-blue">COLOUR:</span> White</div>
+                    <div class="d-flex justify-content-between">
+                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                        <p>$90</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <img src="./images/cart/4.png" alt="">
+                <div class="mx-2">
+                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                    <p>739/5174</p>
+                    <div><span class="text-blue">COLOUR:</span> White</div>
+                    <div class="d-flex justify-content-between">
+                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                        <p>$90</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mb-3">
+                <img src="./images/cart/5.png" alt="">
+                <div class="mx-2">
+                    <p>lorem ipsum DOlor sit amet,Consectuer apidistict elit</p>
+                    <p>739/5174</p>
+                    <div><span class="text-blue">COLOUR:</span> White</div>
+                    <div class="d-flex justify-content-between">
+                        <div class=""><span>+</span><span class="text-blue mx-2">1</span><span>-</span></div>
+                        <p>$90</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <header class="banner">
         <div class="container">
             <div class="d-flex justify-content-between topbar" id="laptop">
@@ -281,36 +356,36 @@
     </header>
     <section class="container">
         <div class="row">
-            <div class="menu col-md-4 col-12">
+            <div class="menu col-md-4 col-12" id="menu">
                 <p class="fw-bold h4">Hello John</p>
                 <div class="d-flex justify-content-between">
                     <img src="./images/icon/order.svg" alt="">
-                    <a href="#" class="">Your Orders</a>
+                    <a href="#" class="menu-item">Your Orders</a>
                 </div>
                 <hr class="small-line">
                 <div class="d-flex justify-content-between">
                     <img src="./images/icon/delivery.svg" alt="">
-                    <a href="#" class="fw-bold text-blue">Delivery Addresses</a>
+                    <a href="#" class="menu-item active-menu-item">Delivery Addresses</a>
                 </div>
                 <hr class="small-line">
                 <div class="d-flex justify-content-between">
                     <img src="./images/icon/wallet.svg" alt="">
-                    <a href="#" class="">Payment Methods</a>
+                    <a href="#" class="menu-item">Payment Methods</a>
                 </div>
                 <hr class="small-line">
                 <div class="d-flex justify-content-between">
                     <img src="./images/icon/store.svg" alt="">
-                    <a href="#" class="">Store Finder</a>
+                    <a href="#" class="menu-item">Store Finder</a>
                 </div>
                 <hr class="small-line">
                 <div class="d-flex justify-content-between">
                     <img src="./images/icon/person.svg" alt="">
-                    <a href="#" class="">Personal Details</a>
+                    <a href="#" class="menu-item">Personal Details</a>
                 </div>
                 <hr class="small-line">
                 <div class="d-flex justify-content-between">
                     <img src="./images/icon/help.svg" alt="">
-                    <a href="#" class="">Help</a>
+                    <a href="#" class="menu-item">Help</a>
                 </div>
                 <hr class="small-line">
             </div>
@@ -351,7 +426,7 @@
                         </div>
                         <div class="col-md-3">
                             <select name="" id="" class="input-field">
-                                <option value="city" disabled selected>city</option>
+                                <option value="city" disabled selected>+14</option>
                             </select>
                         </div>
                         <div class="col-md-6">

@@ -224,7 +224,7 @@
         }
         
         .topbar {
-            padding: 5px 0;
+            padding: 0px 0px 10px 0;
             font-size: 12px;
             font-weight: 400;
         }
@@ -234,8 +234,8 @@
         }
         
         .navbar-brand img {
-            width: 158px;
-            height: 66px;
+            width: 140px;
+            height: 60px;
         }
         
         .pc-img {
@@ -367,6 +367,11 @@
             margin-right: 12px;
         }
         
+        .topbar-icon img {
+            width: 16.99px;
+            height: 17.25px;
+        }
+        
         .options {
             padding: 20px;
         }
@@ -376,6 +381,8 @@
             border: none;
             color: var(--color-red);
             margin: 0 5px;
+            font-size: 13px;
+            font-weight: 600;
         }
         
         .topbar-right-select {
@@ -388,6 +395,8 @@
             background-repeat: no-repeat;
             background-position: right;
             padding: 0 15px;
+            font-size: 13px;
+            font-weight: 400;
         }
         
         .jobs {
@@ -570,8 +579,11 @@
         }
         
         .timeless-traditional-title {
-            width: 60%;
-            height: 60px;
+            width: 100%;
+            font-size: 45px;
+            height: 130px;
+            font-weight: 400;
+            text-transform: uppercase;
         }
         
         .payment-failed {
@@ -1078,18 +1090,34 @@
             height: 80px;
         }
         
+        .banner-text {
+            padding: 0 !important;
+        }
+        
         .banner-content {
-            margin-bottom: 50px;
+            width: 100%;
+            margin: 50px 0;
         }
         
         .banner-title {
-            font-size: 33px;
+            font-size: 50px;
+        }
+        
+        .img-banner-cta {
+            width: 100% !important;
+            height: 330px !important;
         }
         
         .banner-cards {
             width: 75%;
             margin: auto;
             padding: 20px 80px;
+        }
+        
+        .ip-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px 20px 20px 0;
         }
         
         .add-to-cart-column {
@@ -1175,6 +1203,14 @@
         
         .product-categories-img {
             width: 100%;
+        }
+        
+        .our-products-title {
+            font-size: 35px;
+            font-weight: 500;
+            color: var(--color-white);
+            margin: 0 0 60px 0;
+            text-transform: uppercase;
         }
         
         .our-products {
@@ -2140,6 +2176,8 @@
         .row {
             margin-right: 0px !important;
         }
+        
+        .faq-main-page {}
         
         .faq-title {
             overflow: auto;

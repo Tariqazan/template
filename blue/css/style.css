@@ -40,6 +40,10 @@
             border-radius: 10px;
         }
         
+        a:hover {
+            color: var(--color-white) !important;
+        }
+        
         .w-10 {
             width: 10% !important;
         }
@@ -209,6 +213,9 @@
         
         .nav-links a {
             color: var(--color-white);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.5px;
         }
         
         .laptop-nav button {
@@ -217,7 +224,9 @@
         }
         
         .topbar {
-            padding-top: 10px;
+            padding: 5px 0;
+            font-size: 12px;
+            font-weight: 400;
         }
         
         .navbar-brand {
@@ -225,7 +234,8 @@
         }
         
         .navbar-brand img {
-            width: 100%;
+            width: 158px;
+            height: 66px;
         }
         
         .pc-img {
@@ -1199,10 +1209,21 @@
         
         .our-documents {
             margin-top: 30px;
+            padding: 0 30px;
+            border-radius: 15px;
+        }
+        
+        .documents-title p {
+            font-size: 40px;
+            font-weight: 500;
         }
         
         .according-documents {
             background-color: var(--color-blue) !important;
+        }
+        
+        .accordion-body p {
+            font-size: 14px;
         }
         
         .document-finalimg {
@@ -1234,8 +1255,8 @@
         }
         
         .documents-img {
-            width: 38em;
-            height: 22em;
+            width: 42em;
+            height: 26em;
         }
         
         .documents-title button {
@@ -1255,7 +1276,7 @@
         
         .main-newsletter-content {
             width: 90%;
-            left: 5em;
+            left: em;
             top: 2em !important;
         }
         
@@ -1507,7 +1528,8 @@
         }
         
         .linear-bg {
-            background: linear-gradient(to right, var(--color-purple), var(--color-red));
+            margin: 30px 0;
+            background: linear-gradient(to right, var(--color-lightpurple), #DB7F67);
         }
         
         .linear {
@@ -1706,7 +1728,7 @@
         }
         
         a:hover {
-            color: rgb(245, 245, 245);
+            color: var(--color-orange) !important;
         }
         
         .top-section {}
@@ -2419,21 +2441,60 @@
             font-size: 14px;
         }
         
+        .linear-title {
+            font-size: 28px;
+            font-weight: 700;
+        }
+        
+        .join-newsletter-title {
+            font-size: 36px;
+            font-weight: 500;
+        }
+        
+        .join-newsletter-subtitle {
+            margin-top: 15px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        
+        .newsletter-input-field {
+            margin-top: 60px;
+            border-radius: 20px;
+            padding: 5px 20px;
+            width: 100%;
+            border: 1px solid var(--color-black);
+            margin-bottom: 80px;
+        }
+        
+        .newsletter-input-field::placeholder {
+            font-size: 13px;
+            line-height: 15px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        
+        .newsletter-button {
+            margin-top: 60px;
+        }
+        
         footer {
             background-color: var(--color-blue);
-            padding: 20px 150px;
+            padding: 20px 0;
             display: flex;
         }
         
         footer .left .logo {
-            margin-bottom: 40px;
-            width: 60%;
+            margin-bottom: 42px;
+            width: 221px;
+            height: 92px;
         }
         
         footer .left .footer-content {
             color: var(--color-white);
             text-align: justify;
             max-width: 300px;
+            font-size: 13px;
+            font-weight: 500;
         }
         
         footer .left span {
@@ -2449,21 +2510,43 @@
             display: flex;
         }
         
-        .links {
-            width: 100px;
+        .time-footer {
+            height: 20px;
+            width: 299px;
+            margin-bottom: 66px;
+            margin-top: 30px;
         }
         
+        .footer-links {
+            width: 175px;
+            height: 127px;
+        }
+        
+        .links {}
+        
         .links a {
+            font-size: 16px;
+            font-weight: 400;
             color: var(--color-white) !important;
+            border-bottom: 1px dotted var(--color-orange);
+            margin-bottom: 15px !important;
+        }
+        
+        .links a:hover {
+            border-bottom: none;
         }
         
         footer .footer-icons {
             margin-top: 20px;
             text-align: left;
+            width: 165px;
+            height: 28px;
         }
         
         footer .footer-icons img {
-            margin-right: 30px;
+            width: 27.38px;
+            height: 27.38px;
+            margin-right: 24.62px;
         }
         
         footer .email {
@@ -2481,7 +2564,9 @@
         
         footer .send-icon {
             position: absolute;
-            right: 13%;
+            height: 18px;
+            width: 18px;
+            right: 15em;
             margin: 12px;
         }
         
@@ -2496,12 +2581,26 @@
         .end {
             display: flex;
             justify-content: space-between;
-            padding: 0 150px;
-            margin-top: 5px;
+            line-height: 24px;
         }
         
         .end a {
+            font-size: 16px;
+            font-weight: 400;
             color: var(--color-purple);
+        }
+        
+        .end span {
+            font-size: 12px;
+        }
+        
+        .end img {
+            width: 67px;
+            height: 27px;
+        }
+        
+        .end a:hover {
+            color: var(--color-black) !important;
         }
         
         .end p {
@@ -2708,6 +2807,9 @@
             .position-newsletter-card {
                 top: 0 !important;
             }
+            .our-documents {
+                padding: 0 !important;
+            }
             .payment-failed {
                 padding: 0 10px !important;
                 display: flex;
@@ -2736,6 +2838,9 @@
             }
             .cart-sidebar {
                 width: 100vw !important;
+            }
+            .our-documents {
+                padding: 0 !important;
             }
             #tablet {
                 visibility: hidden;

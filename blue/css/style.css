@@ -259,6 +259,15 @@
                                                     left: 0;
                                                 }
                                                 
+                                                .owl-theme .owl-dots .owl-dot.active span,
+                                                .owl-theme .owl-dots .owl-dot:hover span {
+                                                    background: transparent !important;
+                                                }
+                                                
+                                                .owl-theme .owl-dots .owl-dot span {
+                                                    background: transparent !important;
+                                                }
+                                                
                                                 .owl-nav button.owl-next {
                                                     right: 0;
                                                 }
@@ -1174,6 +1183,12 @@
                                                     width: 60%;
                                                 }
                                                 
+                                                .events,
+                                                .news,
+                                                .services {
+                                                    margin: 40px 0;
+                                                }
+                                                
                                                 .text-green {
                                                     color: #A4D26A;
                                                 }
@@ -1640,6 +1655,7 @@
                                                     padding: 1px;
                                                     width: 50%;
                                                     text-align: center;
+                                                    margin: 1em 0 !important;
                                                 }
                                                 
                                                 .documents {
@@ -1761,6 +1777,7 @@
                                                 }
                                                 
                                                 .add-details {
+                                                    width: 72% !important;
                                                     margin-left: 20px;
                                                 }
                                                 

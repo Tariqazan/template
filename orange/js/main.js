@@ -104,13 +104,3 @@ $('.accordion-header').click(function() {
         $('#documentFive .fas').replaceWith('<i class="fas fa-minus"></i>')
     }
 });
-
-
-function heart() {
-    var x = document.getElementById("heart");
-    if (x.style.fill === "red") {
-        x.style.fill = "transparent";
-    } else {
-        x.style.fill = "red";
-    }
-}

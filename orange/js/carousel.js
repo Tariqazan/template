@@ -14,7 +14,7 @@ jQuery("#carousel").owlCarousel({
     nav: true,
     responsive: {
         0: {
-            items: 3
+            items: 1
         },
 
         600: {
@@ -81,7 +81,7 @@ jQuery(document).ready(function($) {
                 items: 1
             },
             768: {
-                items: 3
+                items: 2
             },
             1170: {
                 items: 3

@@ -317,15 +317,15 @@
     
     .fade {
         height: 100vh;
-        background-color: var(--color-light-orange) !important;
+        background-color: #021d3b8e !important;
     }
     
     .main-page-banner-cards {
         background-color: var(--color-blue);
-        background-image: url('../images/bg/left.png'), url('../images/bg/right-content.png'), url('../images/bg/implemented\ projects.png');
+        background-image: url(../images/bg/left.png), url(../images/bg/right-content.png), url(../images/bg/implemented\ projects.png);
         background-repeat: no-repeat;
-        background-position: left center, right 25em, top;
-        background-size: 150px 300px, 150px, contain;
+        background-position: left 52em, right 25em, top;
+        background-size: 124px 270px, 150px, contain;
     }
     
     .main-page-banner-cards-img {
@@ -645,7 +645,7 @@
     }
     
     .overlay-banner {
-        top: 13em !important;
+        top: 13em;
         padding: 0 !important;
     }
     
@@ -1181,9 +1181,9 @@
     
     .overlay {
         position: absolute;
-        top: 60px;
+        top: 0;
         bottom: 0;
-        left: 25px;
+        left: 0;
         right: 0;
         opacity: 0;
         transition: .5s ease;
@@ -1193,6 +1193,7 @@
     }
     
     .overlay button {
+        margin: 30px;
         padding: 5px 10px;
         width: 70%;
     }
@@ -1254,6 +1255,11 @@
         font-size: 19px;
     }
     
+    .linear-bgimg {
+        width: 100%;
+        height: 235px;
+    }
+    
     .our-products-title,
     .our-news-title,
     .our-partners-title,
@@ -1296,12 +1302,12 @@
         transition: 0.5s ease-in-out;
     }
     /* .our-product:hover {
-    box-shadow: 20px 120px 15px 0 #758BFD;
-    border-radius: 20px;
-    width: 160px;
-    height: 90px;
-    transition: 0.5s ease-in-out;
-} */
+        box-shadow: 20px 120px 15px 0 #d37435;
+        border-radius: 20px;
+        width: 165px;
+        height: 90px;
+        transition: 0.5s ease-in-out;
+    } */
     
     .our-product:hover .features,
     .our-product:hover .bestseller,
@@ -1385,9 +1391,10 @@
     }
     
     .main-newsletter-content {
-        width: 90%;
-        left: em;
+        width: 80%;
+        left: 5em;
         top: 2em !important;
+        font-size: 12px;
     }
     
     .see-more {
@@ -1423,7 +1430,7 @@
     
     .faq {
         width: 100%;
-        margin: 4em 0 !important;
+        margin: 5em 0 !important;
     }
     
     .see-all,
@@ -1705,13 +1712,13 @@
         background-color: var(--color-blue);
         border-radius: 50px;
         color: var(--color-white);
-        box-shadow: 0 0 50px #021d3b9d;
+        box-shadow: 0 0 50px #0f437e73;
         transition: 0.5s;
         margin: 20px 0;
     }
     
     .card-color:hover {
-        box-shadow: 0 20px 10px 0 #3d3d3d7a;
+        box-shadow: 0 20px 10px 0 #0f437e;
     }
     
     .card-color-text {
@@ -2826,13 +2833,13 @@
             width: 100%;
         }
         .overlay-banner {
-            top: 8em !important;
+            top: 8em;
         }
         .product {
             padding: 0 30px;
         }
         .main-page-banner-card-img {
-            height: 260px !important;
+            height: 260px;
         }
         #product-table-header {
             display: none;
@@ -3008,13 +3015,17 @@
         }
         .main-page-banner-cards {
             background-size: 156px 301px, 150px, 139%;
+            background-position: left 33em, right 25em, top;
+        }
+        .main-page-banner-card {
+            width: 100%;
         }
         footer .send-icon {
             right: 4em;
         }
         .main-newsletter-content {
             top: 0;
-            font-size: 13px;
+            font-size: 12px;
         }
         .search-group {
             width: 100%;
@@ -3070,6 +3081,10 @@
         .summary::before {
             width: 103%;
         }
+        .overlay button {
+            margin: 25px;
+            width: 52%;
+        }
     }
     
     @media only screen and (max-width: 430px) {
@@ -3096,6 +3111,9 @@
         }
         .our-documents {
             padding: 0 !important;
+        }
+        .main-page-banner-card-img {
+            height: 330px;
         }
         .small-card-color-border {
             width: 100%;
@@ -3158,7 +3176,7 @@
         .main-newsletter-content {
             width: 100%;
             left: 2em;
-            top: -1em !important;
+            top: 3em !important;
             font-size: 11px;
         }
         .timeline-timeless {
@@ -3371,6 +3389,9 @@
         }
         .testimonial-color-border::before {
             width: 103%;
+        }
+        .overlay button {
+            margin: 7px;
         }
     }
     /* ============ desktop view ============ */
